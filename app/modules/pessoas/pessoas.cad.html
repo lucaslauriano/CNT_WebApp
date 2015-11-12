@@ -1,0 +1,114 @@
+
+<h3>Pessoas
+   <small>Inserir</small>
+</h3>
+<div class="row">
+   <div class="col-lg-12">
+     <div class="row">
+    <ol class="breadcrumb">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/listProfessionals">Pessoas</a></li>
+        <li><a href="#/newProfessional" class="active">Nova Pessoa</a></li>
+    </ol>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Inserir</h4>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <form name="ProfessionalCadCtrl.listDetail">
+                <div class="form-group">
+                    <span ng-show="ProfessionalCadCtrl.listDetail.name.$error.required">
+                        <div class="alert alert-warning"
+                            role="alert"><strong>Nome é obrigatório!</strong>
+                        </div>
+                    </span>
+                    <input id="name"
+                           class="form-control"
+                           maxlength="25"
+                           name="name"
+                           data-ng-model="ProfessionalCadCtrl.professional.name"
+                           placeholder="Nome da Pessoa"
+                           type="text"
+                           required>
+                </div>
+                <div class="form-group">
+                    <span ng-show="ProfessionalCadCtrl.listDetail.email.$error.required">
+                        <div class="alert alert-warning"
+                            role="alert"><strong>Email é Obrigatório!</strong>
+                        </div>
+                    </span>
+                    <input id="email"
+                           class="form-control"
+                           maxlength="50"
+                           name="email"
+                           data-ng-model="ProfessionalCadCtrl.professional.email"
+                           placeholder="Email da Pessoa"
+                           type="email"
+                           required>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                    <span ng-show="ProfessionalCadCtrl.listDetail.phone.$error.required">
+                        <div class="alert alert-warning"
+                            role="alert"><strong>Telefone é obrigatório!</strong>
+                        </div>
+                    </span>
+                    <input id="phone"
+                           class="form-control"
+                           maxlength="25"
+                           name="phone"
+                           mask="(99) 9999-9999"
+                           data-ng-model="ProfessionalCadCtrl.professional.phone"
+                           placeholder="Telefone da Pessoa"
+                           type="text"
+                           required>
+                    </div><!-- /input-group -->
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <span ng-show="ProfessionalCadCtrl.listDetail.cpf.$error.required">
+                        <div class="alert alert-warning"
+                            role="alert"><strong>CPF é obrigatório!</strong>
+                        </div>
+                    </span>
+                    <input id="cpf"
+                           class="form-control"
+                           maxlength="25"
+                           name="cpf"
+                           mask="999.999.999-99"
+                           data-ng-model="ProfessionalCadCtrl.professional.cpf"
+                           placeholder="CPF da Pessoa"
+                           type="text"
+                           required>
+                    </div><!-- /input-group -->
+                  </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+                <hr>
+            </form>
+                <div class="form-group">
+                    <button class="btn btn-default"
+                            data-ng-click="ProfessionalCadCtrl.cancelar()"
+                            type="button">Cancelar
+                    </button>
+                    <button class="btn btn-primary"
+                            data-ng-click="ProfessionalCadCtrl.salvar()"
+                            ng-disabled="ProfessionalCadCtrl.isSalvarDisabled()">
+                        <i class="glyphicon glyphicon-plus-sign"></i> Salvar
+                    </button>
+                    <button data-ng-click="ProfessionalCadCtrl.deletar()"
+                            data-ng-show="ProfessionalCadCtrl.professional.id"
+                            class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i> Deletar
+                    </button>
+                    <input class="btn btn-default" type="reset" name="reset" value="Limpar">
+                </div>
+        </div>
+    </div>
+</div>
+   </div>
+</div>

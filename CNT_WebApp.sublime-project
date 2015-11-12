@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".bo*",
+				".yo*",
+				".trav*",
+				".jsh*",
+				".edit*",
+				".git*"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"test"
+			],
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Lucas\\Documents\\Projetos\\ProfessionalsCRUD"
+		}
+	]
+}

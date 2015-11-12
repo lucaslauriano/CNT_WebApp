@@ -1,0 +1,59 @@
+[
+  {
+    "text": "heading",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Dashboard",
+    "sref": "#",
+    "icon": "icon-speedometer",
+    "alert": "3" ,
+    "label": "label label-info", 
+    "submenu": [
+      {"text": "Dashboard v1",       "sref": "app.dashboard"},
+      {"text": "Dashboard v2",       "sref": "app.dashboard_v2" },
+      {"text": "Dashboard v3",       "sref": "app.dashboard_v3" }
+    ],
+    "translate": "sidebar.nav.DASHBOARD"
+  },
+  {
+    "text": "Componentes",
+    "heading": "true",
+    "translate": "sidebar.heading.COMPONENTS"
+  },
+  {
+    "text": "Forms",
+    "sref": "#",
+    "icon": "icon-note",
+    "submenu": [
+      {"text": "Standard",    "sref": "app.form-standard", "translate": "sidebar.nav.form.STANDARD" },
+      {"text": "Extended",    "sref": "app.form-extended", "translate": "sidebar.nav.form.EXTENDED" },
+      {"text": "Validation",  "sref": "app.form-validation", "translate": "sidebar.nav.form.VALIDATION" },
+      {"text": "Parsley",     "sref": "app.form-parsley" },
+      {"text": "Wizard",      "sref": "app.form-wizard", "translate": "sidebar.nav.form.WIZARD" },
+      {"text": "Upload",      "sref": "app.form-upload", "translate": "sidebar.nav.form.UPLOAD" },
+      {"text": "xEditable",   "sref": "app.form-xeditable"},
+      {"text": "Image Crop",  "sref": "app.form-imagecrop"},
+      {"text": "uiSelect",    "sref": "app.form-uiselect"}
+    ],
+    "translate": "sidebar.nav.form.FORM"
+  },
+  {
+    "text": "Atividades",
+    "heading": "true",
+    "translate": "sidebar.heading.ATIVIDADES"
+  },
+  {
+    "text": "Pessoas",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+      {"text": "New",    "sref": "app.pessoas-new", "translate": "sidebar.nav.pessoas.NEW" },
+      {"text": "List",    "sref": "app.pessoas-list", "translate": "sidebar.nav.pessoas.LIST" },
+      {"text": "UpDate",  "sref": "app.pessoas-update", "translate": "sidebar.nav.pessoas.UPDATE" }
+      
+    ],
+    "translate": "sidebar.nav.pessoas.PESSOAS"
+  }
+]
