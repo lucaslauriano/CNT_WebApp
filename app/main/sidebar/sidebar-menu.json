@@ -11,11 +11,26 @@
     "alert": "3" ,
     "label": "label label-info", 
     "submenu": [
-      {"text": "Dashboard v1",       "sref": "app.dashboard"},
+      {"text": "Dashboard v1",       "sref": "app.dashboard2"},
       {"text": "Dashboard v2",       "sref": "app.dashboard_v2" },
       {"text": "Dashboard v3",       "sref": "app.dashboard_v3" }
     ],
     "translate": "sidebar.nav.DASHBOARD"
+  },
+  {
+    "text": "Modulo",
+    "heading": "true",
+    "translate": "sidebar.heading.MODULO"
+  },
+  {
+    "text": "Pessoas",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+      {"text": "New",    "sref": "app.pessoas-new", "translate": "sidebar.nav.pessoas.NEW" },
+      {"text": "List",    "sref": "app.pessoas-list", "translate": "sidebar.nav.pessoas.LIST" } 
+    ],
+    "translate": "sidebar.nav.pessoas.PESSOAS"
   },
   {
     "text": "Componentes",
@@ -38,20 +53,5 @@
       {"text": "uiSelect",    "sref": "app.form-uiselect"}
     ],
     "translate": "sidebar.nav.form.FORM"
-  },
-  {
-    "text": "Atividades",
-    "heading": "true",
-    "translate": "sidebar.heading.ATIVIDADES"
-  },
-  {
-    "text": "Pessoas",
-    "sref": "#",
-    "icon": "icon-user",
-    "submenu": [
-      {"text": "New",    "sref": "app.pessoas-new", "translate": "sidebar.nav.pessoas.NEW" },
-      {"text": "List",    "sref": "app.pessoas-list", "translate": "sidebar.nav.pessoas.LIST" } 
-    ],
-    "translate": "sidebar.nav.pessoas.PESSOAS"
   }
 ]

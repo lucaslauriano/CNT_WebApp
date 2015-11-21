@@ -10,29 +10,9 @@
          <div class="brand-logo">
             <img src="content/img/logo.png" alt="App Logo" class="img-responsive" />
          </div>
-         <div class="brand-logo-collapsed">
-            <img src="content/img/logo-single.png" alt="App Logo" class="img-responsive" />
-         </div>
       </a>
    </div>
    <div collapse="navCollapsed" class="collapse navbar-collapse">
-      <ul ng-controller="SidebarController" class="nav navbar-nav">
-         <li ng-repeat="item in menuItems | limitTo: 3 " ng-class="{'dropdown': item.submenu}" dropdown="!!item.submenu">
-            <a ng-if="!item.heading &amp;&amp; !item.submenu" ng-href="{{$state.href(item.sref)}}" title="{{item.text}}">
-               <span>{{(item.translate | translate) || item.text}}</span>
-            </a>
-            <a uib-dropdown-toggle="" ng-if="item.submenu">
-               <span>{{(item.translate | translate) || item.text}}</span>
-            </a>
-            <ul class="uib-dropdown-menu animated fadeInUp">
-               <li ng-repeat="subitem in item.submenu">
-                  <a ng-href="{{$state.href(subitem.sref)}}" title="{{subitem.text}}">
-                     <span>{{(subitem.translate | translate) || subitem.text}}</span>
-                  </a>
-               </li>
-            </ul>
-         </li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
          <li>
             <a ui-sref="page.lock" title="Lock screen">

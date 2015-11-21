@@ -24,22 +24,35 @@
         $locationProvider.html5Mode(false);
 
         // defaults to dashboard
-        $urlRouterProvider.otherwise('/app/dashboard');
+        $urlRouterProvider.otherwise('/app-h/dashboard');
 
         //
         // Application Routes
         // -----------------------------------
         $stateProvider
+          .state('app-h', {
+              url: '/app-h',
+              abstract: true,
+              templateUrl: helper.mainbasepath( 'app-h.html' ),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-h.dashboard', {
+              url: '/dashboard',
+              templateUrl: helper.modulebasepath('dashboard/dashboard.html'),
+              controller: 'DashboardV2Controller',
+              controllerAs: 'dash2',
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
+          })
           .state('app', {
               url: '/app',
               abstract: true,
               templateUrl: helper.mainbasepath('app.html'),
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
-          .state('app.dashboard', {
-              url: '/dashboard',
-              title: 'Dashboard',
-              templateUrl: helper.modulebasepath('dashboard/dashboard.html'),
+          .state('app.dashboard2', {
+              url: '/dashboard2',
+              title: 'Dashboard2',
+              templateUrl: helper.modulebasepath('dashboard/dashboard2.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
           .state('app.dashboard_v2', {
@@ -163,32 +176,7 @@
           })
 
           // Horizontal layout
-          .state('app-h', {
-              url: '/app-h',
-              abstract: true,
-              templateUrl: helper.mainbasepath( 'app-h.html' ),
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
-          })
-          .state('app-h.dashboard_v2', {
-              url: '/dashboard_v2',
-              title: 'Dashboard v2',
-              templateUrl: helper.modulebasepath('dashboard/dashboard_v2.html'),
-              controller: 'DashboardV2Controller',
-              controllerAs: 'dash2',
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
-          })
-          .state('app2', {
-              url: '/app2',
-              abstract: false,
-              templateUrl: helper.mainbasepath('app2.html'),
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
-          })
-          .state('app2.dashboard2', {
-              url: '/dashboard2',
-              title: 'Dashboard2',
-              templateUrl: helper.modulebasepath('dashboard/dashboard2.html'),
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
-          })
+          
           //
           // CUSTOM RESOLVES
           //   Add your own resolves properties
