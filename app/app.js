@@ -29,6 +29,7 @@
             'app.settings',
             /*modules*/
             'app.dashboard',
+            'app2.dashboard2',
             'app.forms',
             'app.utils',
             'app.pessoas'
@@ -47,6 +48,13 @@
 
     angular
         .module('app.dashboard', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app2.dashboard2', []);
 })();
 
 (function() {

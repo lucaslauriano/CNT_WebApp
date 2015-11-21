@@ -80,6 +80,15 @@ body,
   .topnavbar .navbar-nav > .open > a:focus {
     color: #206d5a;
   }
+  .topnavbar .navbar-header .brand-logo {
+  display: block;
+  padding: 15px 16px;
+  background-color: #3A3F51;
+  }
+  .topnavbar .navbar-header .brand-logo-collapsed {
+    padding: 17px 15px;
+    background-color: #3A3F51;
+  }
 }
 /* ========================================================================
    Component: sidebar

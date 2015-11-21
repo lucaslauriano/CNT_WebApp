@@ -9,9 +9,11 @@
    <title data-ng-bind="::pageTitle()">CNT - SmartApp</title>
 
    <!-- Bootstrap styles-->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
    <link rel="stylesheet" href="content/css/bootstrap.css" data-ng-if="!app.layout.isRTL">
    <link rel="stylesheet" href="content/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
+   <link rel='stylesheet' href='bower_components/textAngular/dist/textAngular.css'>
+
 
    <!-- Application styles-->
    <link rel="stylesheet" href="content/css/app.css" data-ng-if="!app.layout.isRTL">
@@ -19,7 +21,8 @@
 
     <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
     <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css" />
-    <link rel="stylesheet" href="bower_components/ui-select/dist/select.css" />
+    <link rel="stylesheet" href="bower_components/select2/select2-bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/select2/select2.css" />
     <link rel="stylesheet" href="bower_components/angular-xeditable/dist/css/xeditable.css" />
     <link rel="stylesheet" href="bower_components/AngularJS-Toaster/toaster.css" />
     <link rel="stylesheet" href="bower_components/angular-bootstrap-nav-tree/dist/abn_tree.css" />
@@ -35,6 +38,7 @@
     <link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css" />
     <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css" />
     <link rel='stylesheet' href='bower_components/angular-loading-bar/build/loading-bar.css' type='text/css' media='all' />
+
 
    <!-- Themes-->
    <link rel="stylesheet" ng-href="{{app.layout.theme}}" data-ng-if="app.layout.theme">
@@ -87,24 +91,18 @@
    <script src="bower_components/lodash/lodash.js"></script>
    <script src="bower_components/ngWig/dist/ng-Wig.js"></script>
    <script src="bower_components/bootstrap-filestyle/src/bootstrap-filestyle.js"></script>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.js">
+   <script src="bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
+   <script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+   <script src="bower_components/angular-translate-storage-local/angular-translate-storage-local.js"></script></script>
+   <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js">
    </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-interpolation-messageformat/2.7.2/angular-translate-interpolation-messageformat.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-storage-cookie/2.7.2/angular-translate-storage-cookie.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-storage-local/2.7.2/angular-translate-storage-local.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-url/2.7.2/angular-translate-loader-url.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.7.2/angular-translate-loader-static-files.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-handler-log/2.7.2/angular-translate-handler-log.js">
+   <script src="bower_components/angular-translate-handler-log/angular-translate-handler-log.js">
    </script>
 
 <!-- application -->
    <script src="app.js"></script>
+
+   <script src="modules/pessoas/pessoas-cad.controller.js"></script>
 <!-- end application -->
 
 <!-- common -->
@@ -158,7 +156,8 @@
 
 <!-- modules -->
    <!-- dashboard -->
-   <script src="modules/dashboard/dashboard-controller.js"></script>
+   <script src="modules/dashboard/dashboard-controller.js"></script>   
+   <script src="modules/dashboard/dashboard-controller2.js"></script>
    <script src="modules/dashboard/dashboard-V2-controller.js"></script>
    <script src="modules/dashboard/dashboard-V3-controller.js"></script>
    <!-- forms --> 

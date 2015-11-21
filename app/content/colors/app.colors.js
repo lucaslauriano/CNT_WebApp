@@ -17,6 +17,8 @@
             'warning': '#ff902b',
             'danger': '#f05050',
             'inverse': '#131e26',
+            'white': '#eee',
+       
             'green': '#37bc9b',
             'pink': '#f532e5',
             'purple': '#7266ba',
@@ -26,6 +28,7 @@
             'gray-dark': '#3a3f51',
             'gray': '#dde6e9',
             'gray-light': '#e4eaec',
-            'gray-lighter': '#edf1f2'
+            'gray-lighter': '#edf1f2',
+            'material' : '#3F51B5'
         });
 })();

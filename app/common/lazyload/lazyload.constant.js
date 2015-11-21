@@ -130,7 +130,7 @@
                 ]
             }, {
                 name: 'angularFileUpload',
-                files: ['bower_components/angular-file-upload/angular-file-upload.js']
+                files: ['bower_components/angular-file-upload/dist/angular-file-upload.js']
             }, {
                 name: 'ngImgCrop',
                 files: ['bower_components/ng-img-crop/compile/unminified/ng-img-crop.js',
@@ -138,8 +138,8 @@
                 ]
             }, {
                 name: 'ui.select',
-                files: ['bower_components/angular-ui-select/dist/select.js',
-                        'bower_components/angular-ui-select/dist/select.css'
+                files: ['bower_components/ui-select/dist/select.js',
+                        'bower_components/ui-select/dist/select.css'
                 ]
             }, {
                 name: 'ui.codemirror',
@@ -179,7 +179,8 @@
                         'bower_components/textAngular/src/validators.js',
                         'bower_components/textAngular/src/taBind.js',
                         'bower_components/textAngular/src/main.js',
-                        'bower_components/textAngular/dist/textAngularSetup.js'
+                        'bower_components/textAngular/dist/textAngularSetup.js',
+                        'bower_components/textAngular/dist/textAngular.min.js'
                 ],
                 serie: true
             }, {
@@ -200,6 +201,9 @@
             }, {
                 name: 'ui.map',
                 files: ['bower_components/angular-ui-map/ui-map.js']
+            }, {
+                name: 'ui.validate',
+                files: ['bower_components/angular-ui-validate/dist/validate.js']
             }, {
                 name: 'datatables',
                 files: ['bower_components/datatables/media/css/jquery.dataTables.css',

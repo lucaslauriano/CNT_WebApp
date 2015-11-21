@@ -50,9 +50,7 @@
     "icon": "icon-user",
     "submenu": [
       {"text": "New",    "sref": "app.pessoas-new", "translate": "sidebar.nav.pessoas.NEW" },
-      {"text": "List",    "sref": "app.pessoas-list", "translate": "sidebar.nav.pessoas.LIST" },
-      {"text": "UpDate",  "sref": "app.pessoas-update", "translate": "sidebar.nav.pessoas.UPDATE" }
-      
+      {"text": "List",    "sref": "app.pessoas-list", "translate": "sidebar.nav.pessoas.LIST" } 
     ],
     "translate": "sidebar.nav.pessoas.PESSOAS"
   }

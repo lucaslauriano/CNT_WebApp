@@ -6,21 +6,21 @@ body,
   background-color: #f5f7fa;
 }
 .wrapper > .aside {
-  background-color: #ffffff;
+  background-color: #3a3f51;
 }
 /* ========================================================================
    Component: top-navbar
  ========================================================================== */
 .topnavbar {
-  background-color: #fff;
+  background-color: #000;
 }
 .topnavbar .navbar-header {
   background-color: transparent;
-  background-image: -webkit-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-  background-image: -o-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-  background-image: linear-gradient(to right, #23b7e5 0%, #51c6ea 100%);
+  background-image: -webkit-linear-gradient(left, #fff 0%, #f05050 100%);
+  background-image: -o-linear-gradient(left, #fff 0%, #f05050 100%);
+  background-image: linear-gradient(to right, #fff 0%, #f05050 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23b7e5', endColorstr='#ff51c6ea', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
 }
 @media only screen and (min-width: 768px) {
   .topnavbar .navbar-header {
@@ -29,13 +29,13 @@ body,
 }
 .topnavbar .navbar-nav > li > a,
 .topnavbar .navbar-nav > .open > a {
-  color: #23b7e5;
+  color: #656565;
 }
 .topnavbar .navbar-nav > li > a:hover,
 .topnavbar .navbar-nav > .open > a:hover,
 .topnavbar .navbar-nav > li > a:focus,
 .topnavbar .navbar-nav > .open > a:focus {
-  color: #117391;
+  color: #656565;
 }
 .topnavbar .navbar-nav > .active > a,
 .topnavbar .navbar-nav > .open > a,
@@ -49,21 +49,21 @@ body,
   color: #ffffff;
 }
 .topnavbar .nav-wrapper {
-  background-color: #23b7e5;
-  background-image: -webkit-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-  background-image: -o-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-  background-image: linear-gradient(to right, #23b7e5 0%, #51c6ea 100%);
+  background-color: #000;
+  background-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  background-image: -o-linear-gradient(left, #000 0%, #fff 100%);
+  background-image: linear-gradient(to right, #000 0%, #fff 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23b7e5', endColorstr='#ff51c6ea', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
 }
 @media only screen and (min-width: 768px) {
   .topnavbar {
-    background-color: #23b7e5;
-    background-image: -webkit-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-    background-image: -o-linear-gradient(left, #23b7e5 0%, #51c6ea 100%);
-    background-image: linear-gradient(to right, #23b7e5 0%, #51c6ea 100%);
+    background-color: #000;
+    background-image: -webkit-linear-gradient(left, #fff 0%, #f05050 100%);
+    background-image: -o-linear-gradient(left, #fff 0%, #f05050 100%);
+    background-image: linear-gradient(to right, #fff 0%, #f05050 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23b7e5', endColorstr='#ff51c6ea', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
   }
   .topnavbar .navbar-nav > .open > a,
   .topnavbar .navbar-nav > .open > a:hover,
@@ -78,36 +78,27 @@ body,
   .topnavbar .navbar-nav > .open > a:hover,
   .topnavbar .navbar-nav > li > a:focus,
   .topnavbar .navbar-nav > .open > a:focus {
-    color: #117391;
-  }
-  .topnavbar .navbar-header .brand-logo {
-  display: block;
-  padding: 15px 16px;
-  background-color: #23b7e5;
-  }
-  .topnavbar .navbar-header .brand-logo-collapsed {
-    padding: 17px 15px;
-    background-color: #23b7e5;
+    color: #9a0d0d;
   }
 }
 /* ========================================================================
    Component: sidebar
  ========================================================================== */
 .sidebar {
-  background-color: #ffffff;
+  background-color: #3a3f51;
 }
 .sidebar .nav-heading {
   color: #919da8;
 }
 .sidebar .nav > li > a,
 .sidebar .nav > li > .nav-item {
-  color: #515253;
+  color: #e1e2e3;
 }
 .sidebar .nav > li > a:focus,
 .sidebar .nav > li > .nav-item:focus,
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > .nav-item:hover {
-  color: #23b7e5;
+  color: #f05050;
 }
 .sidebar .nav > li > a > em,
 .sidebar .nav > li > .nav-item > em {
@@ -119,40 +110,40 @@ body,
 .sidebar .nav > li.open > a,
 .sidebar .nav > li.active .nav,
 .sidebar .nav > li.open .nav {
-  background-color: #fcfcfc;
-  color: #23b7e5;
+  background-color: #383d4e;
+  color: #f05050;
 }
 .sidebar .nav > li.active > a > em,
 .sidebar .nav > li.open > a > em {
-  color: #23b7e5;
+  color: #f05050;
 }
 .sidebar .nav > li.active {
-  border-left-color: #23b7e5;
+  border-left-color: #f05050;
 }
 .sidebar-subnav {
-  background-color: #ffffff;
+  background-color: #3a3f51;
 }
 .sidebar-subnav > .sidebar-subnav-header {
-  color: #515253;
+  color: #e1e2e3;
 }
 .sidebar-subnav > li > a,
 .sidebar-subnav > li > .nav-item {
-  color: #515253;
+  color: #e1e2e3;
 }
 .sidebar-subnav > li > a:focus,
 .sidebar-subnav > li > .nav-item:focus,
 .sidebar-subnav > li > a:hover,
 .sidebar-subnav > li > .nav-item:hover {
-  color: #23b7e5;
+  color: #f05050;
 }
 .sidebar-subnav > li.active > a,
 .sidebar-subnav > li.active > .nav-item {
-  color: #23b7e5;
+  color: #f05050;
 }
 .sidebar-subnav > li.active > a:after,
 .sidebar-subnav > li.active > .nav-item:after {
-  border-color: #23b7e5;
-  background-color: #23b7e5;
+  border-color: #f05050;
+  background-color: #f05050;
 }
 /* ========================================================================
    Component: offsidebar

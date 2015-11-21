@@ -97,10 +97,119 @@
 12. Documentation
   12.1 docs
 
+
  ========================================================================== */
 /* ========================================================================
    Component: bootstrap-reset.less
  ========================================================================== */
+.font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ .circle-tile {
+    margin-bottom: 30px;
+}
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.circle-tile-heading {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto -40px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 100%;
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+a, a:hover, a:active, a:focus {
+    color: #34495e;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+
+.circle-tile-content {
+    padding-top: 50px;
+}
+.dark-blue {
+    background-color: #34495e;
+}
+.orange {
+    background-color: #f39c12;
+}
+.green {
+    background-color: #37bc9b;
+}
+.blue {
+  background-color: #1797be;
+}
+.blue-light {
+  background-color: #208ABE;
+}
+.purple-dark{
+  background-color: #564aa3;
+}
+.red-dark {
+    background-color: #ec2121;
+}
+
+.circle-tile-description {
+    text-transform: uppercase;
+}
+
+.circle-tile-number {
+    padding: 5px 0 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.circle-tile-number {
+    padding: 5px 0 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.circle-tile-heading .fa {
+    line-height: 80px;
+}
+.fa-fw {
+    width: 1.2857142857142858em;
+    text-align: center;
+}
+.fa-3x {
+    font-size: 3em;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.circle-tile-footer {
+    display: block;
+    padding: 5px;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: all ease-in-out .3s;
+}
 .glyphicon {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -1022,11 +1131,13 @@ _:-ms-lang(x),
 }
 .topnavbar .navbar-header .brand-logo {
   display: block;
-  padding: 10px 15px;
+  padding: 15px 16px;
+  background-color: #3A3F51;
 }
 .topnavbar .navbar-header .brand-logo-collapsed {
   display: none;
-  padding: 6px 15px;
+  padding: 17px 15px;
+  background-color: #3A3F51;
 }
 .topnavbar .navbar-nav > li > a,
 .topnavbar .navbar-nav > .open > a {
@@ -5829,6 +5940,7 @@ x:-o-prefocus,
 .user-block {
   position: relative;
   padding: 25px 0 10px;
+  background-image: url(../img/bg.png);
   cursor: pointer;
 }
 .user-block:before,

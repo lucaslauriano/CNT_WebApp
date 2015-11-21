@@ -58,19 +58,22 @@
               templateUrl: helper.modulebasepath('dashboard/dashboard_v3.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'vector-map', 'vector-map-maps')
           })
+          //Pessoas
           .state('app.pessoas-new', {
               url: '/pessoas-new',
-              title: 'Blank Template',
-              templateUrl: helper.modulebasepath('pessoas/pessoas.cad.html')
+              title: 'Pessoas New',
+              controller: 'app.pessoas.PessoasCadCtrl',
+              controllerAs: 'PessoasCadCtrl',
+              templateUrl: helper.modulebasepath('pessoas/pessoas.cad.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
            .state('app.pessoas-list', {
               url: '/pessoas-list',
               title: 'Blank Template',
-              templateUrl: helper.modulebasepath('pessoas/pessoas.list.html')
+              templateUrl: helper.modulebasepath('pessoas/pessoas.list.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
           // Forum
-          // -----------------------------------
-          // -----------------------------------
           .state('page', {
               url: '/page',
               templateUrl: 'main/pages/page.html',
@@ -80,7 +83,6 @@
               }]
           })
           // Formulários
-
           .state('app.form-standard', {
               url: '/form-standard',
               title: 'Form Standard',
@@ -159,9 +161,8 @@
               title: 'Not Found',
               templateUrl: 'main/pages/404.html'
           })
-          //
+
           // Horizontal layout
-          // -----------------------------------
           .state('app-h', {
               url: '/app-h',
               abstract: true,
@@ -175,6 +176,18 @@
               controller: 'DashboardV2Controller',
               controllerAs: 'dash2',
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
+          })
+          .state('app2', {
+              url: '/app2',
+              abstract: false,
+              templateUrl: helper.mainbasepath('app2.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app2.dashboard2', {
+              url: '/dashboard2',
+              title: 'Dashboard2',
+              templateUrl: helper.modulebasepath('dashboard/dashboard2.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
           //
           // CUSTOM RESOLVES
@@ -195,5 +208,5 @@
           ;
           RestangularProvider.setBaseUrl(' http://localhost:3000');
 
-    } // routesConfig
+    }
 })();
