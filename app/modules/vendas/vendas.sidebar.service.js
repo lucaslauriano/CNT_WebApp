@@ -2,15 +2,15 @@
     'use strict';
 
     angular
-        .module('app.sidebar')
-        .service('SidebarLoader', SidebarLoader);
+        .module('app.vendas')
+        .service('VendasSidebarLoader', VendasSidebarLoader);
 
-    SidebarLoader.$inject = ['$http'];
-    function SidebarLoader($http) {
-        this.getMenuVendas = getMenuVendas;
+    VendasSidebarLoader.$inject = ['$http'];
+    function VendasSidebarLoader($http) {
+        this.getMenu = getMenu;
 
         //JSON com o texto para os itens de menus e menus.
-        function getMenuVendas(onReady, onError) {
+        function getMenu(onReady, onError) {
           var menuJson = 'modules/vendas/vendas.sidebar-menu.json',
                menuURL = menuJson + '?v=' + (new Date().getTime()); // jumps cache
             

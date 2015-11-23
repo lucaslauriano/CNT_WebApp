@@ -2,16 +2,16 @@
   {
     "text": "heading",
     "heading": "true",
-    "translate": "sidebar.heading.HEADER"
+    "translate": "chamados-sidebar.heading.HEADER"
   },
   {
     "text": "Modulo",
     "heading": "true",
-    "translate": "sidebar.heading.MODULO"
+    "translate": "chamados-sidebar.heading.MODULO"
   },
   {
     "text": "Componentes",
     "heading": "true",
-    "translate": "sidebar.heading.COMPONENTS"
+    "translate": "chamados-sidebar.heading.COMPONENTS"
   }
 ]

@@ -29,10 +29,14 @@
             'app.settings',
             /*modules*/
             'app.dashboard',
-            'app2.dashboard2',
-            'app.forms',
             'app.utils',
-            'app.pessoas'
+            'app.forms',
+            'app.pessoas',
+            'app.chamados',
+            'app.almox',
+            'app.vendas',
+            'app.ordens',
+            'app.financeiro'
         ]);
 })();
 
@@ -54,15 +58,9 @@
     'use strict';
 
     angular
-        .module('app2.dashboard2', []);
-})();
-
-(function() {
-    'use strict';
-
-    angular
         .module('app.forms', []);
 })();
+
 
 (function() {
     'use strict';

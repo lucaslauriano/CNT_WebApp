@@ -9,8 +9,8 @@
      * Modal Controller de app.professionals
      */
 
-    angular.module('app.pessoas')
-        .controller('app.pessoas.PessoasCtrl', PessoasCtrl);
+    angular.module('app.almox')
+        .controller('app.almox.PessoasCtrl', PessoasCtrl);
 
     PessoasCtrl.$inject = [
         '$injector',

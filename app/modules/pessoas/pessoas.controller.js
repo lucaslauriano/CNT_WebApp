@@ -32,7 +32,7 @@
         init();
 
         function init() {
-            PessoasService.customGETLIST().then(function(pessoas) {
+            PessoasService.getList().then(function(pessoas) {
 
             });
 

@@ -64,12 +64,13 @@
               url: '/app-almox',
               abstract: true,
               templateUrl: helper.modulebasepath('almox/almox.app.html'),
-              controller: 'AlmoxSidebarController',
+              controller: 'app.almox.AlmoxSidebarCtrl',
+              controllerAs: 'AlmoxSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-almox.dashboard', {
               url: '/dashboard',
-              title: 'Dashboard Financeiro',
+              title: 'Dashboard Almox',
               templateUrl: helper.modulebasepath('almox/almox.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
@@ -78,6 +79,8 @@
               url: '/app-chamados',
               abstract: true,
               templateUrl: helper.modulebasepath('chamados/chamados.app.html'),
+              controller: 'app.chamados.ChamadosSidebarCtrl',
+              controllerAs: 'ChamadosSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-chamados.dashboard', {
@@ -91,6 +94,8 @@
               url: '/app-financeiro',
               abstract: true,
               templateUrl: helper.modulebasepath('financeiro/financeiro.app.html'),
+              controller: 'app.financeiro.FinanceiroSidebarCtrl',
+              controllerAs: 'FinanceiroSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-financeiro.dashboard', {
@@ -99,16 +104,18 @@
               templateUrl: helper.modulebasepath('financeiro/financeiro.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
-          // ORDENS DE SERVIÇO
+          // ORDENS DE SERVIÇO 
           .state('app-ordens', {
               url: '/app-ordens',
               abstract: true,
               templateUrl: helper.modulebasepath('ordens/ordens.app.html'),
+              controller: 'app.ordens.OrdensSidebarCtrl',
+              controllerAs: 'OrdensSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-ordens.dashboard', {
               url: '/dashboard',
-              title: 'Dashboard Financeiro',
+              title: 'Dashboard Ordens',
               templateUrl: helper.modulebasepath('ordens/ordens.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
@@ -116,7 +123,7 @@
           .state('app-pessoas', {
               url: '/app-pessoas',
               abstract: true,
-               controller: 'app.pessoas.PessoasSidebarCtrl',
+              controller: 'app.pessoas.PessoasSidebarCtrl',
               controllerAs: 'PessoasSidebarCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.app.html'),
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
@@ -124,14 +131,14 @@
           .state('app-pessoas.dashboard', {
               url: '/dashboard',
               title: 'Dashboard',
-              controller: 'app.pessoas.PessoasDashboardCtrl',
-              controllerAs: 'PessoasDashboardCtrl', 
               templateUrl: helper.modulebasepath('pessoas/pessoas.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
           .state('app-pessoas.pessoas-new', {
               url: '/pessoas-new',
               title: 'Pessoas New',
+              controller: 'app.pessoas.PessoasCadCtrl',
+              controllerAs: 'PessoasCadCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.cad.html'),
               resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
@@ -148,6 +155,8 @@
               url: '/app-vendas',
               abstract: true,
               templateUrl: helper.modulebasepath('vendas/vendas.app.html'),
+              controller: 'app.vendas.VendasSidebarCtrl',
+              controllerAs: 'VendasSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-vendas.dashboard', {
@@ -209,20 +218,7 @@
           // })
           ;
 
-          RestangularProvider.setBaseUrl(' http://localhost:3000');
+
           
-          RestangularProvider.addResponseInterceptor(function(data, operation, what, url, response, deferred) {
-
-            var extractedData;
-
-            if (operation === "getList") {
-                extractedData = data.data;
-                extractedData.isLast = data.isLast;
-
-            } else {
-                extractedData = data;
-            }
-            return extractedData;
-        });
     }
 })();

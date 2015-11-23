@@ -7,10 +7,10 @@
 
     AlmoxSidebarLoader.$inject = ['$http'];
     function AlmoxSidebarLoader($http) {
-        this.almoxGetMenu = almoxGetMenu;
+        this.getMenu = getMenu;
 
         //JSON com o texto para os itens de menus e menus.
-        function almoxGetMenu(onReady, onError) {
+        function getMenu(onReady, onError) {
           var menuJson = 'modules/almox/almox.sidebar-menu.json',
                menuURL = menuJson + '?v=' + (new Date().getTime()); // jumps cache
             

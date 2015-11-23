@@ -6,12 +6,12 @@
     'use strict';
 
     angular
-        .module('app.dashboard')
-        .controller('DashboardController', DashboardController);
+        .module('app.chamados')
+        .controller('ChamadosDashboardController', ChamadosDashboardController);
 
-    DashboardController.$inject = ['$scope', 'ChartData', '$timeout'];
+    ChamadosDashboardController.$inject = ['$scope', 'ChartData', '$timeout'];
 
-    function DashboardController($scope, ChartData, $timeout) {
+    function ChamadosDashboardController($scope, ChartData, $timeout) {
         var vm = this;
 
         activate();

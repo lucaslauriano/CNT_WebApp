@@ -8,16 +8,16 @@
 
     angular
         .module('app.vendas')
-        .controller('VendasSidebarController', VendasSidebarController);
+        .controller('app.vendas.VendasSidebarCtrl', VendasSidebarCtrl);
 
-    VendasSidebarController.$inject = [
+    VendasSidebarCtrl.$inject = [
            '$rootScope', 
            '$scope', 
            '$state', 
-           'SidebarLoader', 
+           'VendasSidebarLoader', 
            'Utils'];
 
-    function VendasSidebarController($rootScope, $scope, $state, SidebarLoader,  Utils) {
+    function VendasSidebarCtrl($rootScope, $scope, $state, VendasSidebarLoader,  Utils) {
 
         init();
 
@@ -35,7 +35,7 @@
           // Load menu from json file
           // ----------------------------------- 
 
-          SidebarLoader.getMenu(sidebarReady);
+          VendasSidebarLoader.getMenu(sidebarReady);
           
           function sidebarReady(items) {
             $scope.menuItems = items;

@@ -8,16 +8,16 @@
 
     angular
         .module('app.almox')
-        .controller('AlmoxSidebarController', AlmoxSidebarController);
+        .controller('app.almox.AlmoxSidebarCtrl', AlmoxSidebarCtrl);
 
-    AlmoxSidebarController.$inject = [
+    AlmoxSidebarCtrl.$inject = [
            '$rootScope', 
            '$scope', 
            '$state', 
            'AlmoxSidebarLoader', 
            'Utils'];
 
-    function AlmoxSidebarController($rootScope, $scope, $state, AlmoxSidebarLoader,  Utils) {
+    function AlmoxSidebarCtrl($rootScope, $scope, $state, AlmoxSidebarLoader,  Utils) {
 
         init();
 
@@ -35,7 +35,7 @@
           // Load menu from json file
           // ----------------------------------- 
 
-          AlmoxSidebarLoader.almoxGetMenu(sidebarReady);
+          AlmoxSidebarLoader.getMenu(sidebarReady);
           
           function sidebarReady(items) {
             $scope.menuItems = items;

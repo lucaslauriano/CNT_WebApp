@@ -21,6 +21,7 @@
           isBoxed: false,
           isRTL: false,
           horizontal: false,
+          pessoas: false,
           isFloat: false,
           asideHover: false,
           theme: null
@@ -34,7 +35,7 @@
 
       // Setup the layout mode
       $rootScope.app.layout.horizontal = ( $rootScope.$stateParams.layout === 'app-h') ;
-
+       $rootScope.app.layout.pessoas = ( $rootScope.$stateParams.layout === 'app-pessoas') ;
       // Restore layout settings
       if( angular.isDefined($localStorage.layout) )
         $rootScope.app.layout = $localStorage.layout;

@@ -2,16 +2,16 @@
   {
     "text": "heading",
     "heading": "true",
-    "translate": "sidebar.heading.HEADER"
+    "translate": "ordens-sidebar.heading.HEADER"
   },
   {
     "text": "Modulo",
     "heading": "true",
-    "translate": "sidebar.heading.MODULO"
+    "translate": "ordens-sidebar.heading.MODULO"
   },
   {
     "text": "Componentes",
     "heading": "true",
-    "translate": "sidebar.heading.COMPONENTS"
+    "translate": "ordens-sidebar.heading.COMPONENTS"
   }
 ]

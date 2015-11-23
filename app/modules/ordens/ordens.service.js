@@ -3,19 +3,19 @@
 
     /**
      * @ngdoc function
-     * @name app.pessoas.factory:PessoaService
+     * @name app.pessoas.factory:OrdensService
      * @description
-     * # PessoaService
-     * Factory of the app.PessoaService
+     * # OrdensService
+     * Factory of the app.OrdensService
      */
 
     angular
-        .module('app.pessoas')
-        .factory('app.pessoas.PessoaService', PessoaService);
+        .module('app.ordens')
+        .factory('app.ordens.OrdensService', OrdensService);
 
-    PessoaService.$inject = ['$injector'];
+    OrdensService.$inject = ['$injector'];
 
-    function PessoaService($injector) {
+    function OrdensService($injector) {
         var Restangular = $injector.get('Restangular');
 
         var PublicMethods = {

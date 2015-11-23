@@ -3,23 +3,23 @@
 
     /**
      * @ngdoc function
-     * @name app.professionals:PessoasCtrl
+     * @name app.professionals:OrdensCtrl
      * @description
-     * # PessoasCtrl
+     * # OrdensCtrl
      * Modal Controller de app.professionals
      */
 
-    angular.module('app.pessoas')
-        .controller('app.pessoas.PessoasCtrl', PessoasCtrl);
+    angular.module('app.ordens')
+        .controller('app.ordens.OrdensCtrl', OrdensCtrl);
 
-    PessoasCtrl.$inject = [
+    OrdensCtrl.$inject = [
         '$injector',
         '$rootScope',
         '$modal',
         '$log'
     ];
 
-    function PessoasCtrl($injector, $rootScope, $modal, $log) {
+    function OrdensCtrl($injector, $rootScope, $modal, $log) {
         var viewModel = this;
 
 
