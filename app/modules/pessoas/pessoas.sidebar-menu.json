@@ -1,0 +1,17 @@
+[
+  {
+    "text": "heading",
+    "heading": "true",
+    "translate": "pessoas-sidebar.heading.HEADER"
+  },
+  {
+    "text": "Pessoas",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+      {"text": "New",    "sref": "app-pessoas.pessoas-new", "translate": "pessoas-sidebar.nav.pessoas.NEW" },
+      {"text": "List",    "sref": "app-pessoas.pessoas-list", "translate": "pessoas-sidebar.nav.pessoas.LIST" }
+    ],
+    "translate": "pessoas-sidebar.nav.pessoas.PESSOAS"
+  }
+]

@@ -1,0 +1,17 @@
+<header ng-include="'main/partials/top-navbar.html'" 
+		class="topnavbar-wrapper">
+</header>
+<aside ng-include="'modules/financeiro/financeiro.sidebar.html'" 
+	   ng-controller="SidebarController" 
+	   class="aside">
+</aside>
+<aside ng-include="'main/partials/offsidebar.html'" 
+	   class="offsidebar">
+</aside>
+<section>
+   <div ui-view="" 
+   		autoscroll="false" 
+   		ng-class="app.viewAnimation" 
+   		class="content-wrapper"></div>
+</section>
+<footer ng-include="'main/partials/footer.html'"></footer>

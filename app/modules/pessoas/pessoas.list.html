@@ -1,42 +1,15 @@
 <div class="row">
+  <div class="col-lg-1"></div>
+  <div class="col-lg-10">
     <ol class="breadcrumb">
         <li><a href="#/">Home</a></li>
-        <li><a href="#/listProfessionals" class="active">Pessoas</a></li>
+        <li><a href="#/listPessoas" class="active">Pessoas</a></li>
     </ol>
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="row">
                 <div class="col-md-8">
-                    <h4>Pessoas</h4><!-- {{ProfessionalsCtrl.professionals.isLast}} -->
-                </div>
-                <div class="col-md-4">
-                  <div class="col-lg-13">
-                    <div class="input-group">
-                      <span class="input-group-btn">
-                        <a data-ng-click="ProfessionalsCtrl.refresh()"
-                           class="btn btn-default" 
-                           type="button"
-                           popover="Recarregar"
-                           popover-trigger="mouseenter">
-                          <i class="glyphicon glyphicon-refresh"></i>
-                        </a>
-                      </span>
-                      <input type="text" 
-                             class="form-control"
-                             name="ProfessionalsCtrl.q" 
-                             placeholder="Buscar"
-                             data-ng-model="ProfessionalsCtrl.q">
-                       <span class="input-group-btn">
-                        <a  data-ng-click="ProfessionalsCtrl.getSearch(ProfessionalsCtrl.q)"
-                            class="btn btn-default" 
-                            type="button"
-                            popover="Pesquisar"
-                            popover-trigger="mouseenter">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </a>
-                      </span>
-                    </div><!-- /input-group -->
-                  </div><!-- /.col-lg-6 -->
+                    <h4>Pessoas</h4><!-- {{PessoasCtrl.pessoas.isLast}} -->
                 </div>
             </div>
         </div>
@@ -58,34 +31,34 @@
                 <tfoot>
                     <tr>
                         <td><strong>Total</strong></td>
-                        <td colspan="4">{{ProfessionalsCtrl.getTotalProfessionals()}}</td>
+                        <td colspan="4">{{PessoasCtrl.getTotalPessoas()}}</td>
                     </tr>
                 </tfoot>
                 <tbody>
-                    <tr data-ng-repeat="professional in ProfessionalsCtrl.professionals | filter:search | filter:searchText track by professional._id"
-                        data-ng-show="professional._id"
+                    <tr data-ng-repeat="pessoas in PessoasCtrl.pessoas | filter:search | filter:searchText track by pessoas._id"
+                        data-ng-show="pessoas._id"
                         >
                         
-                        <td>{{professional.name}}
+                        <td>{{pessoas.nome}}
                         </td>
                         <td >
-                            {{professional.email}}
+                            {{pessoas.email}}
                         </td>
                         <td>
-                            {{professional.cpf}}
+                            {{pessoas.cpf}}
                         </td>
                         <td>
-                            {{professional.phone}}
+                            {{pessoas.telefone}}
                         </td>
                         <td align="center">
                             <div class="btn-group">
-                                <a data-ng-click="ProfessionalsCtrl.openModalEdit(professional._id)"
+                                <a data-ng-click="PessoasCtrl.openModalEdit(pessoa._id)"
                                    popover="Editar"
                                    popover-trigger="mouseenter"
                                    class="btn btn-default btn-sm">
                                 <i class="btn-small glyphicon glyphicon-edit"></i>
                                 </a>
-                                <a data-ng-click="ProfessionalsCtrl.deletar(professional._id)"
+                                <a data-ng-click="PessoasCtrl.deletar(pessoa._id)"
                                    popover="Remover"
                                    popover-trigger="mouseenter"
                                    class="btn btn-default btn-sm">
@@ -98,27 +71,27 @@
             </table>
         </div>
         <div class="panel-footer">
+        </div>
         <nav>
           <ul class="pager">
-            <li class="ProfessionalsCtrl.prevDesabled">
-              <a data-ng-click="ProfessionalsCtrl.prevPage()"
-                 data-ng-disabled="ProfessionalsCtrl.prevDesabled()"
+            <li class="PessoasCtrl.prevDesabled">
+              <a data-ng-click="PessoasCtrl.prevPage()"
+                 data-ng-disabled="PessoasCtrl.prevDesabled()"
                  type="button"
-                 name="ProfessionalsCtrl.detail"
+                 name="PessoasCtrl.detail"
                  class="btn btn-default btn-sm"> Anterior
                 </a>
             </li>
             <li>
-                <a data-ng-click="ProfessionalsCtrl.nextPage()"
+                <a data-ng-click="PessoasCtrl.nextPage()"
                    type="button"
-                   ng-disabled="ProfessionalsCtrl.nextDesabled()"
-                   name="ProfessionalsCtrl.detail"
+                   ng-disabled="PessoasCtrl.nextDesabled()"
+                   name="PessoasCtrl.detail"
                    class="btn btn-default btn-sm"> Proximo 
                 </a>
             </li>
           </ul>
         </nav>
-        </td>
         </div>
     </div>
 </div>

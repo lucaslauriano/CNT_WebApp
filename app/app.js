@@ -160,6 +160,42 @@
         .module('app.pessoas', []);
 })();
 
+(function() {
+    'use strict';
+
+    angular
+        .module('app.financeiro', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.vendas', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.ordens', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.chamados', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.almox', []);
+})();
+
+
 
 // (function() {
 //     'use strict';

@@ -22,7 +22,11 @@
     function PessoasCtrl($injector, $rootScope, $modal, $log) {
         var viewModel = this;
 
-        var PessoasService = $injector.get('app.pessoas.PessoasService');
+
+            viewModel.currentPage = 1;
+            viewModel.q = '';
+
+        var PessoasService = $injector.get('app.Pessoas.PessoasService');
         var PublicProperties = {
             
         };

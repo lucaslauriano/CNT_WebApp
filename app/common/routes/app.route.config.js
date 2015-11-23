@@ -38,22 +38,10 @@
           })
           .state('app-h.dashboard', {
               url: '/dashboard',
-              templateUrl: helper.modulebasepath('dashboard/dashboard.html'),
+              templateUrl: helper.mainbasepath('dashboard/dashboard.html'),
               controller: 'DashboardV2Controller',
               controllerAs: 'dash2',
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
-          })
-          .state('app', {
-              url: '/app',
-              abstract: true,
-              templateUrl: helper.mainbasepath('app.html'),
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
-          })
-          .state('app.dashboard2', {
-              url: '/dashboard2',
-              title: 'Dashboard2',
-              templateUrl: helper.modulebasepath('dashboard/dashboard2.html'),
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
           .state('app.dashboard_v2', {
               url: '/dashboard_v2',
@@ -71,22 +59,104 @@
               templateUrl: helper.modulebasepath('dashboard/dashboard_v3.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'vector-map', 'vector-map-maps')
           })
-          //Pessoas
-          .state('app.pessoas-new', {
+          // ALMOXARIFADO
+          .state('app-almox', {
+              url: '/app-almox',
+              abstract: true,
+              templateUrl: helper.modulebasepath('almox/almox.app.html'),
+              controller: 'AlmoxSidebarController',
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-almox.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard Financeiro',
+              templateUrl: helper.modulebasepath('almox/almox.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          // CHAMADOS
+          .state('app-chamados', {
+              url: '/app-chamados',
+              abstract: true,
+              templateUrl: helper.modulebasepath('chamados/chamados.app.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-chamados.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard Financeiro',
+              templateUrl: helper.modulebasepath('chamados/chamados.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          // FINANCEIRO
+          .state('app-financeiro', {
+              url: '/app-financeiro',
+              abstract: true,
+              templateUrl: helper.modulebasepath('financeiro/financeiro.app.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-financeiro.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard Financeiro',
+              templateUrl: helper.modulebasepath('financeiro/financeiro.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          // ORDENS DE SERVIÇO
+          .state('app-ordens', {
+              url: '/app-ordens',
+              abstract: true,
+              templateUrl: helper.modulebasepath('ordens/ordens.app.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-ordens.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard Financeiro',
+              templateUrl: helper.modulebasepath('ordens/ordens.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+           //PESSOAS
+          .state('app-pessoas', {
+              url: '/app-pessoas',
+              abstract: true,
+               controller: 'app.pessoas.PessoasSidebarCtrl',
+              controllerAs: 'PessoasSidebarCtrl',
+              templateUrl: helper.modulebasepath('pessoas/pessoas.app.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-pessoas.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard',
+              controller: 'app.pessoas.PessoasDashboardCtrl',
+              controllerAs: 'PessoasDashboardCtrl', 
+              templateUrl: helper.modulebasepath('pessoas/pessoas.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-pessoas.pessoas-new', {
               url: '/pessoas-new',
               title: 'Pessoas New',
-              controller: 'app.pessoas.PessoasCadCtrl',
-              controllerAs: 'PessoasCadCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.cad.html'),
               resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
-           .state('app.pessoas-list', {
+           .state('app-pessoas.pessoas-list', {
               url: '/pessoas-list',
               title: 'Blank Template',
+              controller: 'app.pessoas.PessoasCtrl',
+              controllerAs: 'PessoasCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.list.html'),
               resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
-          // Forum
+          // VENDAS
+          .state('app-vendas', {
+              url: '/app-vendas',
+              abstract: true,
+              templateUrl: helper.modulebasepath('vendas/vendas.app.html'),
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+          })
+          .state('app-vendas.dashboard', {
+              url: '/dashboard',
+              title: 'Dashboard Financeiro',
+              templateUrl: helper.modulebasepath('vendas/vendas.dashboard.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          // Pages
           .state('page', {
               url: '/page',
               templateUrl: 'main/pages/page.html',
@@ -95,60 +165,6 @@
                   $rootScope.app.layout.isBoxed = false;
               }]
           })
-          // Formulários
-          .state('app.form-standard', {
-              url: '/form-standard',
-              title: 'Form Standard',
-              templateUrl: helper.modulebasepath('forms/form-standard.html')
-          })
-          .state('app.form-extended', {
-              url: '/form-extended',
-              title: 'Form Extended',
-              templateUrl: helper.modulebasepath('forms/form-extended.html'),
-              resolve: helper.resolveFor('colorpicker.module', 'codemirror', 'moment', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider', 'ngWig', 'filestyle', 'textAngular')
-          })
-          .state('app.form-validation', {
-              url: '/form-validation',
-              title: 'Form Validation',
-              templateUrl: helper.modulebasepath('forms/form-validation.html'),
-              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
-          })
-          .state('app.form-parsley', {
-              url: '/form-parsley',
-              title: 'Form Validation - Parsley',
-              templateUrl: helper.modulebasepath('forms/form-parsley.html'),
-              resolve: helper.resolveFor('parsley')
-          })
-          .state('app.form-wizard', {
-              url: '/form-wizard',
-              title: 'Form Wizard',
-              templateUrl: helper.modulebasepath('forms/form-wizard.html'),
-              resolve: helper.resolveFor('parsley')
-          })
-          .state('app.form-upload', {
-              url: '/form-upload',
-              title: 'Form upload',
-              templateUrl: helper.modulebasepath('forms/form-upload.html'),
-              resolve: helper.resolveFor('angularFileUpload', 'filestyle')
-          })
-          .state('app.form-xeditable', {
-              url: '/form-xeditable',
-              templateUrl: helper.modulebasepath('forms/form-xeditable.html'),
-              resolve: helper.resolveFor('xeditable')
-          })
-          .state('app.form-imagecrop', {
-              url: '/form-imagecrop',
-              templateUrl: helper.modulebasepath('forms/form-imagecrop.html'),
-              resolve: helper.resolveFor('ngImgCrop', 'filestyle')
-          })
-          .state('app.form-uiselect', {
-              url: '/form-uiselect',
-              templateUrl: helper.modulebasepath('forms/form-uiselect.html'),
-              controller: 'uiSelectController',
-              controllerAs: 'uisel',
-              resolve: helper.resolveFor('ui.select')
-          })
-          // Pages
           .state('page.login', {
               url: '/login',
               title: 'Login',
@@ -175,8 +191,6 @@
               templateUrl: 'main/pages/404.html'
           })
 
-          // Horizontal layout
-          
           //
           // CUSTOM RESOLVES
           //   Add your own resolves properties
@@ -194,7 +208,21 @@
           //   )
           // })
           ;
-          RestangularProvider.setBaseUrl(' http://localhost:3000');
 
+          RestangularProvider.setBaseUrl(' http://localhost:3000');
+          
+          RestangularProvider.addResponseInterceptor(function(data, operation, what, url, response, deferred) {
+
+            var extractedData;
+
+            if (operation === "getList") {
+                extractedData = data.data;
+                extractedData.isLast = data.isLast;
+
+            } else {
+                extractedData = data;
+            }
+            return extractedData;
+        });
     }
 })();

@@ -5966,7 +5966,8 @@ x:-o-prefocus,
   white-space: nowrap;
 }
 .user-block .user-block-info .user-block-name,
-.user-block .user-block-info .user-block-role {
+.user-block .user-block-info .user-block-role,
+.user-block .user-block-info .user-block-module {
   display: block;
 }
 .user-block .user-block-info .user-block-name {
@@ -5974,6 +5975,12 @@ x:-o-prefocus,
 }
 .user-block .user-block-info .user-block-role {
   font-size: 12px;
+  color: #aaa;
+}
+.user-block .user-block-info .user-block-module {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: bold;
   color: #aaa;
 }
 .user-block-status {

@@ -60,6 +60,7 @@
         class="wrapper">
    </div>
 
+      <!-- Bower Dependencies -->
    <script src="bower_components/jquery/dist/jquery.js"></script>
    <script src="bower_components/angular/angular.js"></script>
    <script src="bower_components/angular-animate/angular-animate.js"></script>
@@ -98,11 +99,9 @@
    </script>
    <script src="bower_components/angular-translate-handler-log/angular-translate-handler-log.js">
    </script>
-
+  
 <!-- application -->
    <script src="app.js"></script>
-
-   <script src="modules/pessoas/pessoas-cad.controller.js"></script>
 <!-- end application -->
 
 <!-- common -->
@@ -120,7 +119,6 @@
    <!-- routes-->
    <script src="common/routes/app.route.config.js"></script>
    <script src="common/routes/app.route.provider.js"></script>
-   
    <!-- translate -->
    <script src="common/translate/app.translate.config.js"></script>
    <script src="common/translate/app.translate.run.js"></script>
@@ -156,26 +154,50 @@
 
 <!-- modules -->
    <!-- dashboard -->
-   <script src="modules/dashboard/dashboard-controller.js"></script>   
-   <script src="modules/dashboard/dashboard-controller2.js"></script>
-   <script src="modules/dashboard/dashboard-V2-controller.js"></script>
-   <script src="modules/dashboard/dashboard-V3-controller.js"></script>
-   <!-- forms --> 
-   <script src="modules/forms/color-picker.controller.js"></script>
-   <script src="modules/forms/file-style.directive.js"></script>
-   <script src="modules/forms/form-imgcrop.controller.js"></script>
-   <script src="modules/forms/form-validation.controller.js"></script>
-   <script src="modules/forms/form-wizard.directive.js"></script>
-   <script src="modules/forms/form-demo.controller.js"></script>
-   <script src="modules/forms/form-xeditable.controller.js"></script>
-   <script src="modules/forms/masked.directive.js"></script>
-   <script src="modules/forms/props.filter.js"></script>
-   <script src="modules/forms/tags-input.directive.js"></script>
-   <script src="modules/forms/ui-select.controller.js"></script>
-   <script src="modules/forms/upload.controller.js"></script>
-   <script src="modules/forms/validate-form.directive.js"></script>
+   <script src="main/dashboard/dashboard-controller2.js"></script>
+   <script src="main/dashboard/dashboard-V2-controller.js"></script>
+   <script src="main/dashboard/dashboard-V3-controller.js"></script>
+
+   <!-- ALMOXARIFADO -->
+   <script src="modules/almox/almox.cad.controller.js"></script>
+   <script src="modules/almox/almox.controller.js"></script>
+   <script src="modules/almox/almox.modal.controller.js"></script>
+    <script src="modules/almox/almox.service.js"></script>
+   <script src="modules/almox/almox.sidebar.service.js"></script>
+   <script src="modules/almox/almox.sidebar.controller.js"></script>
+   <script src="modules/almox/almox.dashboard.controller.js"></script>   
+
+   <!-- PESSOAS -->
+   <script src="modules/pessoas/pessoas.service.js"></script>
+   <script src="modules/pessoas/pessoas.sidebar.service.js"></script>
+   <script src="modules/pessoas/pessoas.cad.controller.js"></script>
+   <script src="modules/pessoas/pessoas.controller.js"></script>
+   <script src="modules/pessoas/pessoas.dashboard.controller.js"></script>
+   <script src="modules/pessoas/pessoas.modal.controller.js"></script>
+   <script src="modules/pessoas/pessoas.sidebar.controller.js"></script>
+   <!-- FINANCEIRO -->
+   <script src="modules/financeiro/financeiro.sidebar.service.js"></script>
+   <script src="modules/financeiro/dashboard-controller.js"></script>   
+
+   <!-- VENDAS -->
+   <script src="modules/vendas/vendas.cad.controller.js"></script>
+   <script src="modules/vendas/vendas.sidebar.service.js"></script>
+   <script src="modules/vendas/dashboard-controller.js"></script>   
+   <script src="modules/vendas/vendas.sidebar.controller.js"></script>
+
+   <!-- CHAMADOS -->
+   <script src="modules/chamados/chamados.cad.controller.js"></script>
+   <script src="modules/chamados/chamados.sidebar.service.js"></script>
+   <script src="modules/chamados/dashboard-controller.js"></script>   
+
+   <!-- ORDENS DE SERVIÇO -->
+   <script src="modules/ordens/ordens.cad.controller.js"></script>
+   <script src="modules/ordens/ordens.sidebar.service.js"></script>
+   <script src="modules/ordens/dashboard-controller.js"></script>   
+
     <!-- user -->
    <script src="modules/user/user-block.controller.js"></script>
+
    <!-- utils -->
    <script src="modules/utils/animated-enabled.directive.js"></script>
    <script src="modules/utils/browser.service.js"></script>
