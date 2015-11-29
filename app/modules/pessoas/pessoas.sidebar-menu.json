@@ -13,5 +13,15 @@
       {"text": "List",    "sref": "app-pessoas.pessoas-list", "translate": "pessoas-sidebar.nav.pessoas.LIST" }
     ],
     "translate": "pessoas-sidebar.nav.pessoas.PESSOAS"
+  },
+  {
+    "text": "Compras",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+      {"text": "New",    "sref": "app-compras.pessoas-new", "translate": "pessoas-sidebar.nav.compras.NEW" },
+      {"text": "List",    "sref": "app-pessoas.pessoas-list", "translate": "pessoas-sidebar.nav.compras.LIST" }
+    ],
+    "translate": "pessoas-sidebar.nav.compras.COMPRAS"
   }
 ]

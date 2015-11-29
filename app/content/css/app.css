@@ -102,7 +102,12 @@
 /* ========================================================================
    Component: bootstrap-reset.less
  ========================================================================== */
+
+ .col-sm-offset-1{
+    margin-left: 4.33333333% 
+ }
 .font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
  .circle-tile {
     margin-bottom: 30px;
@@ -136,25 +141,52 @@ a {
     padding-top: 50px;
 }
 .dark-blue {
-    background-color: #34495e;
+    background-color: #34495e;#2F4255
 }
+
+.very-dark-blue {
+    background-color: #2F4255;
+}
+
 .orange {
     background-color: #f39c12;
 }
 .green {
     background-color: #37bc9b;
 }
+
+.dark-green {
+    background-color: #32AA8C;
+}
+
 .blue {
   background-color: #1797be;
 }
 .blue-light {
-  background-color: #208ABE;
+  background-color: #36ACD1; 
 }
+
+.very-blue-light {
+  background-color: #3CBFE8;
+}
+
 .purple-dark{
   background-color: #564aa3;
 }
 .red-dark {
-    background-color: #ec2121;
+    background-color: #D51E1E;
+}
+
+.red-light{
+    background-color: #EC2121;
+}
+
+.purple-dark{
+  background-color: #5A4EA7;
+}
+
+.white {
+  background-color: white;
 }
 
 .circle-tile-description {
@@ -479,7 +511,8 @@ fieldset .form-group {
  ========================================================================== */
 body {
   font-family: "Source Sans Pro", sans-serif;
-  color: #656565;
+/*  color: #656565;*/
+  color: #FFFFFF;
 }
 h1,
 h2,
