@@ -4,12 +4,7 @@
 		{
 			"file_exclude_patterns":
 			[
-				".bo*",
-				".yo*",
-				".trav*",
-				".jsh*",
-				".edit*",
-				".git*"
+				
 			],
 			"folder_exclude_patterns":
 			[
