@@ -1,0 +1,28 @@
+<div class="ng-wig">
+  <ul class="nw-toolbar">
+    <li class="nw-toolbar__item" ng-repeat="button in toolbarButtons" >
+        <div ng-if="!button.isComplex">
+          <button type="button" class="nw-button {{button.styleClass}}" title="{{button.title}}" ng-click="execCommand(button.command)" ng-class="{ 'nw-button--active': isEditorActive() && button.isActive() }" ng-disabled="editMode">
+            {{ button.title }}
+          </button>
+        </div>
+        <div ng-if="button.isComplex">
+          <ng-wig-plugin plugin="{{button}}"></ng-wig-plugin>
+        </div>
+    </li><!--
+    --><li class="nw-toolbar__item">
+      <button type="button" class="nw-button nw-button--source" ng-class="{ 'nw-button--active': editMode }" ng-click="toggleEditMode()">
+        Edit HTML
+      </button>
+    </li>
+  </ul>
+
+  <div class="nw-editor-container">
+    <div class="nw-editor__src-container" ng-show="editMode">
+      <textarea ng-required="isRequired" class="nw-editor__src" ng-model="content"></textarea>
+    </div>
+    <div class="nw-editor">
+      <div name="{{formElementName}}" ng-required="isRequired" tabindex="-1" ng-class="{'nw-invisible': editMode}" class="nw-editor__res" ng-model="content" ng-wig-editable on-paste="onPaste"></div>
+    </div>
+  </div>
+</div>
