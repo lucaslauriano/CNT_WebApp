@@ -60,7 +60,8 @@
         class="wrapper">
    </div>
 
-      <!-- Bower Dependencies -->
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
    <script src="bower_components/jquery/dist/jquery.js"></script>
    <script src="bower_components/angular/angular.js"></script>
    <script src="bower_components/angular-animate/angular-animate.js"></script>
@@ -99,8 +100,10 @@
    </script>
    <script src="bower_components/angular-translate-handler-log/angular-translate-handler-log.js">
    </script>
-  
-<!-- application -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
    <script src="app.js"></script>
 <!-- end application -->
 
@@ -240,7 +243,8 @@
    <script src="modules/utils/toggle-fullscreen.directive.js"></script>
    <script src="modules/utils/trigger-resize.directive.js"></script>
    <script src="modules/utils/utils.service.js"></script>
-
+   <!--  <script src="scripts/controllers/about.js"></script> -->
+   <!-- endbuild -->
  </body>
 
 </html>
