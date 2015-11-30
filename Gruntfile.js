@@ -38,7 +38,29 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/common/{,*/}*.js'],
+        files: [
+                {'<%= yeoman.app %>/common/core/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/lazyload/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/locale/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/routes/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/translate/{,*/}*.js'},
+                {'<%= yeoman.app %>/content/colors/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/icons/{,*/}*.js'},
+                {'<%= yeoman.app %>/common/preloader/{,*/}*.js'},
+                {'<%= yeoman.app %>/main/dashboard/{,*/}*.js'},
+                {'<%= yeoman.app %>/main/loadingbar/{,*/}*.js'},
+                {'<%= yeoman.app %>/main/navsearch/{,*/}*.js'},
+                {'<%= yeoman.app %>/main/pages/{,*/}*.js'},
+                {'<%= yeoman.app %>/main/partials/settings/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/almox/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/chamados/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/financeiro/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/forms/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/ordens/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/pessoas/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/user/{,*/}*.js'},
+                {'<%= yeoman.app %>/modules/utils/{,*/}*.js'}
+                ],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
