@@ -9,6 +9,7 @@
    <title data-ng-bind="::pageTitle()">CNT - SmartApp</title>
 
    <!-- Bootstrap styles-->
+   <!-- Usemin block -->
    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
    <link rel="stylesheet" href="content/css/bootstrap.css" data-ng-if="!app.layout.isRTL">
    <link rel="stylesheet" href="content/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
@@ -18,7 +19,8 @@
    <!-- Application styles-->
    <link rel="stylesheet" href="content/css/app.css" data-ng-if="!app.layout.isRTL">
    <link rel="stylesheet" href="content/css/app-rtl.css" data-ng-if="app.layout.isRTL">
-
+   <!-- endUsemin block -->
+   
     <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
     <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css" />
     <link rel="stylesheet" href="bower_components/select2/select2-bootstrap.css" />
