@@ -9,7 +9,7 @@
     function translateConfig($translateProvider){
 
       $translateProvider.useStaticFilesLoader({
-          prefix : 'bower_components/angular-i18n/',
+          prefix : 'common/translate/',
           suffix : '.json'
       });
 

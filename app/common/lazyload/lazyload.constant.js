@@ -14,7 +14,7 @@
                 'classyloader': ['bower_components/classy-loader/jquery.classyloader.js'],
                 'animo': ['bower_components/animo.js/animo.js'],
                 'fastclick': ['bower_components/fastclick/lib/fastclick.js'],
-                'modernizr': ['bower_components/modernizr/modernizr.js'],
+                'modernizr': ['bower_components/modernizr/src/modernizr.js'],
                 'animate': ['bower_components/animate.css/animate.min.css'],
                 'skycons': ['bower_components/skycons/skycons.js'],
                 'icons': ['bower_components/font-awesome/css/font-awesome.min.css',
