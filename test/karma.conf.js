@@ -124,6 +124,7 @@ module.exports = function(config) {
       'bower_components/select2/select2.js',
       'bower_components/angular-ui-select3/src/select3.js',
       'bower_components/ui-select/dist/select.js',
+      'bower_components/angularLocalStorage/dist/angularLocalStorage.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
