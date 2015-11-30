@@ -22,7 +22,6 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
-      'bower_components/modernizr/modernizr.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
@@ -38,7 +37,6 @@ module.exports = function(config) {
       'bower_components/angular-xeditable/dist/js/xeditable.js',
       'bower_components/AngularJS-Toaster/toaster.js',
       'bower_components/angular-bootstrap-nav-tree/dist/abn_tree_directive.js',
-      'bower_components/jquery-bridget/jquery.bridget.js',
       'bower_components/seiyria-bootstrap-slider/js/bootstrap-slider.js',
       'bower_components/angular-bootstrap-slider/slider.js',
       'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',
@@ -60,6 +58,8 @@ module.exports = function(config) {
       'bower_components/angular-datatables/dist/plugins/fixedheader/angular-datatables.fixedheader.js',
       'bower_components/angular-datatables/dist/plugins/scroller/angular-datatables.scroller.js',
       'bower_components/angular-datatables/dist/plugins/tabletools/angular-datatables.tabletools.js',
+      'bower_components/angular-datatables/dist/plugins/buttons/angular-datatables.buttons.js',
+      'bower_components/angular-datatables/dist/plugins/select/angular-datatables.select.js',
       'bower_components/angular-deckgrid/angular-deckgrid.js',
       'bower_components/angular-file-upload/dist/angular-file-upload.min.js',
       'bower_components/jqcloud2/dist/jqcloud.js',
@@ -96,7 +96,6 @@ module.exports = function(config) {
       'bower_components/flot-spline/js/jquery.flot.spline.js',
       'bower_components/screenfull/dist/screenfull.js',
       'bower_components/sparklines/source/sparkline.js',
-      'bower_components/slimScroll/jquery.slimscroll.min.js',
       'bower_components/classy-loader/jquery.classyloader.js',
       'bower_components/jquery-ui/jquery-ui.js',
       'bower_components/angular-ui-date/src/date.js',
