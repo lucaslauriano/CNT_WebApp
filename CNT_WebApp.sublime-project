@@ -2,10 +2,6 @@
 	"folders":
 	[
 		{
-			"file_exclude_patterns":
-			[
-				
-			],
 			"folder_exclude_patterns":
 			[
 				"node_modules",
@@ -15,6 +11,9 @@
 		},
 		{
 			"path": "C:\\Users\\Lucas\\Documents\\CNET\\x_BackUp\\products-WB04HF123\\backend-angular"
+		},
+		{
+			"path": "C:\\Users\\Lucas\\Documents\\app"
 		}
 	]
 }

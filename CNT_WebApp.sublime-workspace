@@ -419,6 +419,40 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/scripts/app.route.config.js",
+			"settings":
+			{
+				"buffer_size": 9601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 248 files for \"content/css/theme-a.css \" (case sensitive)\n\n0 matches",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 18221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Lucas/Documents/app/common/lazyload/lazyload.constant.js",
+			"settings":
+			{
+				"buffer_size": 14336,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -543,14 +577,39 @@
 	[
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/preloader"
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/css",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/icons",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/preloader",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/server",
+		"/C/Users/Lucas/Documents/app",
+		"/C/Users/Lucas/Documents/app/common",
+		"/C/Users/Lucas/Documents/app/common/lazyload",
+		"/C/Users/Lucas/Documents/app/content",
+		"/C/Users/Lucas/Documents/app/content/img/preloader",
+		"/C/Users/Lucas/Documents/app/modules"
 	],
 	"file_history":
 	[
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower.json",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/css/app.css",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/views/settings.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/lazyload.constant.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/views/app-h.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/index.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/app.route.provider.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/almox.dashboard.controller.js",
+		"/C/Users/Lucas/Desktop/app/app.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.constant.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/top-navbar-h.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard_v3.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/Gruntfile.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/app.translate.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/app.settings.run.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/pt-br.json",
+		"/C/Users/Lucas/Desktop/Gruntfile.js",
+		"/C/Users/Lucas/Desktop/Gruntfile (2).js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower.json",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/templateCache.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/concat/scripts/vendor.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/concat/scripts/scripts.js",
@@ -568,7 +627,6 @@
 		"/C/Users/Lucas/Desktop/json profesionals.json",
 		"/C/Users/Lucas/Documents/Projetos/Angular_Firebase (Tarefas)/server.js",
 		"/C/Users/Lucas/Documents/Projetos/Angular_Firebase (Tarefas)/app.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.config.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar-menu.json",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.cad.html",
@@ -631,7 +689,6 @@
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.controller.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.app.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/app.settings.run.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.list.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.provider.js",
 		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/common/app.route.js",
@@ -645,10 +702,8 @@
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/dashboard-controller.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/app-h.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/app-pessoas.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/top-navbar-h.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/form-validation.controller.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas-cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.constant.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.config.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/user/user-block.controller.js",
@@ -663,19 +718,7 @@
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/theme-i.css",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/ui-select.controller.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/settings.html",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/form-validation.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/theme-h.css",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/pages/login.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/top-navbar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/colors/app.colors.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/professsionals.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/dashboard/dashboard_v2.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/dashboard/dashboard_v3.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.modal.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar.directive.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/chat.html"
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/form-validation.html"
 	],
 	"find":
 	{
@@ -686,6 +729,11 @@
 		"height": 110.0,
 		"where_history":
 		[
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\main",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
 			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
 			"C:\\Users\\Lucas\\Documents\\Projetos\\Angular_Firebase (Tarefas)",
 			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
@@ -788,6 +836,28 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"content/css/theme-a.css ",
+			"common",
+			"theme-a",
+			"preloader.em",
+			"preloader-em",
+			"rickshaw",
+			"tab",
+			"TabsetController",
+			"collapse",
+			"Moder",
+			"Proto",
+			"modernizr",
+			"moder",
+			"offsidebarOpen",
+			"moder",
+			"define",
+			"storage",
+			"'ngStorage'",
+			"picker",
+			"concat",
+			"css",
+			"fonts",
 			"build",
 			"views",
 			"views[",
@@ -893,29 +963,7 @@
 			"uiSelectController",
 			"imepickerDemoCtrl",
 			"background-image",
-			"back",
-			"\n                  ",
-			"icon",
-			"dropdown",
-			"Dropdown",
-			"DropdownController",
-			"tabset",
-			"dropdown-menu",
-			"drop",
-			"DROP",
-			"\":\"\",\n",
-			"search.html",
-			"professional",
-			"ProfessionalService",
-			"professionals",
-			"Profissionais",
-			" /",
-			" / ",
-			"/",
-			"/ ",
-			"02.jpg",
-			"common/img/02",
-			"favi"
+			"back"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -957,8 +1005,134 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/app.route.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18204,
+								18204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Lucas/Documents/app/common/lazyload/lazyload.constant.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 14336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1107,7 +1281,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 418.0,
+	"side_bar_width": 412.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
