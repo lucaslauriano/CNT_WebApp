@@ -27,7 +27,6 @@
     "angular-i18n": "~1.4.7",
     "angular-jqcloud": "~1.0.2",
     "angular-knob": "~0.0.2",
-    "angular-rickshaw": "~0.10.0",
     "ngSweetAlert": "angular-sweetalert#~1.1.0",
     "angular-ui-codemirror": "~0.3.0",
     "angular-ui-grid": "~3.0.7",
@@ -73,9 +72,6 @@
     "angular-ui-select3": "ui-select#*",
     "ui-select": "angular-ui-select#~0.13.2",
     "codemirror": "~5.9.0",
-    "modernizr": "~3.2.0",
-    "rickshaw": "~1.5.1",
-    "d3": "~3.5.10",
     "angularLocalStorage": "ngStorage#~0.3.2"
   },
   "devDependencies": {
