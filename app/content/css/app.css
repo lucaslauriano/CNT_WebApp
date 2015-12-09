@@ -14,9 +14,17 @@
    Component: bootstrap-reset.less
  ========================================================================== */
 
- .col-sm-offset-1{
-    margin-left: 4.33333333% 
+.font{
+   font-family: "Source Sans Pro", sans-serif;
+/*  color: #656565;*/
+  color: #ffffff;
+  }
+
+
+.margin-1{
+    margin-left: 3.66666666% 
  }
+
 .font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 {
 
@@ -51,24 +59,6 @@ a {
 .circle-tile-content {
     padding-top: 50px;
 }
-.dark-blue {
-    background-color: #34495e;
-}
-
-.very-dark-blue {
-    background-color: #2F4255;
-}
-
-.orange {
-    background-color: #f39c12;
-}
-.green {
-    background-color: #37bc9b;
-}
-
-.dark-green {
-    background-color: #32AA8C;
-}
 
 .blue {
   background-color: #1797be;
@@ -76,14 +66,49 @@ a {
 .blue-light {
   background-color: #36ACD1; 
 }
+.dark-blue {
+    background-color: #34495e;
+}
+
+.gray{
+  background-color: #3A3F51;
+}
+
+.gray-dark{
+  background-color: #2C2F3A;
+}
+
+.very-dark-blue {
+    background-color: #2F4255;
+}
+
+.orange {
+    background-color: #FFC107;
+}
+.orange-dark {
+    background-color: #FF9800;
+}
+
+.green {
+    background-color: #3CBF9F;
+}
+
+.dark-green {
+    background-color: #297865;
+}
 
 .very-blue-light {
   background-color: #3CBFE8;
 }
 
 .purple-dark{
-  background-color: #564aa3;
+  background-color: #514697;
 }
+
+.purple{
+  background-color: #5A4EA7;
+}
+
 .red-dark {
     background-color: #D51E1E;
 }
@@ -92,9 +117,6 @@ a {
     background-color: #EC2121;
 }
 
-.purple-dark{
-  background-color: #5A4EA7;
-}
 
 .white {
   background-color: white;
@@ -118,14 +140,13 @@ a {
     line-height: 1;
 }
 .text-faded {
-    color: rgba(255,255,255,0.7);
+    color: #fff;
 }
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 
 .circle-tile-heading .fa {
     line-height: 80px;
@@ -137,6 +158,7 @@ a {
 .fa-3x {
     font-size: 3em;
 }
+
 .fa {
     display: inline-block;
     font-family: FontAwesome;
@@ -423,7 +445,7 @@ fieldset .form-group {
 body {
   font-family: "Source Sans Pro", sans-serif;
 /*  color: #656565;*/
-  color: #FFFFFF;
+  color: #555;
 }
 h1,
 h2,
@@ -9028,14 +9050,14 @@ body .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
 body .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 body .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   background-color: #5d9cec !important;
-  color: #fff !important;
+  color: #223548 !important;
   border-color: #5d9cec !important;
 }
 body table.dataTable.row-border tbody th,
 body table.dataTable.row-border tbody td,
 body table.dataTable.display tbody th,
 body table.dataTable.display tbody td {
-  border-top-color: #eee;
+  border-top-color: #333;
 }
 body table.dataTable tbody tr:nth-child(odd),
 body table.dataTable.hover tbody tr:hover,

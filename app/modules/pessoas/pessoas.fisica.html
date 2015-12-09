@@ -1,0 +1,80 @@
+<fieldset>
+    <div class="row">
+        <label class="col-sm-1 control-label">Pessoa</label>
+        <div class="col-md-3">
+            <div class="form-group">
+                <div class="controls">
+                    <input type="text" 
+                           name="nome" 
+                           placeholder="Nome" 
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <div class="controls">
+                    <input type="text"
+                           name="sobrenome" 
+                           placeholder="Sobrenome" 
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <input type="text" 
+                   masked="" 
+                   data-inputmask="'mask': '99/99/9999'" 
+                   placeholder="Data Nascimento" 
+                   class="form-control" />
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <div class="controls">
+                    <input type="text" 
+                           name="NaturalidaDE" 
+                           placeholder="Naturalidade" 
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <div class="form-group">
+        <label class="col-sm-1 control-label">CPF</label>
+        <div class="row">
+            <div class="col-sm-2">
+                <input type="text"
+                       masked="" 
+                       data-inputmask="'mask': '999.999.999-99'" 
+                       class="form-control" />
+            </div>
+            <div class="col-sm-2">
+                <input type="text" 
+                       masked="" 
+                       placeholder="RG" 
+                       data-inputmask="'mask': '9.999.999'" 
+                       class="form-control" />
+            </div>
+            <div class="col-sm-2">
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="text" 
+                               name="nome" 
+                               placeholder="Órgão Emissor" 
+                               class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" 
+                       masked="" 
+                       data-inputmask="'mask': '99/99/9999'" 
+                       placeholder="Data Emissão" 
+                       class="form-control" />
+            </div>
+        </div>
+    </div>
+</fieldset>
+<!-- EndPessoaFísica -->

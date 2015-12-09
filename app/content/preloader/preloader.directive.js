@@ -3,11 +3,12 @@
 
     /**
      * @ngdoc function
-     * @name app.preloader.directive:directive
+     * @name app.preloader.preloader:preloader
      * @description
-     * # directive
+     * # preloader
      * directive of the app.preloader
      */
+     
     angular
         .module('app.preloader')
         .directive('preloader', preloader);

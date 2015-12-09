@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "vendas": [
     {
       "id": 1,
       "title": "json-server",
@@ -31,6 +31,7 @@
       "profissao": "ng-Developer",
       "estado_civil": "Solteiro",
       "empregador": "CNET - Internet",
+      "isJuridica": false,
       "fantasia": "",
       "ramo_atividade": "",
       "razao_social": "",
@@ -64,6 +65,7 @@
       "estado_civil": "",
       "empregador": "0",
       "fantasia": "CNET Internet",
+      "isJuridica": true,
       "ramo_atividade": "Tecnologia da Informação",
       "razao_social": "Gustavo Camacho ME",
       "cnpj": "773.59484646846",
@@ -95,6 +97,7 @@
       "profissao": "",
       "estado_civil": "",
       "empregador": "0",
+      "isJuridica": true,
       "fantasia": "CNET Internet",
       "ramo_atividade": "Tecnologia",
       "razao_social": "Gustavo Camacho ME",

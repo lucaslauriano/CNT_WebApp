@@ -1,0 +1,41 @@
+<div class="modal-header">
+    <button type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+            data-ng-click="ProfessionalModalCtrl.closeModal()">
+        <span aria-hidden="false">&times;</span>
+    </button>
+    <h4 class="modal-title"><strong>Editar</strong>  {{ProfessionalModalCtrl.professional.name}}</h4>
+</div>
+
+<div class="modal-body">
+   <form name="ProfessionalModalCtrl.listDetail">
+        <div class="form-group">
+            <span ng-show="ProfessionalModalCtrl.listDetail.email.$error.required">
+                <div class="alert alert-danger"
+                    role="alert">Email é Obrigatório!
+                </div>
+            </span>
+            <input id="email"
+                   class="form-control"
+                   maxlength="50"
+                   name="email"
+                   data-ng-model="ProfessionalModalCtrl.professional.email"
+                   placeholder="Email do Profissional"
+                   type="email"
+                   required>
+        </div>
+
+    </form>
+    <hr>
+    <div class="modal-footer">
+        <button type="button"
+                class="btn btn-success"
+                data-ng-click="ProfessionalModalCtrl.salvar()">Salvar</button
+                ng-disabled="ProfessionalModalCtrl.isSalvarDisabled()">
+        <button type="button"
+                class="btn btn-default"
+                data-ng-click="ProfessionalModalCtrl.cancel()">Cancelar</button>
+    </div>
+</div>

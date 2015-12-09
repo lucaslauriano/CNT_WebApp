@@ -49,8 +49,8 @@
         "NEW": "Novo",
         "LIST": "Listar"
         },
-        "compras": {
-        "COMPRAS":"Compras",
+        "planos": {
+        "PLANOS":"Planos",
         "NEW": "Novo",
         "LIST": "Listar"
         }
@@ -86,9 +86,9 @@
       "DASHBOARD": "Dashboard"
     }
   },
-  "almox-sidebar": {
+  "estoque-sidebar": {
     "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Almoxarifado",
+    "MODULE": "Módulo Estoque",
     "heading": {
       "HEADER": "Navegação",
       "COMPONENTS": "Componentes",

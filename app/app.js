@@ -18,6 +18,8 @@
             'app.locale',
             'app.routes',
             'app.translate',
+            'app.utils',
+            'app.forms',
             /*content*/
             'app.icons',
             'app.preloader',
@@ -29,14 +31,11 @@
             'app.settings',
             /*modules*/
             'app.dashboard',
-            'app.utils',
-            'app.forms',
-            'app.pessoas',
-            'app.chamados',
-            'app.almox',
-            'app.vendas',
+            'app.estoque',
+            'app.financeiro',
             'app.ordens',
-            'app.financeiro'
+            'app.pessoas',
+            'app.vendas'
         ]);
 })();
 
@@ -47,12 +46,7 @@
         .module('app.colors', []);
 })();
 
-(function() {
-    'use strict';
 
-    angular
-        .module('app.dashboard', []);
-})();
 
 (function() {
     'use strict';
@@ -155,6 +149,20 @@
     'use strict';
 
     angular
+        .module('app.dashboard', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.estoque', []);
+})();
+
+(function() {
+    'use strict';
+
+    angular
         .module('app.pessoas', []);
 })();
 
@@ -179,19 +187,6 @@
         .module('app.ordens', []);
 })();
 
-(function() {
-    'use strict';
-
-    angular
-        .module('app.chamados', []);
-})();
-
-(function() {
-    'use strict';
-
-    angular
-        .module('app.almox', []);
-})();
 
 
 

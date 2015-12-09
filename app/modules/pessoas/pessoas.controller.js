@@ -23,6 +23,7 @@
         var viewModel = this;
 
         var PessoasService = $injector.get('app.pessoas.PessoasService');
+        
         var PublicProperties = {
             
         };
@@ -33,7 +34,7 @@
 
         function init() {
             PessoasService.getList().then(function(pessoas) {
-
+                 viewModel.pessoas = pessoas;
             });
 
         }

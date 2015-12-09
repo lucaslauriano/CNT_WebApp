@@ -16,6 +16,7 @@
     PessoasService.$inject = ['$injector'];
 
     function PessoasService($injector) {
+        
         var Restangular = $injector.get('Restangular');
 
         var PublicMethods = {

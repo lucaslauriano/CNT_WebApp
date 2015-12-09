@@ -1,12 +1,21 @@
 (function() {
     'use strict';
 
+     /**
+     * @ngdoc function
+     * @name app.translate
+     * @description
+     * # TranslateConfig
+     * Configuration of the app.translate
+     */
+
     angular
         .module('app.translate')
-        .config(translateConfig);
-    translateConfig.$inject = ['$translateProvider'];
+        .config(TranslateConfig);
+
+    TranslateConfig.$inject = ['$translateProvider'];
     
-    function translateConfig($translateProvider){
+    function TranslateConfig($translateProvider){
 
       $translateProvider.useStaticFilesLoader({
           prefix : 'common/translate/',

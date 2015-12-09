@@ -15,7 +15,8 @@
            '$scope', 
            '$state', 
            'SidebarLoader', 
-           'Utils'];
+           'Utils'
+    ];
 
     function SidebarController($rootScope, $scope, $state, SidebarLoader,  Utils) {
 

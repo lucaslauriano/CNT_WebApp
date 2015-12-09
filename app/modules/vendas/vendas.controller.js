@@ -3,30 +3,26 @@
 
     /**
      * @ngdoc function
-     * @name app.professionals:PessoasCtrl
+     * @name app.vendas:VendasCtrl
      * @description
-     * # PessoasCtrl
+     * # VendasCtrl
      * Modal Controller de app.professionals
      */
 
-    angular.module('app.pessoas')
-        .controller('app.pessoas.PessoasCtrl', PessoasCtrl);
+    angular.module('app.vendas')
+        .controller('app.vendas.VendasCtrl', VendasCtrl);
 
-    PessoasCtrl.$inject = [
+    VendasCtrl.$inject = [
         '$injector',
         '$rootScope',
         '$modal',
         '$log'
     ];
 
-    function PessoasCtrl($injector, $rootScope, $modal, $log) {
+    function VendasCtrl($injector, $rootScope, $modal, $log) {
         var viewModel = this;
 
-
-            viewModel.currentPage = 1;
-            viewModel.q = '';
-
-        var PessoasService = $injector.get('app.Pessoas.PessoasService');
+        var VendasService = $injector.get('app.vendas.VendasService');
         var PublicProperties = {
             
         };
@@ -36,7 +32,7 @@
         init();
 
         function init() {
-            PessoasService.customGETLIST().then(function(pessoas) {
+            VendasService.customGETLIST().then(function(vendas) {
 
             });
 

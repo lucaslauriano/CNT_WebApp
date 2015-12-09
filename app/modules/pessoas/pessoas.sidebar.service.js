@@ -1,18 +1,27 @@
 (function() {
     'use strict';
 
+    /**
+     * @ngdoc function
+     * @name app.pessoas.factory:PessoasSidebarLoader
+     * @description
+     * # PessoasSidebarLoader 
+     * Factory of the app.pessoas.PessoasSidebarLoader
+     */
+
     angular
         .module('app.pessoas')
         .service('PessoasSidebarLoader', PessoasSidebarLoader);
 
     PessoasSidebarLoader.$inject = ['$http'];
+
     function PessoasSidebarLoader($http) {
+      
         this.getMenu = getMenu;
 
-        //JSON com o texto para os itens de menus e menus.
         function getMenu(onReady, onError) {
           var menuJson = 'modules/pessoas/pessoas.sidebar-menu.json',
-               menuURL = menuJson + '?v=' + (new Date().getTime()); // jumps cache
+               menuURL = menuJson + '?v=' + (new Date().getTime()); 
             
           onError = onError || function() { alert('Falha ao carregar menu'); };
 

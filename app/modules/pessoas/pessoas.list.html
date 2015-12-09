@@ -38,20 +38,20 @@
                     </tr>
                 </tfoot>
                 <tbody>
-                    <tr data-ng-repeat="pessoas in PessoasCtrl.pessoas | filter:search | filter:searchText track by pessoas._id"
-                        data-ng-show="pessoas._id"
+                    <tr data-ng-repeat="pessoa in PessoasCtrl.pessoas | filter:search | filter:searchText track by pessoa.id"
+                        data-ng-show="pessoa.id"
                         >
                         
-                        <td>{{pessoas.nome}}
+                        <td>{{pessoa.nome}}
                         </td>
                         <td >
-                            {{pessoas.email}}
+                            {{pessoa.email}}
                         </td>
                         <td>
-                            {{pessoas.cpf}}
+                            {{pessoa.cpf}}
                         </td>
                         <td>
-                            {{pessoas.telefone}}
+                            {{pessoa.telefone}}
                         </td>
                         <td align="center">
                             <div class="btn-group">

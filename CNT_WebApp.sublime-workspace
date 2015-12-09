@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"lazyload"
+			],
+			[
+				"ngcon",
+				"ngconfig	ngconfig"
+			],
+			[
+				"ngco",
+				"ngconfig	ngconfig"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
 				"pa",
 				"padding-left"
 			],
 			[
 				"or",
 				"ordens"
-			],
-			[
-				"con",
-				"controllerAs"
 			],
 			[
 				"font",
@@ -38,10 +54,6 @@
 			[
 				"tota",
 				"totalItens"
-			],
-			[
-				"co",
-				"copy"
 			],
 			[
 				"re",
@@ -168,10 +180,6 @@
 				"listaLenght"
 			],
 			[
-				"ngcon",
-				"ngconfig	ngconfig"
-			],
-			[
 				"Lis",
 				"ListaService"
 			],
@@ -250,10 +258,6 @@
 			[
 				"contro",
 				"controllerAs"
-			],
-			[
-				"l",
-				"ListasService"
 			],
 			[
 				"va",
@@ -420,36 +424,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/scripts/app.route.config.js",
-			"settings":
-			{
-				"buffer_size": 9601,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 248 files for \"content/css/theme-a.css \" (case sensitive)\n\n0 matches",
-			"settings":
-			{
-				"buffer_size": 78,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 18221,
+				"buffer_size": 18084,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Lucas/Documents/app/common/lazyload/lazyload.constant.js",
+			"file": "app/content/preloader/preloader.directive.js",
 			"settings":
 			{
-				"buffer_size": 14336,
+				"buffer_size": 2720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/common/routes/app.route.config.js",
+			"settings":
+			{
+				"buffer_size": 8192,
 				"line_ending": "Windows"
 			}
 		}
@@ -461,10 +455,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "setjs",
+		"height": 252.0,
+		"last_filter": "set htm",
 		"selected_items":
 		[
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
 			[
 				"setjs",
 				"Set Syntax: JavaScript"
@@ -576,149 +574,149 @@
 	"expanded_folders":
 	[
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/css",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/icons",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/preloader",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/server",
-		"/C/Users/Lucas/Documents/app",
-		"/C/Users/Lucas/Documents/app/common",
-		"/C/Users/Lucas/Documents/app/common/lazyload",
-		"/C/Users/Lucas/Documents/app/content",
-		"/C/Users/Lucas/Documents/app/content/img/preloader",
-		"/C/Users/Lucas/Documents/app/modules"
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/locale",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/colors",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/preloader",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app"
 	],
 	"file_history":
 	[
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/pt-br.json",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.dashboard.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/app.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.sidebar.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.sidebar-menu.json",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.sidebar.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.sidebar.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.dashboard.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.modal.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/locale/locale.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/index.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/loadingbar/loadingbar.run.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/app-h.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.app.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/estoque/estoque.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard.controller.js",
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/backend-angular/app/common/routes/app.route.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard-controller.js",
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/backend-angular/app/modules/dashboard/dashboard-V2-controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard_v2.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard-V3-controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/app.translate.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/app.translate.run.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/animated-enabled.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard-controller2.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/colors/app.colors.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.provider.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/browser.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/check-all.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/load-css.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/now.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/reset-key.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/toggle-fullscreen.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/trigger-resize.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/utils/utils.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/icons/skycons-directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/preloader/preloader.directive.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.constant.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/locale/locale.config.js",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.config.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.run.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.constant.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/db.json",
+		"/C/Users/Lucas/Desktop/Fresh lesbian pussy casting_files/modernizr.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.dashboard.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.dashboard.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar-menu.json",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.modal.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/js/app.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard_v3.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.modalEdit.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/offsidebar.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.cad.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.app.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.app.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/fisica.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/app.css",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.service.js",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/professionals/professsionals.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.dashboard.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.modal.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.dashboard.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.modal.controller.js",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/professionals/professionals-cad.controller.js",
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/sweetalert.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.dashboard.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.modalEdit.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/juridica.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/juridica",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/fisica",
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/form-standard.html",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/professionals/professionals.list.html",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.service.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.controller.js",
+		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/professionals/professionals.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar.controller.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/Gruntfile.js",
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/app.route.config.js",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/styles/css/app.css",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/views/settings.html",
 		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/lazyload.constant.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/views/app-h.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/index.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/app.route.provider.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/scripts/almox.dashboard.controller.js",
-		"/C/Users/Lucas/Desktop/app/app.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.constant.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/top-navbar-h.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard_v3.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/Gruntfile.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/app.translate.config.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.config.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/app.settings.run.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/translate/pt-br.json",
-		"/C/Users/Lucas/Desktop/Gruntfile.js",
-		"/C/Users/Lucas/Desktop/Gruntfile (2).js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/templateCache.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/concat/scripts/vendor.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/.tmp/concat/scripts/scripts.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/CNT_WebApp.sublime-project",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/dashboard/dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/app.css",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/css/bootstrap.css",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/backend-angular/app/modules/panels.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/Procfile",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/web.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower_components/angular-i18n/pt-br.json",
-		"/C/Users/Lucas/Documents/CNET/CNET_OPENSHIFT/osyeoman/server.js",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/js/app.js",
-		"/C/Users/Lucas/Desktop/json profesionals.json",
-		"/C/Users/Lucas/Documents/Projetos/Angular_Firebase (Tarefas)/server.js",
-		"/C/Users/Lucas/Documents/Projetos/Angular_Firebase (Tarefas)/app.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.cad.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/bower_components/angular-i18n/en.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/app.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/ordens/ordens.cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/financeiro/financeiro.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/form-extended.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/form-validation.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.cad.html",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/backend-angular/app/common/routes/app.route.config.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/backend-angular/app/common/routes/app.route.provider.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/db.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/chamados/chamados.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.directive.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.modal.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.service.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.sidebar.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.dashboard.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas.list.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/routes/app.route.provider.js",
-		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/common/app.route.js",
-		"/C/Users/Lucas/Documents/Projetos/ProfessionalsCRUD/app/app.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/almox/almox.sidebar-menu.json",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar-menu.json",
-		"/C/Users/Lucas/Desktop/PESSOAS",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/theme-a.css",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/vendas/vendas.dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/dashboard/dashboard.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/dashboard-controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/app-h.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/app-pessoas.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/form-validation.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/pessoas/pessoas-cad.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/lazyload/lazyload.config.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/common/core/app.core.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/user/user-block.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/dashboard/dashboard-controller2.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/dashboard/dashboard2.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar2.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/theme-b.css",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/offsidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/app2.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/app.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/sidebar/sidebar.html",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/content/css/theme-i.css",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/modules/forms/ui-select.controller.js",
-		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/main/partials/settings/settings.html",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/form-validation.html"
+		"/C/Users/Lucas/Documents/CNET/CNT_WebApp/app/views/app-h.html"
 	],
 	"find":
 	{
@@ -729,6 +727,23 @@
 		"height": 110.0,
 		"where_history":
 		[
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\common",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules\\chamados",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules\\almox",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules\\pessoas\\pessoas.cad.controller.js",
+			"C:\\Users\\Lucas\\Documents\\Projetos\\ProfessionalsCRUD",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules\\vendas\\vendas.service.js",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
+			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app\\modules\\pessoas",
 			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
 			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
 			"C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp\\app",
@@ -836,6 +851,68 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Almoxarifado",
+			"almox",
+			"Almoxarifado",
+			"almox",
+			"Almoxarifado",
+			"html5",
+			"almox",
+			"AlmoxSidebarLoader",
+			"almox",
+			"almoxSidebar",
+			"AlmoxSidebarCtrl",
+			"AlmoxService",
+			"app.almox",
+			"char",
+			"dash2",
+			"contro",
+			"whirl",
+			"coreConfig",
+			"planos",
+			"function",
+			"sweet",
+			"route",
+			"sweetal",
+			"loda",
+			" collapse",
+			"collapse",
+			"tabset ",
+			"ChamadosSidebarCtrl",
+			"     \n",
+			"app.chamados.ChamadosSidebarCtrl",
+			"ChamadosSidebarLoader",
+			"vm",
+			"pessoas",
+			"sub",
+			"submited",
+			"vm",
+			"sweet",
+			"openModal",
+			"log",
+			"isSalvarDisabled",
+			"PessoasCadCtrl",
+			"vm",
+			"Finalizar",
+			"select",
+			"margin",
+			"col-sm-offset",
+			"margin",
+			"font",
+			"body",
+			"fff",
+			"pessoas",
+			"app.Pessoas.PessoasService",
+			"rangy",
+			"core",
+			"flot",
+			"styles",
+			"images",
+			"build",
+			"styles",
+			"images",
+			"ricks",
+			"rick",
 			"content/css/theme-a.css ",
 			"common",
 			"theme-a",
@@ -901,69 +978,7 @@
 			"Datepicker",
 			"date",
 			"select",
-			">\n",
-			"                                        \n",
-			"\n                                    ",
-			"chamadosGetMenu",
-			"etMenu",
-			"almoxGetMenu",
-			"AlmoxSidebarController",
-			"PessoasSidebarCtrl",
-			"app.layout.horizontal",
-			"appName",
-			"PessoasDashboardCtrl",
-			"dashboard.WELCOME",
-			" appName",
-			"app.Pessoas",
-			"app.Pessoas.PessoasServiceProvider",
-			"pro",
-			"professionals",
-			"Professionals",
-			"app-h",
-			"PessoasSidebarController",
-			"SidebarController",
-			"PessoasSidebarController",
-			"app.sidebar",
-			"<sidebar",
-			"AlmoxSidebarController",
-			"sidebar",
-			"AlmoxSidebarController",
-			"DashboardController",
-			"ng-controller",
-			"controlle",
-			"getMenu",
-			"user-block-name",
-			"sidebar.WELCOME",
-			"wel",
-			"sidebar.WELCOME",
-			"welcome",
-			"sidebar.nav.pessoas.NEW",
-			"SidebarLoader",
-			"getMenuItemPropClasses",
-			"get",
-			"\": \"\",",
-			"modulebasepath",
-			"app",
-			"sidebar-menu",
-			"sidebar-menu.json\n",
-			">\n",
-			"\n                                ",
-			"lodash",
-			"\"\n",
-			"ui.",
-			"valida",
-			"animate",
-			"professionals",
-			"More Info",
-			" <",
-			">",
-			"theme-h",
-			"white",
-			"TimepickerDemoCtrl",
-			"uiSelectController",
-			"imepickerDemoCtrl",
-			"background-image",
-			"back"
+			">\n"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -971,6 +986,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"vendas",
 			"pessoas",
 			"Pessoas",
 			"pessoas",
@@ -1005,89 +1021,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/app.route.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								879,
-								879
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18221,
+						"buffer_size": 18084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18204,
-								18204
+								15606,
+								15616
 							]
 						],
 						"settings":
@@ -1097,19 +1048,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Lucas/Documents/app/common/lazyload/lazyload.constant.js",
+					"buffer": 1,
+					"file": "app/content/preloader/preloader.directive.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 14336,
+						"buffer_size": 2720,
 						"regions":
 						{
 						},
@@ -1126,11 +1077,41 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 90.0,
+						"translation.x": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/common/routes/app.route.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2200,
+								2209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

@@ -26,7 +26,7 @@
             viewModel.currentPage = 1;
             viewModel.q = '';
 
-        var PessoasService = $injector.get('app.Pessoas.PessoasService');
+        var PessoasService = $injector.get('app.ordens.OrdensService');
         var PublicProperties = {
             
         };

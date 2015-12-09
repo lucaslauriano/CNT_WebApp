@@ -3,19 +3,19 @@
 
     /**
      * @ngdoc function
-     * @name app.pessoas.factory:PessoaService
+     * @name app.vendas.factory:PessoaService
      * @description
      * # PessoaService
      * Factory of the app.PessoaService
      */
 
     angular
-        .module('app.pessoas')
-        .factory('app.pessoas.PessoaService', PessoaService);
+        .module('app.vendas')
+        .factory('app.vendas.VendasService', VendasService);
 
-    PessoaService.$inject = ['$injector'];
+    VendasService.$inject = ['$injector'];
 
-    function PessoaService($injector) {
+    function VendasService($injector) {
         var Restangular = $injector.get('Restangular');
 
         var PublicMethods = {
@@ -29,25 +29,25 @@
         return PublicMethods;
 
         function _customGET(_q) {
-            return Restangular.one('pessoas').customGET();
+            return Restangular.one('vendas').customGET();
         }
 
         function _customGETLIST(_page, _pageSize, _q) {
-            return Restangular.all('pessoas').customGETLIST();
+            return Restangular.all('vendas').customGETLIST();
         }
 
         function _get(id) {
-            return Restangular.one('pessoas', id).get();
+            return Restangular.one('vendas', id).get();
         }
 
         function _salvar(pessoa) {
             return !pessoa._id?
-                Restangular.all('pessoas').post(pessoa) :
-                Restangular.one('pessoas').customPUT(pessoa, pessoa._id);
+                Restangular.all('vendas').post(pessoa) :
+                Restangular.one('vendas').customPUT(pessoa, pessoa._id);
         }
 
         function _deletar(idProfessional) {
-            return Restangular.one('pessoas', idPessoa).remove();
+            return Restangular.one('vendas', idPessoa).remove();
         }
     }
     

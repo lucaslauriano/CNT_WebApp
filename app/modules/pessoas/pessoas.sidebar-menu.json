@@ -15,13 +15,13 @@
     "translate": "pessoas-sidebar.nav.pessoas.PESSOAS"
   },
   {
-    "text": "Compras",
+    "text": "Planos",
     "sref": "#",
     "icon": "icon-user",
     "submenu": [
-      {"text": "New",    "sref": "app-compras.pessoas-new", "translate": "pessoas-sidebar.nav.compras.NEW" },
-      {"text": "List",    "sref": "app-pessoas.pessoas-list", "translate": "pessoas-sidebar.nav.compras.LIST" }
+      {"text": "New",    "sref": "app-pessoas.planos-new", "translate": "pessoas-sidebar.nav.planos.NEW" },
+      {"text": "List",    "sref": "app-pessoas.planos-list", "translate": "pessoas-sidebar.nav.planos.LIST" }
     ],
-    "translate": "pessoas-sidebar.nav.compras.COMPRAS"
+    "translate": "pessoas-sidebar.nav.planos.PLANOS"
   }
 ]

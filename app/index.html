@@ -11,10 +11,10 @@
    <!-- Usemin block -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
    <link rel="stylesheet" href="content/css/bootstrap.css" data-ng-if="!app.layout.isRTL">
-   <link rel="stylesheet" href="content/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
-   <link rel='stylesheet' href='bower_components/textAngular/dist/textAngular.css'>
    <link rel="stylesheet" href="content/css/app.css" data-ng-if="!app.layout.isRTL">
+   <link rel="stylesheet" href="content/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
    <link rel="stylesheet" href="content/css/app-rtl.css" data-ng-if="app.layout.isRTL">
+   <link rel='stylesheet' href='bower_components/textAngular/dist/textAngular.css'>
    <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
    <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css" />
    <link rel="stylesheet" href="bower_components/select2/select2-bootstrap.css" />
@@ -175,6 +175,15 @@
     <script src="common/routes/app.route.provider.js"></script>
     <script src="common/translate/app.translate.config.js"></script>
     <script src="common/translate/app.translate.run.js"></script>
+    <script src="common/utils/animated-enabled.directive.js"></script>
+    <script src="common/utils/browser.service.js"></script>
+    <script src="common/utils/check-all.directive.js"></script>
+    <script src="common/utils/load-css.directive.js"></script>
+    <script src="common/utils/now.directive.js"></script>
+    <script src="common/utils/reset-key.directive.js"></script>
+    <script src="common/utils/toggle-fullscreen.directive.js"></script>
+    <script src="common/utils/trigger-resize.directive.js"></script>
+    <script src="common/utils/utils.service.js"></script>
     <script src="content/colors/app.colors-service.js"></script>
     <script src="content/colors/app.colors.js"></script>
     <script src="content/icons/skycons-directive.js"></script>
@@ -189,9 +198,7 @@
     <script src="main/sidebar/sidebar.directive.js"></script>
     <script src="main/sidebar/sidebar.service.js"></script>
     <script src="main/partials/settings/app.settings.run.js"></script>
-    <script src="main/dashboard/dashboard-controller2.js"></script>
-    <script src="main/dashboard/dashboard-V2-controller.js"></script>
-    <script src="main/dashboard/dashboard-V3-controller.js"></script>
+    <script src="main/dashboard/dashboard.controller.js"></script>
     <script src="modules/forms/color-picker.controller.js"></script>
     <script src="modules/forms/file-style.directive.js"></script>
     <script src="modules/forms/form-imgcrop.controller.js"></script>
@@ -205,16 +212,17 @@
     <script src="modules/forms/ui-select.controller.js"></script>
     <script src="modules/forms/upload.controller.js"></script>
     <script src="modules/forms/validate-form.directive.js"></script>
-    <script src="modules/almox/almox.cad.controller.js"></script>
-    <script src="modules/almox/almox.controller.js"></script>
-    <script src="modules/almox/almox.modal.controller.js"></script>
-    <script src="modules/almox/almox.service.js"></script>
-    <script src="modules/almox/almox.sidebar.service.js"></script>
-    <script src="modules/almox/almox.sidebar.controller.js"></script>
-    <script src="modules/almox/almox.dashboard.controller.js"></script>   
+    <script src="modules/estoque/estoque.cad.controller.js"></script>
+    <script src="modules/estoque/estoque.controller.js"></script>
+    <script src="modules/estoque/estoque.modal.controller.js"></script>
+    <script src="modules/estoque/estoque.service.js"></script>
+    <script src="modules/estoque/estoque.sidebar.service.js"></script>
+    <script src="modules/estoque/estoque.sidebar.controller.js"></script>
+    <script src="modules/estoque/estoque.dashboard.controller.js"></script>   
     <script src="modules/pessoas/pessoas.service.js"></script>
     <script src="modules/pessoas/pessoas.sidebar.service.js"></script>
     <script src="modules/pessoas/pessoas.cad.controller.js"></script>
+    <script src="modules/pessoas/pessoas.panels.js"></script>
     <script src="modules/pessoas/pessoas.controller.js"></script>
     <script src="modules/pessoas/pessoas.dashboard.controller.js"></script>
     <script src="modules/pessoas/pessoas.modal.controller.js"></script>
@@ -233,13 +241,6 @@
     <script src="modules/vendas/vendas.sidebar.service.js"></script>
     <script src="modules/vendas/vendas.sidebar.controller.js"></script>
     <script src="modules/vendas/vendas.dashboard.controller.js"></script>  
-    <script src="modules/chamados/chamados.cad.controller.js"></script>
-    <script src="modules/chamados/chamados.controller.js"></script>
-    <script src="modules/chamados/chamados.modal.controller.js"></script>
-    <script src="modules/chamados/chamados.service.js"></script>
-    <script src="modules/chamados/chamados.sidebar.service.js"></script>
-    <script src="modules/chamados/chamados.sidebar.controller.js"></script>
-    <script src="modules/chamados/chamados.dashboard.controller.js"></script>   
     <script src="modules/ordens/ordens.cad.controller.js"></script>
     <script src="modules/ordens/ordens.controller.js"></script>
     <script src="modules/ordens/ordens.modal.controller.js"></script>
@@ -248,15 +249,6 @@
     <script src="modules/ordens/ordens.sidebar.controller.js"></script>
     <script src="modules/ordens/ordens.dashboard.controller.js"></script>    
     <script src="modules/user/user-block.controller.js"></script>
-    <script src="modules/utils/animated-enabled.directive.js"></script>
-    <script src="modules/utils/browser.service.js"></script>
-    <script src="modules/utils/check-all.directive.js"></script>
-    <script src="modules/utils/load-css.directive.js"></script>
-    <script src="modules/utils/now.directive.js"></script>
-    <script src="modules/utils/reset-key.directive.js"></script>
-    <script src="modules/utils/toggle-fullscreen.directive.js"></script>
-    <script src="modules/utils/trigger-resize.directive.js"></script>
-    <script src="modules/utils/utils.service.js"></script>
     <!-- endbuild -->
  <body>
 

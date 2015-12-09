@@ -1,34 +1,33 @@
-/**=========================================================
- * Module: config.js
- * App routes and resources configuration
- =========================================================*/
-
 (function() {
     'use strict';
 
+     /**
+     * @ngdoc function
+     * @name app.route
+     * @description
+     * # RoutesConfig
+     * Configuration of the app.route
+     */
+
     angular
         .module('app.routes')
-        .config(routesConfig);
+        .config(RoutesConfig);
 
-    routesConfig.$inject = [
+    RoutesConfig.$inject = [
           '$stateProvider', 
           '$locationProvider', 
           '$urlRouterProvider',
           'RestangularProvider', 
           'RouteHelpersProvider'];
           
-    function routesConfig($stateProvider, $locationProvider, $urlRouterProvider, RestangularProvider, helper){
+    function RoutesConfig($stateProvider, $locationProvider, $urlRouterProvider, RestangularProvider, helper){
 
         // Set the following to true to enable the HTML5 Mode
         // You may have to set <base> tag in index and a routing configuration in your server
         $locationProvider.html5Mode(false);
 
-        // defaults to dashboard
         $urlRouterProvider.otherwise('/app-h/dashboard');
 
-        //
-        // Application Routes
-        // -----------------------------------
         $stateProvider
           .state('app-h', {
               url: '/app-h',
@@ -38,55 +37,25 @@
           })
           .state('app-h.dashboard', {
               url: '/dashboard',
+              title: 'Dashboard',
               templateUrl: helper.mainbasepath('dashboard/dashboard.html'),
               controller: 'DashboardV2Controller',
               controllerAs: 'dash2',
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
           })
-          .state('app.dashboard_v2', {
-              url: '/dashboard_v2',
-              title: 'Dashboard v2',
-              templateUrl: helper.modulebasepath('dashboard/dashboard_v2.html'),
-              controller: 'DashboardV2Controller',
-              controllerAs: 'dash2',
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins')
-          })
-          .state('app.dashboard_v3', {
-              url: '/dashboard_v3',
-              title: 'Dashboard v3',
-              controller: 'DashboardV3Controller',
-              controllerAs: 'dash3',
-              templateUrl: helper.modulebasepath('dashboard/dashboard_v3.html'),
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'vector-map', 'vector-map-maps')
-          })
-          // ALMOXARIFADO
-          .state('app-almox', {
-              url: '/app-almox',
+          // ESTOQUE
+          .state('app-estoque', {
+              url: '/app-estoque',
               abstract: true,
-              templateUrl: helper.modulebasepath('almox/almox.app.html'),
-              controller: 'app.almox.AlmoxSidebarCtrl',
+              templateUrl: helper.modulebasepath('estoque/estoque.app.html'),
+              controller: 'app.estoque.EstoqueSidebarCtrl',
               controllerAs: 'AlmoxSidebarCtrl',
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'toaster', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'whirl')
           })
-          .state('app-almox.dashboard', {
+          .state('app-estoque.dashboard', {
               url: '/dashboard',
-              title: 'Dashboard Almox',
-              templateUrl: helper.modulebasepath('almox/almox.dashboard.html'),
-              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
-          })
-          // CHAMADOS
-          .state('app-chamados', {
-              url: '/app-chamados',
-              abstract: true,
-              templateUrl: helper.modulebasepath('chamados/chamados.app.html'),
-              controller: 'app.chamados.ChamadosSidebarCtrl',
-              controllerAs: 'ChamadosSidebarCtrl',
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
-          })
-          .state('app-chamados.dashboard', {
-              url: '/dashboard',
-              title: 'Dashboard Financeiro',
-              templateUrl: helper.modulebasepath('chamados/chamados.dashboard.html'),
+              title: 'Dashboard Estoque',
+              templateUrl: helper.modulebasepath('estoque/estoque.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
           // FINANCEIRO
@@ -96,7 +65,8 @@
               templateUrl: helper.modulebasepath('financeiro/financeiro.app.html'),
               controller: 'app.financeiro.FinanceiroSidebarCtrl',
               controllerAs: 'FinanceiroSidebarCtrl',
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo',
+                                         'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-financeiro.dashboard', {
               url: '/dashboard',
@@ -126,7 +96,7 @@
               controller: 'app.pessoas.PessoasSidebarCtrl',
               controllerAs: 'PessoasSidebarCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.app.html'),
-              resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
+              resolve: helper.resolveFor('fastclick', 'oitozero.ngSweetAlert', 'modernizr', 'icons', 'screenfull', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'toaster', 'whirl')
           })
           .state('app-pessoas.dashboard', {
               url: '/dashboard',
@@ -217,8 +187,7 @@
           //   )
           // })
           ;
-
-
           
+          RestangularProvider.setBaseUrl('http://localhost:3000');
     }
 })();

@@ -1,10 +1,13 @@
-/**=========================================================
- * Module: helpers.js
- * Provides helper functions for routes definition
- =========================================================*/
-
 (function() {
     'use strict';
+    
+     /**
+     * @ngdoc function
+     * @name app.route
+     * @description
+     * # RouteHelpers
+     * Configuration of the app.route
+     */
 
     angular
         .module('app.routes')

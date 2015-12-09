@@ -1,4 +1,5 @@
 <div class="row">
+    <div class="col-lg-offset-2"></div>
     <div class="col-lg-2 col-sm-6">
         <div class="circle-tile">
             <a href="#/app-pessoas/dashboard" name="setting-theme" ng-model="app.layout.theme" value="content/css/theme-c.css">
@@ -6,7 +7,7 @@
                     <i class="fa fa-users fa-fw fa-3x"></i>
                 </div>
             </a>
-            <div class="circle-tile-content dark-blue">
+            <div class="circle-tile-content very-dark-blue">
                 <div class="circle-tile-description text-faded">
                     PESSOAS
                 </div>
@@ -25,10 +26,10 @@
         <div class="circle-tile">
             <a href="#/app-financeiro/dashboard">
                 <div class="circle-tile-heading blue-light">
-                    <i class="fa fa-users fa-fw fa-3x"></i>
+                    <i class="fa fa-dollar fa-3x"></i>
                 </div>
             </a>
-            <div class="circle-tile-content blue-light">
+            <div class="circle-tile-content blue">
                 <div class="circle-tile-description text-faded">
                     FINANCEIRO
                 </div>
@@ -46,7 +47,7 @@
                     <i class="fa fa-money fa-fw fa-3x"></i>
                 </div>
             </a>
-            <div class="circle-tile-content green">
+            <div class="circle-tile-content dark-green">
                 <div class="circle-tile-description text-faded">
                     VENDAS
                 </div>
@@ -63,11 +64,11 @@
     <div class="col-lg-2 col-sm-6">
         <div class="circle-tile">
             <a href="#/app-ordens/dashboard">
-                <div class="circle-tile-heading blue">
+                <div class="circle-tile-heading gray">
                     <i class="fa fa-tasks fa-fw fa-3x"></i>
                 </div>
             </a>
-            <div class="circle-tile-content blue">
+            <div class="circle-tile-content gray-dark ">
                 <div class="circle-tile-description text-faded">
                     ORDEM DE SERVIÇO
                 </div>
@@ -84,14 +85,14 @@
     </div>
     <div class="col-lg-2 col-sm-6">
         <div class="circle-tile">
-            <a href="#/app-almox/dashboard">
+            <a href="#/app-estoque/dashboard">
                 <div class="circle-tile-heading purple-dark">
-                    <i class="fa fa-users fa-fw fa-3x"></i>
+                    <i class="fa fa-archive fa-fw fa-3x"></i>
                 </div>
             </a>
-            <div class="circle-tile-content purple-dark">
+            <div class="circle-tile-content purple">
                 <div class="circle-tile-description text-faded">
-                    ALMOXARIFADO
+                    ESTOQUE
                 </div>
                 <div class="circle-tile-number text-faded">
                     <span id="sparklineA"><canvas width="29" height="24" style="display: inline-block; width: 29px; height: 24px; vertical-align: top;"></canvas></span>
@@ -100,120 +101,82 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-2 col-sm-6">
-        <div class="circle-tile">
-            <a href="#/app-chamados/dashboard">
-                <div class="circle-tile-heading red-dark">
-                    <i class="fa fa-bell fa-fw fa-3x"></i>
+</div>
+<hr>
+<div class="row">
+    <div id="panelPortlet4" class="panel widget dark-blue col-lg-3 col-sm-3">
+        <div class="portlet-handler">
+            <div class="row row-table row-flush">
+                <div class="col-xs-4 very-dark-blue text-center">
+                    <em class="fa fa-users  fa-3x font"></em>
                 </div>
-            </a>
-            <div class="circle-tile-content red-dark">
-                <div class="circle-tile-description text-faded">
-                    CHAMADOS
+                <div class="col-xs-8">
+                    <div class="panel-body text-center ">
+                        <h4 class="mt0 font">Módulo</h4>
+                        <p class="mb0 font">PESSOAS</p>
+                    </div>
                 </div>
-                <div class="circle-tile-number text-faded">
-                    <span id="sparklineB">
-                        <canvas width="24" height="24" style="display: inline-block; width: 24px; height: 24px; vertical-align: top;">
-                            
-                        </canvas>
-                    </span>
-                </div>
-                <a href="#" class="circle-tile-footer">Mais Informações <i class="fa fa-chevron-circle-right"></i></a>
             </div>
         </div>
     </div>
-</div>
-
-
-<div class="row">
-     <div id="panelPortlet4" class="panel widget dark-blue col-lg-3 col-sm-3 ">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4 very-dark-blue text-center">
-                     <em class="fa fa-users  fa-3x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center ">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0 ">PESSOAS</p>
-                     </div>
-                  </div>
-               </div>
+    <div id="panelPortlet4" class="panel widget blue-light col-lg-3 col-sm-3 margin-1">
+        <div class="portlet-handler">
+            <div class="row row-table row-flush">
+                <div class="col-xs-4  blue text-center">
+                    <em class="fa fa-dollar fa-3x font"></em>
+                </div>
+                <div class="col-xs-8">
+                    <div class="panel-body text-center  ">
+                        <h4 class="mt0 font">Módulo</h4>
+                        <p class="mb0 font">FINANCEIRO</p>
+                    </div>
+                </div>
             </div>
-         </div>
-        <div id="panelPortlet4" class="panel widget very-blue-light   col-lg-3 col-sm-3 col-sm-offset-1">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4  blue-light text-center">
-                     <em class="fa fa-dollar fa-3x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center  ">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0">FINANCEIRO</p>
-                     </div>
-                  </div>
-               </div>
+        </div>
+    </div>
+    <div id="panelPortlet4" class="panel widget  green col-lg-3 col-sm-3 margin-1">
+        <div class="portlet-handler">
+            <div class="row row-table row-flush">
+                <div class="col-xs-4 dark-green text-center">
+                    <em class="fa fa-money fa-3x font"></em>
+                </div>
+                <div class="col-xs-8">
+                    <div class="panel-body text-center">
+                        <h4 class="mt0 font">Módulo</h4>
+                        <p class="mb0 font">VENDAS</p>
+                    </div>
+                </div>
             </div>
-         </div>
-               <div id="panelPortlet4" class="panel widget  green col-lg-3 col-sm-3 col-sm-offset-1">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4 dark-green text-center">
-                     <em class="fa fa-music fa-2x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0">VENDAS</p>
-                     </div>
-                  </div>
-               </div>
+        </div>
+    </div>
+    <div id="panelPortlet4" class="panel widget gray  col-sm-3 margin-1">
+        <div class="portlet-handler">
+            <div class="row row-table row-flush">
+                <div class="col-xs-4 gray-dark text-center">
+                    <em class="fa fa-tasks fa-3x font"></em>
+                </div>
+                <div class="col-xs-8">
+                    <div class="panel-body text-center">
+                        <h4 class="mt0 font">Módulo</h4>
+                        <p class="mb0 font"> ORDEM DE SERVIÇO</p>
+                    </div>
+                </div>
             </div>
-         </div>
-               <div id="panelPortlet4" class="panel widget  col-sm-3 col-sm-offset-1">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4 blue-light text-center">
-                     <em class="fa fa-music fa-2x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0"> ORDEM DE SERVIÇO</p>
-                     </div>
-                  </div>
-               </div>
+        </div>
+    </div>
+    <div id="panelPortlet4" class="panel widget purple col-sm-3 margin-1">
+        <div class="portlet-handler">
+            <div class="row row-table row-flush">
+                <div class="col-xs-4 purple-dark text-center">
+                    <em class="fa fa-archive fa-3x font"></em>
+                </div>
+                <div class="col-xs-8">
+                    <div class="panel-body  text-center">
+                        <h4 class="mt0 font">Módulo</h4>
+                        <p class="mb0 font">ESTOQUE</p>
+                    </div>
+                </div>
             </div>
-         </div>
-               <div id="panelPortlet4" class="panel widget col-sm-3 col-sm-offset-1">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4 blue-light text-center">
-                     <em class="fa fa-music fa-2x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0">ALMOXARIFADO</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-               <div id="panelPortlet4" class="panel widget red-light  col-sm-3 col-sm-offset-1">  
-            <div class="portlet-handler">
-               <div class="row row-table row-flush">
-                  <div class="col-xs-4 red-dark text-center">
-                     <em class="fa fa-music fa-2x"></em>
-                  </div>
-                  <div class="col-xs-8">
-                     <div class="panel-body text-center">
-                        <h4 class="mt0">Módulo</h4>
-                        <p class="mb0">CHAMADOS</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+        </div>
+    </div>
 </div>

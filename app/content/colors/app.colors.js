@@ -1,13 +1,14 @@
 (function() {
     'use strict';
+
     /**
      * @ngdoc overview
      * @name app.colors
      * @description
-     * # app.colors
-     *
+     * # APP_COLORS
      * Constants do app.colors
      */
+
     angular
         .module('app.colors')
         .constant('APP_COLORS', {

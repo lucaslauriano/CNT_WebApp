@@ -1,13 +1,18 @@
-/**=========================================================
- * Module: lazyload-constant.js
- =========================================================*/
-
 (function() {
     'use strict';
 
+    /**
+     * @ngdoc function
+     * @name app.lazyload
+     * @description
+     * # APP_REQUIRES
+     * Configuration of the app.lazyload
+     */
+     
     angular
         .module('app.lazyload')
         .constant('APP_REQUIRES', {
+            
             // jQuery based and standalone scripts
             scripts: {
                 'whirl': ['bower_components/whirl/dist/whirl.css'],
@@ -34,7 +39,7 @@
                                     'bower_components/ika.jvectormap/jquery-jvectormap-us-mill-en.js'
                 ],
                 'loadGoogleMapsJS': ['bower_components/gmap/load-google-maps.js'],
-                'flot-chart': ['bower_components/Flot/jquery.flot.js'],
+                'flot-chart': ['https://cdn.jsdelivr.net/jquery.flot/0.8.3/jquery.flot.min.js'],
                 'flot-chart-plugins': ['bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js',
                                        'bower_components/Flot/jquery.flot.resize.js',
                                        'bower_components/Flot/jquery.flot.pie.js',
@@ -43,23 +48,23 @@
                                        'bower_components/flot-spline/js/jquery.flot.spline.js'
                 ],
                 // jqy core and widgets
-                'jquery-ui': ['bower_components/jquery-ui/ui/core.js',
-                              'bower_components/jquery-ui/ui/widget.js'
+                'jquery-ui': ['http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.core.min.js',
+                              'http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.widget.min.js'
                 ],
                 // ls only jquery required modules and touch support
-                'jquery-ui-widgets': ['bower_components/jquery-ui/ui/core.js',
-                                      'bower_components/jquery-ui/ui/widget.js',
-                                      'bower_components/jquery-ui/ui/mouse.js',
-                                      'bower_components/jquery-ui/ui/draggable.js',
-                                      'bower_componentsr/jquery-ui/ui/droppable.js',
-                                      'bower_components/jquery-ui/ui/sortable.js',
-                                      'bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.min.js'
+                'jquery-ui-widgets': ['http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.core.min.jss',
+                                      'http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.widget.min.js',
+                                      'http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.mouse.min.js',
+                                      'http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.draggable.min.js',
+                                      'http://dhmh.maryland.gov/laboratories/cdcsearch/Style%20Library/jquery/ui/minified/jquery.ui.droppable.min.js',
+                                      'https://cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.4/sortable.min.js',
+                                      'https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'
                 ],
-                'moment': ['bower_components/moment/min/moment-with-locales.min.js'],
+                'moment': ['https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'],
                 'inputmask': ['bower_components/jquery.inputmask/dist/jquery.inputmask.bundle.js'],
-                'flatdoc': ['bower_components/flatdoc/flatdoc.js'],
-                'codemirror': ['bower_components/codemirror/lib/codemirror.js',
-                               'bower_components/codemirror/lib/codemirror.css'
+                'flatdoc': ['https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'],
+                'codemirror': ['https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.9.0/codemirror.min.js',
+                               'https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.9.0/codemirror.css'
                 ],
                 // modes for common web fil            
                 'codemirror-modes-web': ['bower_components/codemirror/mode/javascript/javascript.js',
@@ -156,23 +161,23 @@
                 ]
             }, {
                 name: 'infinite-scroll',
-                files: ['bower_componentsr/ngInfiniteScroll/build/ng-infinite-scroll.js']
+                files: ['https://cdnjs.cloudflare.com/ajax/libs/ngInfiniteScroll/1.2.1/ng-infinite-scroll.min.js']
             }, {
                 name: 'ui.bootstrap-slider',
-                files: ['bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.min.js',
+                files: ['https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/5.3.0/bootstrap-slider.min.js',
                         'bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min.css',
                         'bower_components/angular-bootstrap-slider/slider.js'
                 ]
             }, {
                 name: 'ui.grid',
                 files: ['bower_components/angular-ui-grid/ui-grid.min.css',
-                        'bower_components/angular-ui-grid/ui-grid.min.js'
+                        'https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.0.7/ui-grid.min.js'
                 ]
             }, {
                 name: 'textAngular',
                 files: ['bower_components/textAngular/dist/textAngular.css',
                         'bower_components/textAngular/dist/textAngular-rangy.min.js',
-                        'bower_components/textAngular/dist/textAngular-sanitize.js',
+                        'http://cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0/textAngular-sanitize.min.js',
                         'bower_components/textAngular/src/globals.js',
                         'bower_components/textAngular/src/factories.js',
                         'bower_components/textAngular/src/DOM.js',
@@ -180,7 +185,7 @@
                         'bower_components/textAngular/src/taBind.js',
                         'bower_components/textAngular/src/main.js',
                         'bower_components/textAngular/dist/textAngularSetup.js',
-                        'bower_components/textAngular/dist/textAngular.min.js'
+                        'https://cdnjs.cloudflare.com/ajax/libs/textAngular/1.4.6/textAngular.min.js'
                 ],
                 serie: true
             }, {
@@ -233,9 +238,9 @@
                 files: ['bower_components/angular-deckgrid/angular-deckgrid.js']
             }, {
                 name: 'oitozero.ngSweetAlert',
-                files: ['bower_components/sweetalert/dist/sweetalert.css',
-                        'bower_components/sweetalert/dist/sweetalert.min.js',
-                        'bower_components/angular-sweetalert/SweetAlert.js'
+                files: ['https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css',
+                        'https://cdn.jsdelivr.net/sweetalert/1.1.3/sweetalert.min.js',
+                        'bower_components/ngsweetalert/SweetAlert.js'
                 ]
             }, {
                 name: 'bm.bsTour',

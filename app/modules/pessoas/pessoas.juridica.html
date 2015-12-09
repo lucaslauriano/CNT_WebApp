@@ -1,0 +1,57 @@
+<fieldset>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <div class="controls">
+                    <input type="text" 
+                           name="username" 
+                           placeholder="Razão Social" 
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <div class="controls">
+                    <input type="text" 
+                           name="username" 
+                           placeholder="Nome Fantasia" 
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <select name="select" required="" ng-model="select" class="form-control">
+                <option value="">Ramo de Atividade</option>
+                <option value="1">Gráfica</option>
+                <option value="2">Calçado</option>
+                <option value="3">Vestuário</option>
+                <option value="4">Bebidas</option>
+                <option value="5">Mobiliário</option>
+                <option value="6">Couros</option>
+                <option value="7">Metalurgia</option>
+                <option value="8">Mecânica</option>
+            </select>
+            <span ng-show="form.validateInput('select', 'required')" class="text-danger">Campo obrigatório</span>
+        </div>
+    </div>
+</fieldset>
+<div class="form-group">
+    <label class="col-sm-1 control-label">CNPJ</label>
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" 
+                   masked="" 
+                   data-inputmask="'mask': '99.999.999/9999-99'" 
+                   class="form-control" />
+        </div>
+        <label class="col-sm-2 control-label">Inscrição Estadual</label>
+        <div class="col-sm-3">
+            <input type="text" 
+                   masked="" 
+                   data-inputmask="'mask': '999.999.999'" 
+                   class="form-control" />
+        </div>
+    </div>
+</div>
+<!-- EndPessoaJurídica -->

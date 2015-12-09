@@ -3,11 +3,12 @@
 
     /**
      * @ngdoc function
-     * @name app.icons.directive:directive
+     * @name app.icons.skycon:skycon
      * @description
-     * # directive
+     * # skycon
      * directive of the app.icons
      */
+     
     angular
         .module('app.icons')
         .directive('skycon', skycon);

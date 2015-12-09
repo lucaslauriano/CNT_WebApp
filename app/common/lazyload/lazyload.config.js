@@ -1,25 +1,30 @@
-/**=========================================================
- * Module: lazyload-config.js
- * Demo for locale settings
- =========================================================*/
-
- (function() {
+(function() {
     'use strict';
 
+    /**
+     * @ngdoc function
+     * @name app.lazyload
+     * @description
+     * # LazyLoadConfig
+     * Configuration of the app.lazyload
+     */
+     
     angular
         .module('app.lazyload')
-        .config(lazyloadConfig);
+        .config(LazyLoadConfig);
 
-    lazyloadConfig.$inject = ['$ocLazyLoadProvider', 'APP_REQUIRES'];
-    
-    function lazyloadConfig($ocLazyLoadProvider, APP_REQUIRES){
+    LazyLoadConfig.$inject = [
+        '$ocLazyLoadProvider',
+        'APP_REQUIRES'
+    ];
 
-      // Lazy Load modules configuration
-      $ocLazyLoadProvider.config({
-        debug: false,
-        events: true,
-        modules: APP_REQUIRES.modules
-      });
+    function LazyLoadConfig($ocLazyLoadProvider, APP_REQUIRES) {
+        // Lazy Load modules configuration
+        $ocLazyLoadProvider.config({
+            debug: false,
+            events: true,
+            modules: APP_REQUIRES.modules
+        });
 
     }
 })();
