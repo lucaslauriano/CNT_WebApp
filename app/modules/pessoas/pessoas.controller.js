@@ -33,10 +33,13 @@
         init();
 
         function init() {
-            PessoasService.getList().then(function(pessoas) {
-                 viewModel.pessoas = pessoas;
+            PessoasService.getListFisica().then(function(fisicas) {
+                 viewModel.fisicas = fisicas;
             });
 
+            PessoasService.getListJuridica().then(function(juridicas) {
+                 viewModel.juridicas = juridicas;
+            });
         }
     }
 })();

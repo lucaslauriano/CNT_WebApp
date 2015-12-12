@@ -32,8 +32,6 @@
           }
 
           // Handle sidebar and collapse items
-          // ----------------------------------
-          
           $scope.getMenuItemPropClasses = function(item) {
             return (item.heading ? 'nav-heading' : '') +
                    (isActive(item) ? ' active' : '') ;

@@ -49,7 +49,7 @@
               abstract: true,
               templateUrl: helper.modulebasepath('estoque/estoque.app.html'),
               controller: 'app.estoque.EstoqueSidebarCtrl',
-              controllerAs: 'AlmoxSidebarCtrl',
+              controllerAs: 'EstoqueSidebarCtrl',
               resolve: helper.resolveFor('fastclick', 'modernizr', 'icons', 'screenfull', 'toaster', 'animo', 'sparklines', 'slimscroll', 'classyloader', 'whirl')
           })
           .state('app-estoque.dashboard', {
@@ -74,6 +74,42 @@
               templateUrl: helper.modulebasepath('financeiro/financeiro.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
+          .state('app-financeiro.caixa-diario', {
+              url: '/caixa-diario',
+              title: 'Fluxo de Caixa Diário',
+              templateUrl: helper.modulebasepath('financeiro/caixa/fluxo-caixa.diario.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-financeiro.caixa-mensal', {
+              url: '/caixa-mensal',
+              title: 'Fluxo de Caixa Mensal',
+              templateUrl: helper.modulebasepath('financeiro/caixa/fluxo-caixa.mensal.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-financeiro.op-pagar', {
+              url: '/op-pagar',
+              title: 'Contas a Pagar',
+              templateUrl: helper.modulebasepath('financeiro/contas/contas-pagar.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-financeiro.op-receber', {
+              url: '/op-receber',
+              title: 'Contas a Receber',
+              templateUrl: helper.modulebasepath('financeiro/contas/contas-receber.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-financeiro.extrato', {
+              url: '/extrato',
+              title: 'Extrato',
+              templateUrl: helper.modulebasepath('financeiro/extrato/extrato.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-financeiro.contas-banc', {
+              url: '/contas-banc',
+              title: 'Contas Bancárias',
+              templateUrl: helper.modulebasepath('financeiro/contas/contas-bancarias.html'),
+              resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')    
+          })       
           // ORDENS DE SERVIÇO 
           .state('app-ordens', {
               url: '/app-ordens',
@@ -110,7 +146,7 @@
               controller: 'app.pessoas.PessoasCadCtrl',
               controllerAs: 'PessoasCadCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.cad.html'),
-              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives', 'textAngular')
           })
            .state('app-pessoas.pessoas-list', {
               url: '/pessoas-list',
@@ -118,6 +154,31 @@
               controller: 'app.pessoas.PessoasCtrl',
               controllerAs: 'PessoasCtrl',
               templateUrl: helper.modulebasepath('pessoas/pessoas.list.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
+          })
+          //PESSOAS-PLANOS
+          .state('app-pessoas.planos-add', {
+              url: '/planos-add',
+              title: 'Planos Add',
+              controller: 'app.pessoas.planos.PlanosAddCtrl',
+              controllerAs: 'PlanosAddCtrl',
+              templateUrl: helper.modulebasepath('pessoas/planos/planos.add.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
+          })
+           .state('app-pessoas.planos-new', {
+              url: '/planos-new',
+              title: 'Planos New',
+              controller: 'app.pessoas.planos.PlanosCadCtrl',
+              controllerAs: 'PlanosCadCtrl',
+              templateUrl: helper.modulebasepath('pessoas/planos/planos.cad.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider')
+          })
+           .state('app-pessoas.planos-list', {
+              url: '/planos-list',
+              title: 'Planos List',
+              controller: 'app.pessoas.planos.PlanosCtrl',
+              controllerAs: 'PlanosCtrl',
+              templateUrl: helper.modulebasepath('pessoas//planos/planos.list.html'),
               resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
           // VENDAS
@@ -168,7 +229,7 @@
               url: '/404',
               title: 'Not Found',
               templateUrl: 'main/pages/404.html'
-          })
+          });
 
           //
           // CUSTOM RESOLVES
@@ -186,7 +247,7 @@
           //     }
           //   )
           // })
-          ;
+         
           
           RestangularProvider.setBaseUrl('http://localhost:3000');
     }

@@ -17,11 +17,8 @@
             </div>
         </div>
         <div class="panel-body">
-            <table class="table
-                          table-striped
-                          table-hover
-                          table-bordered
-                          table-condensed">
+            <legend>Físicas</legend>
+            <table class="table table-striped table-bordered table-hover">
                 <thead>
                     <tr>
                         <th widh="30%">Nome</th>
@@ -38,20 +35,73 @@
                     </tr>
                 </tfoot>
                 <tbody>
-                    <tr data-ng-repeat="pessoa in PessoasCtrl.pessoas | filter:search | filter:searchText track by pessoa.id"
-                        data-ng-show="pessoa.id"
+                    <tr data-ng-repeat="fisica in PessoasCtrl.fisicas | filter:search | filter:searchText track by fisica.id"
+                        data-ng-show="fisica.id"
                         >
                         
-                        <td>{{pessoa.nome}}
+                        <td>{{fisica.nome}}
                         </td>
                         <td >
-                            {{pessoa.email}}
+                            {{fisica.email}}
                         </td>
                         <td>
-                            {{pessoa.cpf}}
+                            {{fisica.cpf}}
                         </td>
                         <td>
-                            {{pessoa.telefone}}
+                            {{fisica.telefone}}
+                        </td>
+                        <td align="center">
+                            <div class="btn-group">
+                                <a data-ng-click="PessoasCtrl.openModalEdit(pessoa._id)"
+                                   popover="Editar"
+                                   popover-trigger="mouseenter"
+                                   class="btn btn-default btn-sm">
+                                <i class="btn-small glyphicon glyphicon-edit"></i>
+                                </a>
+                                <a data-ng-click="PessoasCtrl.deletar(pessoa._id)"
+                                   popover="Remover"
+                                   popover-trigger="mouseenter"
+                                   class="btn btn-default btn-sm">
+                                    <i class="glyphicon glyphicon-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <legend>Jurídicas</legend>
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th widh="30%">Nome Fantasia</th>
+                        <th widh="30%">Razão Social</th>
+                        <th width="15%">CNPJ</th>
+                        <th width="15%">Telefone</th>
+                        <th width="10%">Ações</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td colspan="4">{{PessoasCtrl.getTotalPessoas()}}</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr data-ng-repeat="juridica in PessoasCtrl.juridicas | filter:search | filter:searchText track by juridica.id"
+                        data-ng-show="juridica.id"
+                        >
+                        
+                        <td>{{juridica.fantasia}}
+                        </td>
+                        <td >
+                            {{juridica.razao_social}}
+                        </td>
+                        <td>
+                            {{juridica.cnpj}}
+                        </td>
+                        <td>
+                            {{juridica.telefone}}
                         </td>
                         <td align="center">
                             <div class="btn-group">

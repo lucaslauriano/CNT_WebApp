@@ -1,27 +1,43 @@
-[
-  {
+[{
     "text": "heading",
     "heading": "true",
     "translate": "pessoas-sidebar.heading.HEADER"
-  },
-  {
+}, {
+    "text": "Dashboard",
+    "sref": "app-pessoas.dashboard",
+    "icon": "icon-speedometer",
+    "label": "label label-info",
+    "translate": "pessoas-sidebar.nav.DASHBOARD"
+}, {
     "text": "Pessoas",
     "sref": "#",
     "icon": "icon-user",
-    "submenu": [
-      {"text": "New",    "sref": "app-pessoas.pessoas-new", "translate": "pessoas-sidebar.nav.pessoas.NEW" },
-      {"text": "List",    "sref": "app-pessoas.pessoas-list", "translate": "pessoas-sidebar.nav.pessoas.LIST" }
-    ],
+    "submenu": [{
+        "text": "New",
+        "sref": "app-pessoas.pessoas-new",
+        "translate": "pessoas-sidebar.nav.pessoas.NEW"
+    }, {
+        "text": "List",
+        "sref": "app-pessoas.pessoas-list",
+        "translate": "pessoas-sidebar.nav.pessoas.LIST"
+    }],
     "translate": "pessoas-sidebar.nav.pessoas.PESSOAS"
-  },
-  {
+}, {
     "text": "Planos",
     "sref": "#",
-    "icon": "icon-user",
-    "submenu": [
-      {"text": "New",    "sref": "app-pessoas.planos-new", "translate": "pessoas-sidebar.nav.planos.NEW" },
-      {"text": "List",    "sref": "app-pessoas.planos-list", "translate": "pessoas-sidebar.nav.planos.LIST" }
-    ],
+    "icon": "icon-flag",
+    "submenu": [{
+        "text": "Add",
+        "sref": "app-pessoas.planos-add",
+        "translate": "pessoas-sidebar.nav.planos.ADD"
+    }, {
+        "text": "New",
+        "sref": "app-pessoas.planos-new",
+        "translate": "pessoas-sidebar.nav.planos.NEW"
+    }, {
+        "text": "List",
+        "sref": "app-pessoas.planos-list",
+        "translate": "pessoas-sidebar.nav.planos.LIST"
+    }],
     "translate": "pessoas-sidebar.nav.planos.PLANOS"
-  }
-]
+}]

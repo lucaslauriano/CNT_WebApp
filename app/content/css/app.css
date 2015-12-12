@@ -22,9 +22,11 @@
 
 
 .margin-1{
-    margin-left: 3.66666666% 
+    margin-left: 1.99999999% 
  }
-
+.margin-2{
+    margin-left: 3.99999999% 
+ }
 .font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 {
 
@@ -58,13 +60,20 @@ a {
 
 .circle-tile-content {
     padding-top: 50px;
-}
+} 
 
 .blue {
   background-color: #1797be;
 }
+.blue-user {
+  background-color: #80cbc4 ;
+}
 .blue-light {
   background-color: #36ACD1; 
+}
+
+.blue-lighten {
+  background-color: #b2dfdb  ; 
 }
 .dark-blue {
     background-color: #34495e;

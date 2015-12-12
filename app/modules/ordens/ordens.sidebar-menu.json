@@ -3,7 +3,13 @@
     "text": "heading",
     "heading": "true",
     "translate": "ordens-sidebar.heading.HEADER"
-  },
+  }, {
+    "text": "Dashboard",
+    "sref": "app-financeiro.dashboard",
+    "icon": "icon-speedometer",
+    "label": "label label-info",
+    "translate": "financeiro-sidebar.nav.DASHBOARD"
+},
   {
     "text": "Modulo",
     "heading": "true",

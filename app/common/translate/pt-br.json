@@ -1,107 +1,165 @@
 {
-  "dashboard": {
-    "WELCOME": "Bem vindo ao {{appName}}"
-  },
-  "topbar": {
-    "messages": {
-      "UNREAD": "Menssagens Não Lidas",
-      "MORE": "Mais mensagens"
+    "dashboard": {
+        "WELCOME": "Bem vindo ao {{appName}}"
     },
-    "search": {
-      "PLACEHOLDER": "Escreva e pressione Enter..."
-    },
-    "notification": {
-      "MORE": "Mais notificações"
-    }
-  },
-  "offsidebar": {
-    "setting": {
-      "SETTINGS": "Configurações",
-      "THEMES": "Temas",
-      "layout": {
-        "FIXED": "Fixado",
-        "COLLAPSED": "Collapsed"
-      }
-    },
-    "chat": {
-      "CONNECTIONS": "Conexões",
-      "SEARCH": "Buscar Contatos",
-      "ONLINE": "ONLINE",
-      "OFFLINE": "OFFLINE",
-      "LOAD_MORE": "Carregar Mais",
-      "TASK_COMPLETION": "Tarefas Completas",
-      "QUOTA": "Upload Cotas"
-    }
-  },
-  "pessoas-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Pessoas",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    },
-    "nav": {
-      "DASHBOARD": "Dashboard",
-      "DOCUMENTATION": "Documentação",
-      "pessoas": {
-        "PESSOAS":"Pessoas",
-        "NEW": "Novo",
-        "LIST": "Listar"
+    "topbar": {
+        "messages": {
+            "UNREAD": "Menssagens Não Lidas",
+            "MORE": "Mais mensagens"
         },
-        "planos": {
-        "PLANOS":"Planos",
-        "NEW": "Novo",
-        "LIST": "Listar"
+        "search": {
+            "PLACEHOLDER": "Escreva e pressione Enter..."
+        },
+        "notification": {
+            "MORE": "Mais notificações"
+        }
+    },
+    "offsidebar": {
+        "setting": {
+            "SETTINGS": "Configurações",
+            "THEMES": "Temas",
+            "layout": {
+                "FIXED": "Fixado",
+                "COLLAPSED": "Collapsed"
+            }
+        },
+        "chat": {
+            "CONNECTIONS": "Conexões",
+            "SEARCH": "Buscar Contatos",
+            "ONLINE": "ONLINE",
+            "OFFLINE": "OFFLINE",
+            "LOAD_MORE": "Carregar Mais",
+            "TASK_COMPLETION": "Tarefas Completas",
+            "QUOTA": "Upload Cotas"
+        }
+    },
+    "pessoas-sidebar": {
+        "WELCOME": "Bem Vindo",
+        "MODULE": "Módulo Pessoas",
+        "heading": {
+            "HEADER": "Navegação",
+            "COMPONENTS": "Componentes",
+            "MODULO": "Módulo"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard",
+            "DOCUMENTATION": "Documentação",
+            "pessoas": {
+                "PESSOAS": "Pessoas",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            },
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            }
+        }
+    },
+    "financeiro-sidebar": {
+        "WELCOME": "Bem Vindo",
+        "MODULE": "Módulo Financeiro",
+        "heading": {
+            "HEADER": "Navegação",
+            "COMPONENTS": "Componentes",
+            "MODULO": "Módulo"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard",
+            "DOCUMENTATION": "Documentação",
+            "extrato": {
+                "EXTRATO": "Extrato"
+            },
+            "op": {
+                "OP": "Operações",
+                "PAGAR": "Pagamentos",
+                "RECEBER": "Recebimentos"
+            },
+            "caixa": {
+                "FLUXOCAIXA": "Fluxo de Caixa",
+                "DIARIO": "Diário",
+                "MENSAL": "Mensal"
+            },
+            "contas": {
+                "BANC": "Contas Bancárias"
+            }
+        }
+    },
+    "vendas-sidebar": {
+        "WELCOME": "Bem Vindo",
+        "MODULE": "Módulo Vendas",
+        "heading": {
+            "HEADER": "Navegação",
+            "COMPONENTS": "Componentes",
+            "MODULO": "Módulo"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard",
+            "DOCUMENTATION": "Documentação",
+            "pessoas": {
+                "PESSOAS": "Pessoas",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            },
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            }
+        }
+    },
+    "ordens-sidebar": {
+        "WELCOME": "Bem Vindo",
+        "MODULE": "Módulo Ordes de Serviço",
+        "heading": {
+            "HEADER": "Navegação",
+            "COMPONENTS": "Componentes",
+            "MODULO": "Módulo"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard",
+            "DOCUMENTATION": "Documentação",
+            "pessoas": {
+                "PESSOAS": "Pessoas",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            },
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            }
+        }
+    },
+    "estoque-sidebar": {
+        "WELCOME": "Bem Vindo",
+        "MODULE": "Módulo Estoque",
+        "heading": {
+            "HEADER": "Navegação",
+            "COMPONENTS": "Componentes",
+            "MODULO": "Módulo"
+        },
+        "nav": {
+            "DASHBOARD": "Dashboard",
+            "DOCUMENTATION": "Documentação",
+            "itens": {
+                "ITENS": "Itens",
+                "NEW": "Entrada",
+                "OUT": "Saida",
+                "LIST": "Listar"
+            },
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
+                "LIST": "Listar"
+            }
         }
     }
-  },
-  "financeiro-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Financeiro",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    }
-  },
-  "vendas-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Vendas",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    }
-  },
-  "ordens-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Ordes de Serviço",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    },
-    "nav": {
-      "DASHBOARD": "Dashboard"
-    }
-  },
-  "estoque-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Estoque",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    }
-  },
-  "chamados-sidebar": {
-    "WELCOME": "Bem Vindo",
-    "MODULE": "Módulo Chamados",
-    "heading": {
-      "HEADER": "Navegação",
-      "COMPONENTS": "Componentes",
-      "MODULO": "Módulo"
-    }
-  }
 }

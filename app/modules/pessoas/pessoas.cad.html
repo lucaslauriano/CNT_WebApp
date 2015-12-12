@@ -23,7 +23,8 @@
                     <div id="panelPessoas" 
                          class="panel panel-default col-lg-12">
                         <div ng-class="{'panel-heading-collapsed':panelPessoas}" class="panel-heading">Pessoas
-                            <paneltool tool-collapse="tool-collapse" panel-refresh="panel-refresh" ng-init="panelPessoas=true">
+                            <paneltool tool-collapse="tool-collapse" 
+                                       ng-init="panelPessoas=true">
                             </paneltool>
                         </div>
                         <div collapse="panelPessoas" class="panel-wrapper">
@@ -46,226 +47,282 @@
                     <div id="panelDadosCad" 
                          class="panel panel-default col-lg-12">
                         <div ng-class="{'panel-heading-collapsed':panelDadosCad}" class="panel-heading">Dados Cadastrais
-                            <paneltool tool-collapse="tool-collapse" ng-init="panelDadosCad=true">
+                            <paneltool tool-collapse="tool-collapse" 
+                                       ng-init="panelDadosCad=true">
                             </paneltool>
                         </div>
                         <div collapse="panelDadosCad" class="panel-wrapper">
                             <div class="panel-body">
-                                <form class="form-validate form-horizontal">
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Telefone</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" masked="" data-inputmask="'mask': '(99) 9999-9999'" placeholder="Telefone" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Celular</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" masked="" data-inputmask="'mask': '(99) 9999-9999'" placeholder="Telefone" class="form-control" />
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Tipo Logradouro</label>
-                                            <div class="col-sm-4">
-                                                <select name="select" required="" ng-model="select" class="form-control">
-                                                    <option value="0">Área</option>
-                                                    <option value="1">Aeroporto</option>
-                                                    <option value="2">Alameda</option>
-                                                    <option value="3">Avenida</option>
-                                                    <option value="4">Campo</option>
-                                                    <option value="5">Chácara</option>
-                                                    <option value="8">Colônia</option>
-                                                    <option value="7">Condomínio</option>
-                                                    <option value="8">Conjunto</option>
-                                                    <option value="9">Distrito</option>
-                                                    <option value="10">Esplanada</option>
-                                                    <option value="11">Estação</option>
-                                                    <option value="12">Estrada</option>
-                                                    <option value="13">Favela</option>
-                                                    <option value="14">Feira</option>
-                                                    <option value="15">Jardim</option>
-                                                    <option value="16">Ladeira</option>
-                                                    <option value="17">Lago</option>
-                                                    <option value="18">Lagoa</option>
-                                                    <option value="19">Largo</option>
-                                                    <option value="20">Loteamento</option>
-                                                    <option value="21">Morro</option>
-                                                    <option value="22">Núcleo</option>
-                                                    <option value="23">Parque</option>
-                                                    <option value="24">Passarela</option>
-                                                    <option value="25">Pátio</option>
-                                                    <option value="26">Praça</option>
-                                                    <option value="27">Quadra</option>
-                                                    <option value="28">Recanto</option>
-                                                    <option value="29">Residencial</option>
-                                                    <option value="30">Rodovia</option>
-                                                    <option value="31">Rua</option>
-                                                    <option value="32">Setor</option>
-                                                    <option value="33">Sítio</option>
-                                                    <option value="34">Travessa</option>
-                                                    <option value="35">Trecho</option>
-                                                    <option value="36">Trevo</option>
-                                                    <option value="37">Vale</option>
-                                                    <option value="38">Vereda</option>
-                                                    <option value="39">Via</option>
-                                                    <option value="40">Viaduto</option>
-                                                    <option value="41">Viela</option>
-                                                    <option value="42">Vila</option>
-                                                </select>
-                                                <span ng-show="form.validateInput('select', 'required')" class="text-danger">This field is required</span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Nome Logradouro</label>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <div class="controls">
-                                                        <input type="text" name="nome" placeholder="Nome Logradouro" class="form-control" />
-                                                    </div>
+                                <fieldset>
+                                    <div class="form-group">
+                                    <label class="col-sm-1 control-label">Estado</label>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" 
+                                                           name="nome" 
+                                                           placeholder="UF" 
+                                                           class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
-                                    </fieldset>
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Cidade</label>
-                                            <div class="col-sm-4">
-                                                <select chosen="" ng-model="team" width="'100%'" class="chosen-select input-md">
-                                                    <option value=""></option>
-                                                    <optgroup label="NFC EAST">
-                                                        <option>Dallas Cowboys</option>
-                                                        <option>New York Giants</option>
-                                                        <option>Philadelphia Eagles</option>
-                                                        <option>Washington Redskins</option>
-                                                    </optgroup>
-                                                    <optgroup label="NFC NORTH">
-                                                        <option>Chicago Bears</option>
-                                                        <option>Detroit Lions</option>
-                                                        <option>Green Bay Packers</option>
-                                                        <option>Minnesota Vikings</option>
-                                                    </optgroup>
-                                                    <optgroup label="NFC SOUTH">
-                                                        <option>Atlanta Falcons</option>
-                                                        <option>Carolina Panthers</option>
-                                                        <option>New Orleans Saints</option>
-                                                        <option>Tampa Bay Buccaneers</option>
-                                                    </optgroup>
-                                                    <optgroup label="NFC WEST">
-                                                        <option>Arizona Cardinals</option>
-                                                        <option>St. Louis Rams</option>
-                                                        <option>San Francisco 49ers</option>
-                                                        <option>Seattle Seahawks</option>
-                                                    </optgroup>
-                                                    <optgroup label="AFC EAST">
-                                                        <option>Buffalo Bills</option>
-                                                        <option>Miami Dolphins</option>
-                                                        <option>New England Patriots</option>
-                                                        <option>New York Jets</option>
-                                                    </optgroup>
-                                                    <optgroup label="AFC NORTH">
-                                                        <option>Baltimore Ravens</option>
-                                                        <option>Cincinnati Bengals</option>
-                                                        <option>Cleveland Browns</option>
-                                                        <option>Pittsburgh Steelers</option>
-                                                    </optgroup>
-                                                    <optgroup label="AFC SOUTH">
-                                                        <option>Houston Texans</option>
-                                                        <option>Indianapolis Colts</option>
-                                                        <option>Jacksonville Jaguars</option>
-                                                        <option>Tennessee Titans</option>
-                                                    </optgroup>
-                                                    <optgroup label="AFC WEST">
-                                                        <option>Denver Broncos</option>
-                                                        <option>Kansas City Chiefs</option>
-                                                        <option>Oakland Raiders</option>
-                                                        <option>San Diego Chargers</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-1 control-label">Cidade</label>
+                                        <div class="col-sm-3">
+                                            <select chosen=""
+                                                    ng-model="team" 
+                                                    width="'100%'" 
+                                                    class="chosen-select input-md">
+                                                <option value=""></option>
+                                                <optgroup label="NFC EAST">
+                                                    <option>Dallas Cowboys</option>
+                                                    <option>New York Giants</option>
+                                                    <option>Philadelphia Eagles</option>
+                                                    <option>Washington Redskins</option>
+                                                </optgroup>
+                                                <optgroup label="NFC NORTH">
+                                                    <option>Chicago Bears</option>
+                                                    <option>Detroit Lions</option>
+                                                    <option>Green Bay Packers</option>
+                                                    <option>Minnesota Vikings</option>
+                                                </optgroup>
+                                                <optgroup label="NFC SOUTH">
+                                                    <option>Atlanta Falcons</option>
+                                                    <option>Carolina Panthers</option>
+                                                    <option>New Orleans Saints</option>
+                                                    <option>Tampa Bay Buccaneers</option>
+                                                </optgroup>
+                                                <optgroup label="NFC WEST">
+                                                    <option>Arizona Cardinals</option>
+                                                    <option>St. Louis Rams</option>
+                                                    <option>San Francisco 49ers</option>
+                                                    <option>Seattle Seahawks</option>
+                                                </optgroup>
+                                                <optgroup label="AFC EAST">
+                                                    <option>Buffalo Bills</option>
+                                                    <option>Miami Dolphins</option>
+                                                    <option>New England Patriots</option>
+                                                    <option>New York Jets</option>
+                                                </optgroup>
+                                                <optgroup label="AFC NORTH">
+                                                    <option>Baltimore Ravens</option>
+                                                    <option>Cincinnati Bengals</option>
+                                                    <option>Cleveland Browns</option>
+                                                    <option>Pittsburgh Steelers</option>
+                                                </optgroup>
+                                                <optgroup label="AFC SOUTH">
+                                                    <option>Houston Texans</option>
+                                                    <option>Indianapolis Colts</option>
+                                                    <option>Jacksonville Jaguars</option>
+                                                    <option>Tennessee Titans</option>
+                                                </optgroup>
+                                                <optgroup label="AFC WEST">
+                                                    <option>Denver Broncos</option>
+                                                    <option>Kansas City Chiefs</option>
+                                                    <option>Oakland Raiders</option>
+                                                    <option>San Diego Chargers</option>
+                                                </optgroup>
+                                            </select>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <div class="controls">
-                                                        <input type="text" name="nome" placeholder="Bairro" class="form-control" />
-                                                    </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                    <label class="col-sm-1 control-label">Bairro</label>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" 
+                                                           name="nome" 
+                                                           placeholder="Bairro" 
+                                                           class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <div class="controls">
-                                                        <input type="text" name="nome" placeholder="UF" class="form-control" />
-                                                    </div>
+                                    </div>
+                                    </fieldset>
+                                    <fieldset>
+                                    <fieldset>
+                                   <label class="col-sm-2 control-label">Complemento</label>
+                                   <div class="col-sm-10">
+                                      <div class="panel">
+                                         <div class="panel-body">
+                                            <textarea rows="5" class="form-control note-editor"></textarea>
+                                         </div>
+                                      </div>
+                                   </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-3">
+                                            <input type="number" 
+                                                   name="number" 
+                                                   placeholder="Número" 
+                                                   required="" 
+                                                   ng-model="number" 
+                                                   class="form-control" />
+                                            <span ng-show="form.validateInput('number', 'number')" 
+                                                  class="text-danger">This field must be a valid number
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-3">
+                                            <input type="text" 
+                                                   masked="" 
+                                                   data-inputmask="'mask': '99999-999'" 
+                                                   placeholder="CEP" 
+                                                   class="form-control" />
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Tipo Logradouro</label>
+                                        <div class="col-sm-3">
+                                            <select name="select" required="" ng-model="select" class="form-control">
+                                                <option value="0">Área</option>
+                                                <option value="1">Aeroporto</option>
+                                                <option value="2">Alameda</option>
+                                                <option value="3">Avenida</option>
+                                                <option value="4">Campo</option>
+                                                <option value="5">Chácara</option>
+                                                <option value="8">Colônia</option>
+                                                <option value="7">Condomínio</option>
+                                                <option value="8">Conjunto</option>
+                                                <option value="9">Distrito</option>
+                                                <option value="10">Esplanada</option>
+                                                <option value="11">Estação</option>
+                                                <option value="12">Estrada</option>
+                                                <option value="13">Favela</option>
+                                                <option value="14">Feira</option>
+                                                <option value="15">Jardim</option>
+                                                <option value="16">Ladeira</option>
+                                                <option value="17">Lago</option>
+                                                <option value="18">Lagoa</option>
+                                                <option value="19">Largo</option>
+                                                <option value="20">Loteamento</option>
+                                                <option value="21">Morro</option>
+                                                <option value="22">Núcleo</option>
+                                                <option value="23">Parque</option>
+                                                <option value="24">Passarela</option>
+                                                <option value="25">Pátio</option>
+                                                <option value="26">Praça</option>
+                                                <option value="27">Quadra</option>
+                                                <option value="28">Recanto</option>
+                                                <option value="29">Residencial</option>
+                                                <option value="30">Rodovia</option>
+                                                <option value="31">Rua</option>
+                                                <option value="32">Setor</option>
+                                                <option value="33">Sítio</option>
+                                                <option value="34">Travessa</option>
+                                                <option value="35">Trecho</option>
+                                                <option value="36">Trevo</option>
+                                                <option value="37">Vale</option>
+                                                <option value="38">Vereda</option>
+                                                <option value="39">Via</option>
+                                                <option value="40">Viaduto</option>
+                                                <option value="41">Viela</option>
+                                                <option value="42">Vila</option>
+                                            </select>
+                                            <span ng-show="form.validateInput('select', 'required')" class="text-danger">This field is required</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Logradouro</label>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" 
+                                                           name="nome" 
+                                                           placeholder="Nome Logradouro" 
+                                                           class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-2">
-                                                <input type="number" name="number" placeholder="Número" required="" ng-model="number" class="form-control" />
-                                                <span ng-show="form.validateInput('number', 'number')" class="text-danger">This field must be a valid number
-                                                                        </span>
-                                            </div>
+                                    </div>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Telefone</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" 
+                                                   masked="" 
+                                                   data-inputmask="'mask': '(99) 9999-9999'" 
+                                                   placeholder="Telefone" 
+                                                   class="form-control" />
                                         </div>
-                                    </fieldset>
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Complemento</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" name="complemento" class="form-control" />
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Celular</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" masked="" 
+                                                   data-inputmask="'mask': '(99) 9999-9999'" 
+                                                   placeholder="WhatsApp" 
+                                                   class="form-control" />
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-4">
-                                                <input type="text" masked="" data-inputmask="'mask': '99999-999'" placeholder="CEP" class="form-control" />
-                                            </div>
+                                    </div>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Email</label>
+                                        <div class="col-sm-4">
+                                            <input type="email" 
+                                                   placeholder="mail@exemplo.com" 
+                                                   name="email" 
+                                                   required="" 
+                                                   ng-model="email" 
+                                                   class="form-control" />
+                                            <span ng-show="form.validateInput('email', 'required')" 
+                                                  class="text-danger">This field is required</span>
+                                            <span ng-show="form.validateInput('email', 'email')" 
+                                                  class="text-danger">This field must be a valid email address</span>
                                         </div>
-                                    </fieldset>
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Email</label>
-                                            <div class="col-sm-4">
-                                                <input type="email" placeholder="mail@exemplo.com" name="email" required="" ng-model="email" class="form-control" />
-                                                <span ng-show="form.validateInput('email', 'required')" class="text-danger">This field is required</span>
-                                                <span ng-show="form.validateInput('email', 'email')" class="text-danger">This field must be a valid email address</span>
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Home Page</label>
+                                        <div class="col-sm-4">
+                                            <input type="url" 
+                                                   name="url" 
+                                                   required="" 
+                                                   ng-model="url" 
+                                                   placeholder="http://meusite.com" 
+                                                   class="form-control" />
+                                            <span ng-show="form.validateInput('url', 'url')" 
+                                                  class="text-danger">This field must be a valid url</span>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Home Page</label>
-                                            <div class="col-sm-4">
-                                                <input type="url" name="url" required="" ng-model="url" placeholder="http://meusite.com" class="form-control" />
-                                                <span ng-show="form.validateInput('url', 'url')" class="text-danger">This field must be a valid url</span>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </form>
+                                    </div>
+                                </fieldset>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <hr>
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-sm-1"></div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <button class="btn btn-default" 
-                                    data-ng-click="PessoasCadCtrl.cancelar()" 
-                                    type="button">
-                                Cancelar
+                            <button class="btn btn-primary" 
+                                    data-ng-click="PessoasCadCtrl.demo1()">
+                                <i class=""></i> Concluir
                             </button>
                             <button class="btn btn-primary" 
-                                    data-ng-click="PessoasCadCtrl.demo4()">
+                                    data-ng-click="PessoasCadCtrl.demo2()">
                                 <i class=""></i> Salvar
                             </button>
                             <button data-ng-click="PessoasCadCtrl.deletar()" 
                                     data-ng-show="PessoasCadCtrl.pessoas.id" 
                                     class="btn btn-danger">
                                 <i class=""></i> Deletar
+                            </button>
+                            <button class="btn btn-default" 
+                                    data-ng-click="PessoasCadCtrl.cancelar()" 
+                                    data-ng-show="PessoasCadCtrl.pessoas.id" 
+                                    type="button">
+                                Cancelar
                             </button>
                             <input class="btn btn-default" 
                                    type="reset" 
@@ -279,6 +336,3 @@
     </div>
 </div>
 
-<div>
-
-</div>

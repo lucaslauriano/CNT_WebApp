@@ -35,6 +35,7 @@
             'app.financeiro',
             'app.ordens',
             'app.pessoas',
+            'app.pessoas.planos',
             'app.vendas'
         ]);
 })();
@@ -165,6 +166,14 @@
     angular
         .module('app.pessoas', []);
 })();
+
+(function() {
+    'use strict';
+
+    angular
+        .module('app.pessoas.planos', []);
+})();
+
 
 (function() {
     'use strict';

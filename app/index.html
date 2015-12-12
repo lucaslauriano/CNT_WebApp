@@ -9,7 +9,7 @@
    <title data-ng-bind="::pageTitle()">CNT - SmartApp</title>
 
    <!-- Usemin block -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
    <link rel="stylesheet" href="content/css/bootstrap.css" data-ng-if="!app.layout.isRTL">
    <link rel="stylesheet" href="content/css/app.css" data-ng-if="!app.layout.isRTL">
    <link rel="stylesheet" href="content/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
@@ -199,6 +199,7 @@
     <script src="main/sidebar/sidebar.service.js"></script>
     <script src="main/partials/settings/app.settings.run.js"></script>
     <script src="main/dashboard/dashboard.controller.js"></script>
+
     <script src="modules/forms/color-picker.controller.js"></script>
     <script src="modules/forms/file-style.directive.js"></script>
     <script src="modules/forms/form-imgcrop.controller.js"></script>
@@ -212,13 +213,15 @@
     <script src="modules/forms/ui-select.controller.js"></script>
     <script src="modules/forms/upload.controller.js"></script>
     <script src="modules/forms/validate-form.directive.js"></script>
+
     <script src="modules/estoque/estoque.cad.controller.js"></script>
     <script src="modules/estoque/estoque.controller.js"></script>
     <script src="modules/estoque/estoque.modal.controller.js"></script>
     <script src="modules/estoque/estoque.service.js"></script>
     <script src="modules/estoque/estoque.sidebar.service.js"></script>
     <script src="modules/estoque/estoque.sidebar.controller.js"></script>
-    <script src="modules/estoque/estoque.dashboard.controller.js"></script>   
+    <script src="modules/estoque/estoque.dashboard.controller.js"></script> 
+
     <script src="modules/pessoas/pessoas.service.js"></script>
     <script src="modules/pessoas/pessoas.sidebar.service.js"></script>
     <script src="modules/pessoas/pessoas.cad.controller.js"></script>
@@ -227,6 +230,12 @@
     <script src="modules/pessoas/pessoas.dashboard.controller.js"></script>
     <script src="modules/pessoas/pessoas.modal.controller.js"></script>
     <script src="modules/pessoas/pessoas.sidebar.controller.js"></script>
+
+    <script src="modules/pessoas/planos/planos.cad.controller.js"></script>
+    <script src="modules/pessoas/planos/planos.add.controller.js"></script>
+    <script src="modules/pessoas/planos/planos.controller.js"></script>
+    <script src="modules/pessoas/planos/planos.service.js"></script>
+
     <script src="modules/financeiro/financeiro.cad.controller.js"></script>
     <script src="modules/financeiro/financeiro.controller.js"></script>
     <script src="modules/financeiro/financeiro.modal.controller.js"></script>
@@ -234,13 +243,15 @@
     <script src="modules/financeiro/financeiro.sidebar.service.js"></script>
     <script src="modules/financeiro/financeiro.sidebar.controller.js"></script>
     <script src="modules/financeiro/financeiro.dashboard.controller.js"></script>  
+
     <script src="modules/vendas/vendas.cad.controller.js"></script>
     <script src="modules/vendas/vendas.controller.js"></script>
     <script src="modules/vendas/vendas.modal.controller.js"></script>
     <script src="modules/vendas/vendas.service.js"></script>
     <script src="modules/vendas/vendas.sidebar.service.js"></script>
     <script src="modules/vendas/vendas.sidebar.controller.js"></script>
-    <script src="modules/vendas/vendas.dashboard.controller.js"></script>  
+    <script src="modules/vendas/vendas.dashboard.controller.js"></script>
+
     <script src="modules/ordens/ordens.cad.controller.js"></script>
     <script src="modules/ordens/ordens.controller.js"></script>
     <script src="modules/ordens/ordens.modal.controller.js"></script>

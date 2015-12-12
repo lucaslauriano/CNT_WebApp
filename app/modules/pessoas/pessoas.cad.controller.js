@@ -96,7 +96,7 @@
           };
 
         function _demo3() {
-            SweetAlert.swal('Good job!', 'You clicked the button!', 'success');
+            SweetAlert.swal('Cadastro Salvo', 'You clicked the button!', 'success');
           };
 
         function _demo5() {
@@ -123,11 +123,12 @@
             SweetAlert.swal({
                 title: 'Deseja Cadastrar um plano?',
                 text: 'Your will not be able to recover this imaginary file!',
-                type: 'warning',
-                showCancelButton: true,
+                type: 'info',
+                showSuccessButton: false,
+                showSuccessButton: true,
                 confirmButtonColor: '#DD6B55',
-                confirmButtonText: 'Yes, delete it!',
-                closeOnConfirm: false
+                confirmButtonText: 'Sim, cadastrar um plano',
+                closeOnConfirm: true
             }, function() {
                 SweetAlert.swal('Booyah!');
             });
@@ -135,7 +136,7 @@
 
         function _demo6() {
             SweetAlert.swal({
-                title: 'Sweet!',
+                title: 'Cadastro Efetuado',
                 text: 'Here\'s a custom image.',
                 imageUrl: 'http://oitozero.com/img/avatar.jpg'
             });

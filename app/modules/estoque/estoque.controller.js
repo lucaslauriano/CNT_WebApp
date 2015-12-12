@@ -19,7 +19,7 @@
         '$log'
     ];
 
-    function AlmoxCtrl($injector, $rootScope, $modal, $log) {
+    function EstoqueCtrl($injector, $rootScope, $modal, $log) {
         var viewModel = this;
 
         var EstoqueService = $injector.get('app.estoque.EstoqueService');

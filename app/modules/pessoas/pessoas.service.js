@@ -21,7 +21,8 @@
 
         var PublicMethods = {
             customGET: _customGET,
-            getList: _getList,
+            getListFisica: _getListFisica,
+            getListJuridica: _getListJuridica,
             get: _get,
             deletar: _deletar,
             salvar: _salvar
@@ -33,8 +34,12 @@
             return Restangular.one('pessoas').customGET();
         }
 
-        function _getList(_page, _pageSize, _q) {
-            return Restangular.all('pessoas').customGETLIST();
+        function _getListFisica() {
+            return Restangular.all('pessoas').customGETLIST("", {isJuridica: false})
+        }
+
+        function _getListJuridica() {
+            return Restangular.all('pessoas').customGETLIST("", {isJuridica: true})
         }
 
         function _get(id) {
