@@ -8388,7 +8388,8 @@ flot .legend .legendColorBox > div > div {
   width: 20px;
   height: 20px;
   border-radius: 2px;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
+  background-color: #DBDBDB;
   margin-right: 5px;
   text-align: center;
 }
@@ -8398,7 +8399,8 @@ flot .legend .legendColorBox > div > div {
 }
 .c-checkbox:hover span,
 .c-radio:hover span {
-  border-color: #5d9cec;
+  border-color: #fff;
+  background-color: #f5f7fa;
 }
 .form-inline .c-checkbox span,
 .form-inline .c-radio span {
@@ -8447,7 +8449,7 @@ flot .legend .legendColorBox > div > div {
 .c-radio input[type=checkbox]:checked + span,
 .c-checkbox input[type=radio]:checked + span,
 .c-radio input[type=radio]:checked + span {
-  border-color: #5d9cec;
+  border-color: #333;
   background-color: #5d9cec;
 }
 .c-checkbox input[type=radio]:checked + span,
