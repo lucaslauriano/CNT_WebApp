@@ -102,8 +102,8 @@
                 "NEW": "Incluir",
                 "LIST": "Listar"
             },
-            "produtos": {
-                "PRODUTOS": "Produtos",
+            "Vendedores": {
+                "VEMDEDORES": "Vendedores",
                 "NEW": "Incluir",
                 "LIST": "Listar"
             }

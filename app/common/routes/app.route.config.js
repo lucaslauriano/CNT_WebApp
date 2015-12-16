@@ -58,6 +58,22 @@
               templateUrl: helper.modulebasepath('estoque/estoque.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
           })
+          .state('app-estoque.produtos-new', {
+              url: '/estoque-new',
+              title: 'Produtos New',
+              controller: 'app.estoque.EstoqueCadCtrl',
+              controllerAs: 'EstoqueCadCtrl',
+              templateUrl: helper.modulebasepath('estoque/produto/produto.cad.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider')
+          })
+          .state('app-estoque.estoque-list', {
+              url: '/estoque-list',
+              title: 'Vendas List',
+              controller: 'app.estoque.VendasCtrl',
+              controllerAs: 'PlanosCtrl',
+              templateUrl: helper.modulebasepath('estoque/estoque.list.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
+          })
           // FINANCEIRO
           .state('app-financeiro', {
               url: '/app-financeiro',
@@ -171,7 +187,7 @@
               controller: 'app.pessoas.planos.PlanosCadCtrl',
               controllerAs: 'PlanosCadCtrl',
               templateUrl: helper.modulebasepath('pessoas/planos/planos.cad.html'),
-              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider')
+              resolve: helper.resolveFor('colorpicker.module', 'codemirror', 'moment','ui.select', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider', 'ngWig', 'filestyle', 'textAngular')
           })
            .state('app-pessoas.planos-list', {
               url: '/planos-list',
@@ -195,6 +211,22 @@
               title: 'Dashboard Financeiro',
               templateUrl: helper.modulebasepath('vendas/vendas.dashboard.html'),
               resolve: helper.resolveFor('flot-chart','flot-chart-plugins', 'weather-icons')
+          })
+          .state('app-vendas.vendas-new', {
+              url: '/vendas-new',
+              title: 'Vendas New',
+              controller: 'app.vendas.vendas.VendasCadCtrl',
+              controllerAs: 'VendasCadCtrl',
+              templateUrl: helper.modulebasepath('vendas/vendas.cad.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives', 'ui.bootstrap-slider')
+          })
+          .state('app-vendas.vendas-list', {
+              url: '/vendas-list',
+              title: 'Vendas List',
+              controller: 'app.vendas.vendas.VendasCtrl',
+              controllerAs: 'PlanosCtrl',
+              templateUrl: helper.modulebasepath('vendas/vendas.list.html'),
+              resolve: helper.resolveFor('ui.select', 'taginput','inputmask','localytics.directives')
           })
           // Pages
           .state('page', {
