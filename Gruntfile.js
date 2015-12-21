@@ -44,6 +44,7 @@ module.exports = function(grunt) {
                     '<%= yeoman.app %>/common/locale/{,*/}*.js',
                     '<%= yeoman.app %>/common/routes/{,*/}*.js',
                     '<%= yeoman.app %>/common/translate/{,*/}*.js',
+                    '<%= yeoman.app %>/common/utils/{,*/}*.js',
                     '<%= yeoman.app %>/content/colors/{,*/}*.js',
                     '<%= yeoman.app %>/common/icons/{,*/}*.js',
                     '<%= yeoman.app %>/common/preloader/{,*/}*.js',
@@ -52,14 +53,14 @@ module.exports = function(grunt) {
                     '<%= yeoman.app %>/main/navsearch/{,*/}*.js',
                     '<%= yeoman.app %>/main/pages/{,*/}*.js',
                     '<%= yeoman.app %>/main/partials/settings/{,*/}*.js',
-                    '<%= yeoman.app %>/modules/almox/{,*/}*.js',
-                    '<%= yeoman.app %>/modules/chamados/{,*/}*.js',
+                    '<%= yeoman.app %>/main/sidebar/{,*/}*.js',
+                    '<%= yeoman.app %>/modules/estoque/{,*/}*.js',
                     '<%= yeoman.app %>/modules/financeiro/{,*/}*.js',
                     '<%= yeoman.app %>/modules/forms/{,*/}*.js',
                     '<%= yeoman.app %>/modules/ordens/{,*/}*.js',
                     '<%= yeoman.app %>/modules/pessoas/{,*/}*.js',
                     '<%= yeoman.app %>/modules/user/{,*/}*.js',
-                    '<%= yeoman.app %>/modules/utils/{,*/}*.js'
+                    '<%= yeoman.app %>/modules/vendas/{,*/}*.js'
                 ],
                 tasks: ['newer:jshint:all'],
                 options: {
@@ -354,14 +355,11 @@ module.exports = function(grunt) {
                     'main/pages/{,*/}*.html',
                     'main/partials/settings/{,*/}*.html',
                     'main/partils/{,*/}*.html',
-                    'modules/almox/{,*/}*.html',
-                    'modules/chamados/{,*/}*.html',
+                    'modules/estoque/{,*/}*.html',
                     'modules//financeiro{,*/}*.html',
-                    'modules/forms/{,*/}*.html',
                     'modules/ordens/{,*/}*.html',
                     'modules/pessoas/{,*/}*.html',
                     'modules/user/{,*/}*.html',
-                    'modules/utils/{,*/}*.html',
                     'modules/vendas/{,*/}*.html'
                 ],
                 dest: '.tmp/templateCache.js'
@@ -432,7 +430,7 @@ module.exports = function(grunt) {
                 'copy:styles'
             ],
             dist: [
-                'copy:content/css',
+                //'copy:content/css',
                 'imagemin',
                 'svgmin'
             ]
