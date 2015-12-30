@@ -24,7 +24,6 @@
         var viewModel = this;
 
         var PublicProperties = {
-            destroy: _destroy
         	
         };
 
@@ -36,11 +35,6 @@
 
         }
 
-
-        viewModel.slider7 = 20;
-
-        function _destroy() {
-            viewModel.nghide = true;
-        }
+                  viewModel.slider7 = 10;
     }
 })();

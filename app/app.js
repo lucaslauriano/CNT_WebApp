@@ -22,7 +22,7 @@
             'app.forms',
             /*content*/
             'app.icons',
-            // 'app.preloader',
+            'app.preloader',
             /*main*/
             'app.loadingbar',
             'app.navsearch',
@@ -100,12 +100,12 @@
         .module('app.pages', []);
 })();
 
-// (function() {
-//     'use strict';
+(function() {
+    'use strict';
 
-//     angular
-//         .module('app.preloader', []);
-// })();
+    angular
+        .module('app.preloader', []);
+})();
 
 (function() {
     'use strict';

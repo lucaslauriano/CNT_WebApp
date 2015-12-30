@@ -1,93 +1,12 @@
-<h3>Vendas
-   <small>Listar</small>
-</h3>
 <div class="row">
-  <div class="col-lg-1"></div>
-  <div class="col-lg-10">
     <ol class="breadcrumb">
         <li><a href="#/">Home</a></li>
-        <li><a href="#/vendas-list" class="active">Listar Vendas</a></li>
+        <li><a href="#/vendas-list" class="active">Vendas</a></li>
     </ol>
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="row">
-                <div class="col-md-8">
-                    <h4>Vendas</h4><!-- {{PessoasCtrl.pessoas.isLast}} -->
-                </div>
             </div>
-        </div>
-        <div class="panel-body">
-                    <table class="table table-striped table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th widh="30%">Item</th>
-                        <th widh="30%">Preço</th>
-                        <th width="15%">Quantidade</th>
-                        <th width="15%">Status</th>
-                        <th width="10%">Ações</th>
-                    </tr>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <td><strong>Total</strong></td>
-                        <td colspan="4"></td>
-                    </tr>
-                </tfoot>
-                <tbody>
-                    <tr data-ng-repeat="venda in VendasCtrl.vendas | filter:search | filter:searchText track by venda.id"
-                        data-ng-show="venda.id"
-                        >
-                        
-                        <td>{{venda.itens}}
-                        </td>
-                        <td >
-                            {{venda.price}}
-                        </td>
-                        <td>
-                            {{venda.qtd}}
-                        </td>
-                        <td>
-                            {{venda.status}}
-                        </td>
-                        <td align="center">
-                            <div class="btn-group">
-                                <a data-ng-click="VendasCtrl.openModalEdit(pessoa._id)"
-                                   popover="Editar"
-                                   popover-trigger="mouseenter"
-                                   class="btn btn-default btn-sm">
-                                <i class="btn-small fa fa-pencil-square-o"></i>
-                                </a>
-                                <a data-ng-click="VendasCtrl.deletar(pessoa._id)"
-                                   popover="Remover"
-                                   popover-trigger="mouseenter"
-                                   class="btn btn-default btn-sm">
-                                    <i class="btn-small fa fa-trash-o"></i>
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        <nav>
-          <ul class="pager">
-            <li class="VendasCtrl.prevDesabled">
-              <a data-ng-click="VendasCtrl.prevPage()"
-                 data-ng-disabled="VendasCtrl.prevDesabled()"
-                 type="button"
-                 name="VendasCtrl.detail"
-                 class="btn btn-default btn-sm"> Anterior
-                </a>
-            </li>
-            <li>
-                <a data-ng-click="VendasCtrl.nextPage()"
-                   type="button"
-                   ng-disabled="VendasCtrl.nextDesabled()"
-                   name="VendasCtrl.detail"
-                   class="btn btn-default btn-sm"> Proximo 
-                </a>
-            </li>
-          </ul>
-        </nav>
         </div>
     </div>
 </div>

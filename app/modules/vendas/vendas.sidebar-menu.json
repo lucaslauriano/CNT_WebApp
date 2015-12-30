@@ -11,7 +11,7 @@
 },{
    "text": "Vendas",
     "sref": "#",
-    "icon": "fa fa-cart-plus",
+    "icon": "fa fa-users",
     "submenu": [{
         "text": "New",
         "sref": "app-vendas.vendas-new",
@@ -22,6 +22,10 @@
         "translate": "vendas-sidebar.nav.vendas.LIST"
     }],
     "translate": "vendas-sidebar.nav.vendas.VENDAS"
+}, {
+    "text": "Pré-Venda",
+    "heading": "true",
+    "translate": "vendas-sidebar.heading.COMPONENTS"
 }, {
     "text": "Componentes",
     "heading": "true",

@@ -5,10 +5,10 @@
     "translate": "ordens-sidebar.heading.HEADER"
   }, {
     "text": "Dashboard",
-    "sref": "app-ordens.dashboard",
+    "sref": "app-financeiro.dashboard",
     "icon": "fa fa-tachometer",
     "label": "label label-info",
-    "translate": "ordens-sidebar.nav.DASHBOARD"
+    "translate": "financeiro-sidebar.nav.DASHBOARD"
 },
   {
     "text": "Modulo",

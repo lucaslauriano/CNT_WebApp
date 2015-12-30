@@ -14,10 +14,12 @@
         .controller('app.estoque.EstoqueCadCtrl');
 
     EstoqueCadCtrl.$inject = [
+        '$injector'
     ];
 
     function EstoqueCadCtrl($injector) {
 
+        var EstoqueService = $injector.get('app.estoque.EstoqueService');
 
         var viewModel = this;
 
