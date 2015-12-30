@@ -4,7 +4,7 @@
     "translate": "estoque-sidebar.heading.HEADER"
 }, {
     "text": "Dashboard",
-    "sref": "app-financeiro.dashboard",
+    "sref": "app-estoque.dashboard",
     "icon": "fa fa-tachometer",
     "label": "label label-info",
     "translate": "financeiro-sidebar.nav.DASHBOARD"
@@ -25,7 +25,7 @@
 },{
    "text": "Pedidos de Compra",
     "sref": "#",
-    "icon": "fa fa-shopping-cart",
+    "icon": "fa fa-pencil-square",
     "submenu": [{
         "text": "New",
         "sref": "app-estoque.pedidos-new",
