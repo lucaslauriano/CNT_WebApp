@@ -46,13 +46,13 @@
             "DOCUMENTATION": "Documentação",
             "pessoas": {
                 "PESSOAS": "Pessoas",
-                "NEW": "Incluir",
+                "NEW": "Novo",
                 "LIST": "Listar"
             },
             "planos": {
                 "PLANOS": "Planos",
-                "ADD": "Contrato",
-                "NEW": "Incluir",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
                 "LIST": "Listar"
             }
         }
@@ -97,14 +97,15 @@
         "nav": {
             "DASHBOARD": "Dashboard",
             "DOCUMENTATION": "Documentação",
-            "vendas": {
-                "VENDAS": "Vendas",
-                "NEW": "Incluir",
+            "pessoas": {
+                "PESSOAS": "Pessoas",
+                "NEW": "Novo",
                 "LIST": "Listar"
             },
-            "produtos": {
-                "PRODUTOS": "Produtos",
-                "NEW": "Incluir",
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
                 "LIST": "Listar"
             }
         }
@@ -125,13 +126,13 @@
             "DOCUMENTATION": "Documentação",
             "pessoas": {
                 "PESSOAS": "Pessoas",
-                "NEW": "Incluir",
+                "NEW": "Novo",
                 "LIST": "Listar"
             },
             "planos": {
                 "PLANOS": "Planos",
                 "ADD": "Add Cliente",
-                "NEW": "Incluir",
+                "NEW": "Novo",
                 "LIST": "Listar"
             }
         }
@@ -153,17 +154,10 @@
                 "OUT": "Saida",
                 "LIST": "Listar"
             },
-            "entrada": {
-                "ENTRADA": "Entrada"
-            },
-            "pedidos": {
-                "PEDIDOS": "Pedidos",
-                "NEW": "Incluir",
-                "LIST": "Listar"
-            },
-            "produtos": {
-                "PRODUTOS": "Produtos",
-                "NEW": "Incluir",
+            "planos": {
+                "PLANOS": "Planos",
+                "ADD": "Add Cliente",
+                "NEW": "Novo",
                 "LIST": "Listar"
             }
         }

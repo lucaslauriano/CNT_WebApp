@@ -20,7 +20,7 @@
         var Restangular = $injector.get('Restangular');
 
         var PublicMethods = {
-            getList: _getList,
+            customGET: _customGET,
             getListFisica: _getListFisica,
             getListJuridica: _getListJuridica,
             get: _get,
@@ -30,8 +30,8 @@
 
         return PublicMethods;
 
-        function _getList() {
-            return Restangular.one('pessoas').getList();
+        function _customGET(_q) {
+            return Restangular.one('pessoas').customGET();
         }
 
         function _getListFisica() {

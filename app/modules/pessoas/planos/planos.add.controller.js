@@ -20,8 +20,6 @@
     function PlanosAddCtrl($injector) {
 
         var PlanosService = $injector.get('app.pessoas.planos.PlanosService');
-        var PessoasService = $injector.get('app.pessoas.PessoasService');
-
 
         var viewModel = this;
 
@@ -34,9 +32,7 @@
         init();
 
         function init() {
-            PessoasService.getListFisica().then(function(fisicas) {
-                 viewModel.fisicas = fisicas;
-            });
+
         }
     }
 })();

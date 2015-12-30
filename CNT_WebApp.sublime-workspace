@@ -435,23 +435,7 @@
 			"file": "app/modules/pessoas/pessoas.cad.html",
 			"settings":
 			{
-				"buffer_size": 21851,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/modules/pessoas/pessoas.list.html",
-			"settings":
-			{
-				"buffer_size": 6152,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 18422,
+				"buffer_size": 21831,
 				"line_ending": "Unix"
 			}
 		},
@@ -488,6 +472,16 @@
 			}
 		},
 		{
+			"contents": "Searching 87 files for \"Block Note Editor\" (case sensitive)\n\nC:\\Users\\Lucas\\Documents\\CNET\\x_BackUp\\products-WB04HF123\\backend-angular\\app\\views\\form-extended.html:\n  318           <fieldset>\n  319              <div class=\"form-group\">\n  320:                <label class=\"col-sm-2 control-label\">Block Note Editor</label>\n  321                 <div class=\"col-sm-10\">\n  322                    <div class=\"panel\">\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
 			"file": "/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/js/app.js",
 			"settings":
 			{
@@ -499,15 +493,7 @@
 			"file": ".tmp/content/css/app.css",
 			"settings":
 			{
-				"buffer_size": 708298,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/table-standard.html",
-			"settings":
-			{
-				"buffer_size": 8417,
+				"buffer_size": 216718,
 				"line_ending": "Unix"
 			}
 		},
@@ -624,7 +610,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 520.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -666,7 +652,11 @@
 		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app",
 		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/js",
 		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/vendor",
-		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views"
+		"/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views",
+		"/C/Users/Lucas/Documents/Projetos/Lucas_TodoList_Angular/src",
+		"/C/Users/Lucas/Documents/Projetos/Lucas_TodoList_Angular/src/listasDeCompras",
+		"/C/Users/Lucas/Documents/Projetos/Lucas_TodoList_Angular/src/listasDeCompras/listas",
+		"/C/Users/Lucas/Documents/Projetos/Lucas_TodoList_Angular/test"
 	],
 	"file_history":
 	[
@@ -936,10 +926,6 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"table",
-			"Complemento",
-			"complemento",
-			"Pessoas",
 			"F6F6F6",
 			"font",
 			"label",
@@ -1063,7 +1049,11 @@
 			"build",
 			"styles",
 			"images",
-			"ricks"
+			"ricks",
+			"rick",
+			"content/css/theme-a.css ",
+			"common",
+			"theme-a"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1106,7 +1096,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1133,10 +1123,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 896.0,
+						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1145,15 +1135,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21851,
+						"buffer_size": 21831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2185,
-								2185
+								9570,
+								9580
 							]
 						],
 						"settings":
@@ -1163,74 +1153,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 1959.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/modules/pessoas/pessoas.list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6152,
-								6152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 966.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								555,
-								558
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/modules/pessoas/planos/planos.cad.controller.js",
 					"semi_transient": false,
 					"settings":
@@ -1256,11 +1186,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "app/modules/pessoas/planos/planos.add.html",
 					"semi_transient": false,
 					"settings":
@@ -1281,14 +1211,14 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2708.0,
+						"translation.y": 2880.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "app/modules/pessoas/planos/planos.cad.html",
 					"semi_transient": false,
 					"settings":
@@ -1311,14 +1241,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6099.0,
+						"translation.y": 6528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/form-extended.html",
 					"semi_transient": false,
 					"settings":
@@ -1341,14 +1271,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 226.0,
+						"translation.y": 4502.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										296,
+										313
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Lucas\\Documents\\CNET\\CNT_WebApp",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/js/app.js",
 					"semi_transient": false,
 					"settings":
@@ -1371,27 +1348,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 108372.0,
+						"translation.y": 116112.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": ".tmp/content/css/app.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 708298,
+						"buffer_size": 216718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144213,
-								144218
+								8100,
+								8100
 							]
 						],
 						"settings":
@@ -1401,44 +1378,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 85639.0,
+						"translation.y": 6372.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "/C/Users/Lucas/Documents/CNET/x_BackUp/products-WB04HF123/backend-angular/app/views/table-standard.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 8417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								156,
-								1499
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "app/common/routes/app.route.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1461,10 +1408,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1902.0,
+						"translation.y": 2037.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1472,7 +1419,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1513,7 +1460,7 @@
 	"project": "CNT_WebApp.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1522,10 +1469,6 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"pessoas.lis",
-				"CNT_WebApp\\app\\modules\\pessoas\\pessoas.list.html"
-			],
 			[
 				"app.css",
 				"CNT_WebApp\\.tmp\\content\\css\\app.css"

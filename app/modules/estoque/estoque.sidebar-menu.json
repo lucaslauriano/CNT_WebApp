@@ -1,48 +1,23 @@
-[{
+[
+  {
     "text": "heading",
     "heading": "true",
     "translate": "estoque-sidebar.heading.HEADER"
-}, {
+  }, {
     "text": "Dashboard",
     "sref": "app-financeiro.dashboard",
-    "icon": "fa fa-tachometer",
+    "icon": "icon-speedometer",
     "label": "label label-info",
     "translate": "financeiro-sidebar.nav.DASHBOARD"
-},  {
-   "text": "Produtos",
-    "sref": "#",
-    "icon": "fa fa-shopping-cart",
-    "submenu": [{
-        "text": "New",
-        "sref": "app-estoque.produtos-new",
-        "translate": "estoque-sidebar.nav.produtos.NEW"
-    }, {
-        "text": "List",
-        "sref": "app-estoque.produtos-list",
-        "translate": "estoque-sidebar.nav.produtos.LIST"
-    }],
-    "translate": "estoque-sidebar.nav.produtos.PRODUTOS"
-},{
-   "text": "Pedidos de Compra",
-    "sref": "#",
-    "icon": "fa fa-shopping-cart",
-    "submenu": [{
-        "text": "New",
-        "sref": "app-estoque.pedidos-new",
-        "translate": "estoque-sidebar.nav.pedidos.NEW"
-    }, {
-        "text": "List",
-        "sref": "app-estoque.pedidos-list",
-        "translate": "estoque-sidebar.nav.pedidos.LIST"
-    }],
-    "translate": "estoque-sidebar.nav.pedidos.PEDIDOS"
-},{
-   "text": "Entrada",
-    "sref": "app-estoque.entrada-new",
-    "icon": "fa fa-plus-square",
-    "translate": "estoque-sidebar.nav.entrada.ENTRADA"
-}, {
+},
+  {
+    "text": "Modulo",
+    "heading": "true",
+    "translate": "estoque-sidebar.heading.MODULO"
+  },
+  {
     "text": "Componentes",
     "heading": "true",
     "translate": "estoque-sidebar.heading.COMPONENTS"
-}]
+  }
+]

@@ -6,7 +6,7 @@
   }, {
     "text": "Dashboard",
     "sref": "app-financeiro.dashboard",
-    "icon": "fa fa-tachometer",
+    "icon": "icon-speedometer",
     "label": "label label-info",
     "translate": "financeiro-sidebar.nav.DASHBOARD"
 },

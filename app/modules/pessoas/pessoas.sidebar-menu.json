@@ -5,13 +5,13 @@
 }, {
     "text": "Dashboard",
     "sref": "app-pessoas.dashboard",
-    "icon": "fa fa-tachometer",
+    "icon": "icon-speedometer",
     "label": "label label-info",
     "translate": "pessoas-sidebar.nav.DASHBOARD"
 }, {
     "text": "Pessoas",
     "sref": "#",
-    "icon": "fa fa-users",
+    "icon": "icon-user",
     "submenu": [{
         "text": "New",
         "sref": "app-pessoas.pessoas-new",
@@ -25,8 +25,12 @@
 }, {
     "text": "Planos",
     "sref": "#",
-    "icon": "fa fa-list-ul",
+    "icon": "icon-flag",
     "submenu": [{
+        "text": "Add",
+        "sref": "app-pessoas.planos-add",
+        "translate": "pessoas-sidebar.nav.planos.ADD"
+    }, {
         "text": "New",
         "sref": "app-pessoas.planos-new",
         "translate": "pessoas-sidebar.nav.planos.NEW"
@@ -36,14 +40,4 @@
         "translate": "pessoas-sidebar.nav.planos.LIST"
     }],
     "translate": "pessoas-sidebar.nav.planos.PLANOS"
-},{
-    "text": "Componentes",
-    "heading": "true",
-    "translate": "financeiro-sidebar.heading.COMPONENTS"
-}, {
-    "text": "Contrato",
-    "sref": "app-pessoas.planos-add",
-    "icon": "fa fa-file-text",
-    "label": "label label-info",
-    "translate": "pessoas-sidebar.nav.planos.ADD"
 }]

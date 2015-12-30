@@ -6,10 +6,10 @@
       "author": "typicode"
     }
   ],
-  "contratos": [
+  "comments": [
     {
       "id": 1,
-      "nome_cliente": "Lucas Lauriano de Souza",
+      "body": "some comment",
       "postId": 1
     }
   ],
@@ -150,41 +150,6 @@
       "cep": "88806280",
       "email": "CNET@cnet.com.br",
       "home_page": "www.cnet.com.br"
-    }
-  ],
-  "equimento": [
-    {
-      "id": 1,
-      "id_cliente": 1,
-      "mac_addres": "",
-      "sinal": "",
-      "hardware": "",
-      "router": "",
-      "plan": "",
-      "ip": "",
-      "conect_point": "CNET-URS-BLV"
-    },
-    {
-      "id": 2,
-      "id_cliente": 2,
-      "mac_addres": "",
-      "sinal": "",
-      "hardware": "",
-      "router": "",
-      "plan": "",
-      "ip": "",
-      "conect_point": "CNET-URS-BLV"
-    },
-    {
-      "id": 3,
-      "id_cliente": 3,
-      "mac_addres": "",
-      "sinal": "",
-      "hardware": "",
-      "router": "",
-      "plan": "",
-      "ip": "",
-      "conect_point": "CNET-URS-BLV"
     }
   ]
 }

@@ -5,7 +5,7 @@
 }, {
     "text": "Dashboard",
     "sref": "app-financeiro.dashboard",
-    "icon": "fa fa-tachometer",
+    "icon": "icon-speedometer",
     "label": "label label-info",
     "translate": "financeiro-sidebar.nav.DASHBOARD"
 },{
@@ -43,11 +43,11 @@
 },{
     "text": "Extrato",
     "sref": "app-financeiro.extrato",
-    "icon": "fa fa-file-text fa-flip-vertical",
+    "icon": "fa fa-file-text-o",
     "translate": "financeiro-sidebar.nav.extrato.EXTRATO"
 },{
     "text": "Contas Bancárias",
     "sref": "app-financeiro.contas-banc",
-    "icon": "fa fa-dollar",
+    "icon": "fa fa-file-text-o",
     "translate": "financeiro-sidebar.nav.contas.BANC"
 }]
