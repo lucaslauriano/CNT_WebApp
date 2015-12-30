@@ -2,11 +2,11 @@
   "name": "cnt-web-app",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "^1.3.0",
+    "angular": "^1.4.7",
     "bootstrap": "^3.2.0",
     "angular-animate": "^1.3.0",
     "angular-aria": "^1.3.0",
-    "angular-cookies": "^1.3.0",
+    "angular-cookies": "^1.4.7",
     "angular-messages": "^1.3.0",
     "angular-resource": "^1.3.0",
     "angular-route": "^1.3.0",
@@ -64,18 +64,22 @@
     "bootstrap-filestyle": "~1.2.1",
     "textAngular": "~1.4.6",
     "parsleyjs": "~2.1.3",
-    "angular-translate-loader-url": "~2.8.1",
-    "angular-translate-storage-cookie": "~2.8.1",
-    "angular-translate-storage-local": "~2.8.1",
-    "angular-translate-loader-static-files": "~2.8.1",
-    "angular-translate-handler-log": "~2.8.1",
     "angular-ui-select3": "ui-select#*",
     "ui-select": "angular-ui-select#~0.13.2",
     "codemirror": "~5.9.0",
-    "angularLocalStorage": "ngStorage#~0.3.2"
+    "angularLocalStorage": "ngStorage#~0.3.2",
+    "angular-cookies": "~1.4.7",
+    "angular-translate": "2.8.1",
+    "angular-translate-loader-url": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1",
+    "angular-translate-handler-log": "~2.8.1",
+    "angular-translate-loader-partial": "2.8.1",
+    "angular-translate-storage-cookie": "2.8.1",
+    "angular-translate-storage-local": "2.8.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.3.0"
+
   },
   "appPath": "app",
   "moduleName": "cntWebApp",
