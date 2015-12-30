@@ -1,23 +1,33 @@
-[
-  {
+[{
     "text": "heading",
     "heading": "true",
     "translate": "vendas-sidebar.heading.HEADER"
-  }, {
+}, {
     "text": "Dashboard",
-    "sref": "app-financeiro.dashboard",
-    "icon": "icon-speedometer",
+    "sref": "app-vendas.dashboard",
+    "icon": "fa fa-tachometer",
     "label": "label label-info",
-    "translate": "financeiro-sidebar.nav.DASHBOARD"
-},
-  {
-    "text": "Modulo",
+    "translate": "vendas-sidebar.nav.DASHBOARD"
+},{
+   "text": "Vendas",
+    "sref": "#",
+    "icon": "fa fa-users",
+    "submenu": [{
+        "text": "New",
+        "sref": "app-vendas.vendas-new",
+        "translate": "vendas-sidebar.nav.vendas.NEW"
+    }, {
+        "text": "List",
+        "sref": "app-vendas.vendas-list",
+        "translate": "vendas-sidebar.nav.vendas.LIST"
+    }],
+    "translate": "vendas-sidebar.nav.vendas.VENDAS"
+}, {
+    "text": "Pré-Venda",
     "heading": "true",
-    "translate": "vendas-sidebar.heading.MODULO"
-  },
-  {
+    "translate": "vendas-sidebar.heading.COMPONENTS"
+}, {
     "text": "Componentes",
     "heading": "true",
     "translate": "vendas-sidebar.heading.COMPONENTS"
-  }
-]
+}]

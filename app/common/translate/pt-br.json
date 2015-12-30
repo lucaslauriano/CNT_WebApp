@@ -46,13 +46,13 @@
             "DOCUMENTATION": "Documentação",
             "pessoas": {
                 "PESSOAS": "Pessoas",
-                "NEW": "Novo",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             },
             "planos": {
                 "PLANOS": "Planos",
-                "ADD": "Add Cliente",
-                "NEW": "Novo",
+                "ADD": "Contrato",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             }
         }
@@ -97,15 +97,14 @@
         "nav": {
             "DASHBOARD": "Dashboard",
             "DOCUMENTATION": "Documentação",
-            "pessoas": {
-                "PESSOAS": "Pessoas",
-                "NEW": "Novo",
+            "vendas": {
+                "VENDAS": "Vendas",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             },
-            "planos": {
-                "PLANOS": "Planos",
-                "ADD": "Add Cliente",
-                "NEW": "Novo",
+            "produtos": {
+                "PRODUTOS": "Produtos",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             }
         }
@@ -126,13 +125,13 @@
             "DOCUMENTATION": "Documentação",
             "pessoas": {
                 "PESSOAS": "Pessoas",
-                "NEW": "Novo",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             },
             "planos": {
                 "PLANOS": "Planos",
                 "ADD": "Add Cliente",
-                "NEW": "Novo",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             }
         }
@@ -154,10 +153,17 @@
                 "OUT": "Saida",
                 "LIST": "Listar"
             },
-            "planos": {
-                "PLANOS": "Planos",
-                "ADD": "Add Cliente",
-                "NEW": "Novo",
+            "entrada": {
+                "ENTRADA": "Entrada"
+            },
+            "pedidos": {
+                "PEDIDOS": "Pedidos",
+                "NEW": "Incluir",
+                "LIST": "Listar"
+            },
+            "produtos": {
+                "PRODUTOS": "Produtos",
+                "NEW": "Incluir",
                 "LIST": "Listar"
             }
         }
